@@ -60,6 +60,12 @@ jobs:
         #working-directory: C:\thelab\code\github\opencv\out\build\x64-Release
         run: |
             write-output ${env:PATH}
+            write-output "Updating Path"
+            $env:Path += ";C:\Program Files\Cmake\bin;C:\Program Files (x86)\Incredibuild"
+            write-output "Updated Path"
+            write-output ${env:PATH}
+            BuildConsole -version
+            cmake -version
             cd C:\thelab\code\github\ib-opencv-demo\out\build\x64-Release
             write-output ${pwd}
             #BuildConsole OpenCV.sln /rebuild /cfg="Release|x64"
