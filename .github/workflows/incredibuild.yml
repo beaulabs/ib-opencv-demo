@@ -29,11 +29,11 @@ jobs:
       - name: cmake x64 release
         #working-directory: C:\thelab\code\github\opencv\out\build\
         run: |
-            env
             cd C:\thelab\code\github\ib-opencv-demo\out\build
-            write-output $pwd
-            Add-Content $env:GITHUB_PATH "C:\Program Files\Cmake\bin"
-            write-output $env:GITHUB_PATH
+            write-output ${pwd}
+            write-output ${env:PATH}
+            #Add-Content $env:GITHUB_PATH "C:\Program Files\Cmake\bin"
+            write-output ${env:GITHUB_PATH}
             #echo "C:\Program Files\Cmake\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
             cmake -G "Visual Studio 16 2019" -A x64 -S ..\.. -B "x64-Release"
     
@@ -52,5 +52,6 @@ jobs:
         #working-directory: C:\thelab\code\github\opencv\out\build\x64-Release
         run: |
             cd C:\thelab\code\github\ib-opencv-demo\out\build\x64-Release
-            BuildConsole OpenCV.sln /rebuild /cfg="Release|x64"
+            write-output ${pwd}
+            #BuildConsole OpenCV.sln /rebuild /cfg="Release|x64"
 
