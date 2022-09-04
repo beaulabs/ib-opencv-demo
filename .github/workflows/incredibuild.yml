@@ -43,7 +43,7 @@ jobs:
            shell: powershell
 
       # We need the build job completed to compile
-      needs: build
+      # needs: build
 
       # Steps/tasks to execute
       steps:
