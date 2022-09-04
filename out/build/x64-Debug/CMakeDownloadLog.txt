@@ -1,0 +1,6 @@
+#use_cache "C:/thelab/code/github/ib-opencv-demo/.cache"
+#match_hash_in_cmake_cache "OCV_DOWNLOAD_IPPICV_HASH_3rdparty_ippicv_ippicv_2020_win_intel64_20191018_general_zip"
+#match_hash_in_cmake_cache "OCV_DOWNLOAD_ADE_HASH_3rdparty_ade_v0_1_2a_zip"
+#match_hash_in_cmake_cache "OCV_DOWNLOAD_FFMPEG_HASH_3rdparty_ffmpeg_opencv_videoio_ffmpeg_dll"
+#match_hash_in_cmake_cache "OCV_DOWNLOAD_FFMPEG_HASH_3rdparty_ffmpeg_opencv_videoio_ffmpeg_64_dll"
+#match_hash_in_cmake_cache "OCV_DOWNLOAD_FFMPEG_HASH_3rdparty_ffmpeg_ffmpeg_version_cmake"
