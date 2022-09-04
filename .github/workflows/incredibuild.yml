@@ -20,27 +20,24 @@ jobs:
 
     # Steps/tasks to execute
       steps:
-
-      - name: enter build directory
-        run: cd C:\thelab\code\github\opencv\out\build\ 
+      - uses: actions/checkout@v2
 
       - name: cmake x64 release
-        uses: actions/checkout@v2
+        working-directory: C:\thelab\code\github\opencv\out\build\
         run: cmake -G "Visual Studio 16 2019" -A x64 -S ..\.. -B "x64-Release"
     
     incredibuild:
       # Type of runner job will run on
       runs-on: self-hosted
 
-      # We need the build job to completed to compile
+      # We need the build job completed to compile
       needs: build
 
       # Steps/tasks to execute
       steps:
-      - name: enter the x64-Release directory
-        run: cd C:\thelab\code\github\opencv\out\build\x64-Release
+      - uses: actions/checkout@v2
 
       - name: have Incredibuild run and distribute the compilation to the grid
-        uses: actions/checkout@v2
+        working-directory: C:\thelab\code\github\opencv\out\build\x64-Release
         run: BuildConsole OpenCV.sln /rebuild /cfg="Release|x64"
 
