@@ -15,25 +15,25 @@ on:
 
 # Workflow will execute CMake to build x64 Release then call Incredibuild to distribute compilation.
 jobs:
-    build:
-      # The type of runner that the job will run on
-      runs-on: self-hosted
-      defaults:
-        run:
-           shell: powershell
+    # build:
+    #   # The type of runner that the job will run on
+    #   runs-on: self-hosted
+    #   defaults:
+    #     run:
+    #        shell: powershell
 
-    # Steps/tasks to execute
-      steps:
-      - uses: actions/checkout@v2
+    # # Steps/tasks to execute
+    #   steps:
+    #   - uses: actions/checkout@v2
 
-      - name: cmake x64 release
-        run: |
-            cd C:\thelab\code\github\ib-opencv-demo\out\build
-            write-output "Updating Path"
-            $env:Path += ";C:\Program Files\Cmake\bin;C:\Program Files (x86)\Incredibuild"
-            write-output "Updated Path"
-            write-output "Executing cmake..."
-            cmake -G "Visual Studio 16 2019" -A x64 -S ..\.. -B "x64-Release"
+    #   - name: cmake x64 release
+    #     run: |
+    #         cd C:\thelab\code\github\ib-opencv-demo\out\build
+    #         write-output "Updating Path"
+    #         $env:Path += ";C:\Program Files\Cmake\bin;C:\Program Files (x86)\Incredibuild"
+    #         write-output "Updated Path"
+    #         write-output "Executing cmake..."
+    #         cmake -G "Visual Studio 16 2019" -A x64 -S ..\.. -B "x64-Release"
     
     incredibuild:
       # Type of runner job will run on
@@ -56,5 +56,6 @@ jobs:
             $env:Path += ";C:\Program Files\Cmake\bin;C:\Program Files (x86)\Incredibuild"
             write-output "Updated Path"
             write-output "Executing Incredibuild..."
-            BuildConsole OpenCV.sln /build /cfg="Release|x64"
+            #BuildConsole OpenCV.sln /build /cfg="Release|x64"
+            BuildConsole OpenCV.sln /build /VsVersion="vc16" /OpenMonitor /cfg="Release|x64"
 
