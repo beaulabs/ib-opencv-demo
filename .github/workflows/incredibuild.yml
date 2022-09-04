@@ -27,27 +27,20 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: cmake x64 release
-        #working-directory: C:\thelab\code\github\opencv\out\build\
         run: |
             cd C:\thelab\code\github\ib-opencv-demo\out\build
-            write-output ${pwd}
-            write-output ${env:PATH}
             write-output "Updating Path"
             $env:Path += ";C:\Program Files\Cmake\bin;C:\Program Files (x86)\Incredibuild"
             write-output "Updated Path"
-            write-output ${env:PATH}
-            BuildConsole -version
-            cmake -version
-            #Add-Content $env:GITHUB_PATH "C:\Program Files\Cmake\bin"
-            write-output ${env:GITHUB_PATH}
-            $a = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
-            write-output $a
-            #echo "C:\Program Files\Cmake\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
-            #cmake -G "Visual Studio 16 2019" -A x64 -S ..\.. -B "x64-Release"
+            write-output "Executing cmake..."
+            cmake -G "Visual Studio 16 2019" -A x64 -S ..\.. -B "x64-Release"
     
     incredibuild:
       # Type of runner job will run on
       runs-on: self-hosted
+      defaults:
+        run:
+           shell: powershell
 
       # We need the build job completed to compile
       needs: build
@@ -57,16 +50,11 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: have Incredibuild run and distribute the compilation to the grid
-        #working-directory: C:\thelab\code\github\opencv\out\build\x64-Release
         run: |
-            write-output ${env:PATH}
+            cd C:\thelab\code\github\ib-opencv-demo\out\build\x64-Release
             write-output "Updating Path"
             $env:Path += ";C:\Program Files\Cmake\bin;C:\Program Files (x86)\Incredibuild"
             write-output "Updated Path"
-            write-output ${env:PATH}
-            BuildConsole -version
-            cmake -version
-            cd C:\thelab\code\github\ib-opencv-demo\out\build\x64-Release
-            write-output ${pwd}
-            #BuildConsole OpenCV.sln /rebuild /cfg="Release|x64"
+            write-output "Executing Incredibuild..."
+            BuildConsole OpenCV.sln /rebuild /cfg="Release|x64"
 
