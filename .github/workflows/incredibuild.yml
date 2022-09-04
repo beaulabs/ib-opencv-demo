@@ -4,13 +4,14 @@ name: CI-IB trigger
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
-on:
+
 # Trigger the workflow on a pull request event merge - only for the main branch
+on:
   pull_request:
     types:
       - closed
     branches:
-      - 'main/**'
+      - main
 
 # Workflow will execute CMake to build x64 Release then call Incredibuild to distribute compilation.
 jobs:
