@@ -35,7 +35,7 @@ jobs:
             #Add-Content $env:GITHUB_PATH "C:\Program Files\Cmake\bin"
             write-output ${env:GITHUB_PATH}
             #echo "C:\Program Files\Cmake\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
-            cmake -G "Visual Studio 16 2019" -A x64 -S ..\.. -B "x64-Release"
+            #cmake -G "Visual Studio 16 2019" -A x64 -S ..\.. -B "x64-Release"
     
     incredibuild:
       # Type of runner job will run on
