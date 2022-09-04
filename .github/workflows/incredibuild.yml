@@ -29,6 +29,7 @@ jobs:
       - name: cmake x64 release
         #working-directory: C:\thelab\code\github\opencv\out\build\
         run: |
+            env
             cd C:\thelab\code\github\ib-opencv-demo\out\build
             write-output $pwd
             Add-Content $env:GITHUB_PATH "C:\Program Files\Cmake\bin"
