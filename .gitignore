@@ -1,0 +1,33 @@
+# ignore dot files/directories
+.*
+
+# but not these two dot files/directories
+!.gitignore
+!.github
+
+# remaining files / extensions / directories to ignore
+*.autosave
+*.pyc
+*.user
+*~
+Thumbs.db
+tags
+tegra/
+bin/
+*.sdf
+*.opensdf
+*.obj
+*.stamp
+*.depend
+*.rule
+*.tmp
+*/debug
+*.suo
+*.log
+*.tlog
+*.pdb
+*.ilk
+/out/build/x64-Release
+node_modules
+xcuserdata/
+
