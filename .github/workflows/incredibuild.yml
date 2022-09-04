@@ -29,7 +29,7 @@ jobs:
       - name: cmake x64 release
         #working-directory: C:\thelab\code\github\opencv\out\build\
         run: |
-            cd C:\thelab\code\github\opencv\out\build\
+            cd C:\thelab\code\github\ib-opencv-demo\out\build\
             cmake -G "Visual Studio 16 2019" -A x64 -S ..\.. -B "x64-Release"
     
     incredibuild:
@@ -46,6 +46,6 @@ jobs:
       - name: have Incredibuild run and distribute the compilation to the grid
         #working-directory: C:\thelab\code\github\opencv\out\build\x64-Release
         run: |
-            cd C:\thelab\code\github\opencv\out\build\x64-Release
+            cd C:\thelab\code\github\ib-opencv-demo\out\build\x64-Release
             BuildConsole OpenCV.sln /rebuild /cfg="Release|x64"
 
