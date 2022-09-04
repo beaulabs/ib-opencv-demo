@@ -59,6 +59,7 @@ jobs:
       - name: have Incredibuild run and distribute the compilation to the grid
         #working-directory: C:\thelab\code\github\opencv\out\build\x64-Release
         run: |
+            write-output ${env:PATH}
             cd C:\thelab\code\github\ib-opencv-demo\out\build\x64-Release
             write-output ${pwd}
             #BuildConsole OpenCV.sln /rebuild /cfg="Release|x64"
