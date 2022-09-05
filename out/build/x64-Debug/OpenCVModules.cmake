@@ -16,7 +16,7 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 set(_targetsDefined)
 set(_targetsNotDefined)
 set(_expectedTargets)
-foreach(_expectedTarget opencv_core opencv_flann opencv_imgproc opencv_ml opencv_photo opencv_dnn opencv_features2d opencv_imgcodecs opencv_videoio opencv_calib3d opencv_highgui opencv_objdetect opencv_stitching opencv_video opencv_gapi)
+foreach(_expectedTarget opencv_core opencv_flann opencv_imgproc opencv_ml opencv_photo opencv_dnn opencv_features2d opencv_imgcodecs opencv_videoio opencv_calib3d opencv_objdetect opencv_stitching opencv_video opencv_gapi)
   list(APPEND _expectedTargets ${_expectedTarget})
   if(NOT TARGET ${_expectedTarget})
     list(APPEND _targetsNotDefined ${_expectedTarget})
@@ -105,13 +105,6 @@ add_library(opencv_calib3d SHARED IMPORTED)
 
 set_target_properties(opencv_calib3d PROPERTIES
   INTERFACE_LINK_LIBRARIES "opencv_core;opencv_flann;opencv_imgproc;opencv_features2d;opencv_core;opencv_flann;opencv_imgproc;opencv_features2d"
-)
-
-# Create imported target opencv_highgui
-add_library(opencv_highgui SHARED IMPORTED)
-
-set_target_properties(opencv_highgui PROPERTIES
-  INTERFACE_LINK_LIBRARIES "opencv_core;opencv_imgproc;opencv_imgcodecs;opencv_videoio;opencv_core;opencv_imgproc;opencv_imgcodecs;opencv_videoio"
 )
 
 # Create imported target opencv_objdetect
@@ -210,13 +203,6 @@ set_property(TARGET opencv_calib3d APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG
 set_target_properties(opencv_calib3d PROPERTIES
   IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/opencv_calib3d460d.lib"
   IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/opencv_calib3d460d.dll"
-  )
-
-# Import target "opencv_highgui" for configuration "Debug"
-set_property(TARGET opencv_highgui APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
-set_target_properties(opencv_highgui PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/opencv_highgui460d.lib"
-  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/opencv_highgui460d.dll"
   )
 
 # Import target "opencv_objdetect" for configuration "Debug"

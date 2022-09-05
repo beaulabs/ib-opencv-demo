@@ -178,7 +178,7 @@ BUILD_opencv_flann:BOOL=ON
 BUILD_opencv_gapi:BOOL=ON
 
 //Include opencv_highgui module into the OpenCV build
-BUILD_opencv_highgui:BOOL=ON
+BUILD_opencv_highgui:BOOL=False
 
 //Include opencv_imgcodecs module into the OpenCV build
 BUILD_opencv_imgcodecs:BOOL=ON
@@ -1493,7 +1493,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=66
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=64
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
@@ -1556,27 +1556,27 @@ CPACK_BINARY_ZIP-ADVANCED:INTERNAL=1
 CPACK_SOURCE_7Z-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CPACK_SOURCE_ZIP
 CPACK_SOURCE_ZIP-ADVANCED:INTERNAL=1
-CPU_AVX2_USAGE_COUNT:INTERNAL=34
+CPU_AVX2_USAGE_COUNT:INTERNAL=32
 CPU_AVX512_CLX_USAGE_COUNT:INTERNAL=0
 CPU_AVX512_CNL_USAGE_COUNT:INTERNAL=0
 CPU_AVX512_COMMON_USAGE_COUNT:INTERNAL=0
 CPU_AVX512_ICL_USAGE_COUNT:INTERNAL=0
 CPU_AVX512_KNL_USAGE_COUNT:INTERNAL=0
 CPU_AVX512_KNM_USAGE_COUNT:INTERNAL=0
-CPU_AVX512_SKX_USAGE_COUNT:INTERNAL=8
+CPU_AVX512_SKX_USAGE_COUNT:INTERNAL=5
 CPU_AVX_512F_USAGE_COUNT:INTERNAL=0
-CPU_AVX_USAGE_COUNT:INTERNAL=5
+CPU_AVX_USAGE_COUNT:INTERNAL=4
 //STRINGS property for variable: CPU_BASELINE
 CPU_BASELINE-STRINGS:INTERNAL=;SSE;SSE2;SSE3;SSSE3;SSE4_1;POPCNT;SSE4_2;FP16;FMA3;AVX;AVX2;AVX_512F;AVX512_COMMON;AVX512_KNL;AVX512_KNM;AVX512_SKX;AVX512_CNL;AVX512_CLX;AVX512_ICL
 //STRINGS property for variable: CPU_DISPATCH
 CPU_DISPATCH-STRINGS:INTERNAL=;SSE;SSE2;SSE3;SSSE3;SSE4_1;POPCNT;SSE4_2;FP16;FMA3;AVX;AVX2;AVX_512F;AVX512_COMMON;AVX512_KNL;AVX512_KNM;AVX512_SKX;AVX512_CNL;AVX512_CLX;AVX512_ICL
 CPU_FMA3_USAGE_COUNT:INTERNAL=0
-CPU_FP16_USAGE_COUNT:INTERNAL=1
+CPU_FP16_USAGE_COUNT:INTERNAL=0
 CPU_POPCNT_USAGE_COUNT:INTERNAL=0
 CPU_SSE2_USAGE_COUNT:INTERNAL=0
 CPU_SSE3_USAGE_COUNT:INTERNAL=0
-CPU_SSE4_1_USAGE_COUNT:INTERNAL=18
-CPU_SSE4_2_USAGE_COUNT:INTERNAL=2
+CPU_SSE4_1_USAGE_COUNT:INTERNAL=16
+CPU_SSE4_2_USAGE_COUNT:INTERNAL=1
 CPU_SSE_USAGE_COUNT:INTERNAL=0
 CPU_SSSE3_USAGE_COUNT:INTERNAL=0
 //Test C_HAS_inline
@@ -1753,8 +1753,8 @@ HAVE_opencv_features2d:INTERNAL=ON
 HAVE_opencv_flann:INTERNAL=ON
 //Module opencv_gapi will be built in current configuration
 HAVE_opencv_gapi:INTERNAL=ON
-//Module opencv_highgui will be built in current configuration
-HAVE_opencv_highgui:INTERNAL=ON
+//Module opencv_highgui will not be built in current configuration
+HAVE_opencv_highgui:INTERNAL=OFF
 //Module opencv_imgcodecs will be built in current configuration
 HAVE_opencv_imgcodecs:INTERNAL=ON
 //Module opencv_imgproc will be built in current configuration
@@ -1784,8 +1784,8 @@ HAVE_opencv_python_bindings_generator:INTERNAL=ON
 HAVE_opencv_python_tests:INTERNAL=ON
 //Module opencv_stitching will be built in current configuration
 HAVE_opencv_stitching:INTERNAL=ON
-//Module opencv_ts will be built in current configuration
-HAVE_opencv_ts:INTERNAL=ON
+//Module opencv_ts can not be built in current configuration
+HAVE_opencv_ts:INTERNAL=OFF
 //Module opencv_video will be built in current configuration
 HAVE_opencv_video:INTERNAL=ON
 //Module opencv_videoio will be built in current configuration
@@ -1832,19 +1832,19 @@ OPENCV_JAVA_BINDINGS_DIR:INTERNAL=C:/thelab/code/github/ib-opencv-demo/out/build
 OPENCV_JAVA_SIGNATURES_FILE:INTERNAL=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/java_bindings_generator/opencv_java_signatures.json
 OPENCV_JS_BINDINGS_DIR:INTERNAL=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/js_bindings_generator
 //List of OpenCV modules included into the build
-OPENCV_MODULES_BUILD:INTERNAL=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_python_tests;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_highgui;opencv_objdetect;opencv_stitching;opencv_ts;opencv_video;opencv_gapi;opencv_java_bindings_generator;opencv_js_bindings_generator;opencv_python_bindings_generator
+OPENCV_MODULES_BUILD:INTERNAL=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_python_tests;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_objdetect;opencv_stitching;opencv_video;opencv_gapi;opencv_java_bindings_generator;opencv_js_bindings_generator;opencv_python_bindings_generator
 //List of OpenCV modules implicitly disabled due to dependencies
-OPENCV_MODULES_DISABLED_AUTO:INTERNAL=
+OPENCV_MODULES_DISABLED_AUTO:INTERNAL=opencv_ts
 //List of OpenCV modules which can not be build in current configuration
 OPENCV_MODULES_DISABLED_FORCE:INTERNAL=opencv_java;opencv_python2;opencv_python3
 //List of OpenCV modules explicitly disabled by user
-OPENCV_MODULES_DISABLED_USER:INTERNAL=opencv_world
+OPENCV_MODULES_DISABLED_USER:INTERNAL=opencv_highgui;opencv_world
 //List of extra modules
 OPENCV_MODULES_EXTRA:INTERNAL=java_bindings_generator;js_bindings_generator;python2;python3;python_bindings_generator;python_tests
 //List of main modules
 OPENCV_MODULES_MAIN:INTERNAL=core;imgproc;imgcodecs;videoio;highgui;video;calib3d;features2d;objdetect;dnn;ml;flann;photo;stitching;gapi;java;ts;world
 //List of OpenCV modules marked for export
-OPENCV_MODULES_PUBLIC:INTERNAL=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio
+OPENCV_MODULES_PUBLIC:INTERNAL=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio
 OPENCV_MODULE_opencv_calib3d_BINARY_DIR:INTERNAL=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/calib3d
 //The category of the module
 OPENCV_MODULE_opencv_calib3d_CLASS:INTERNAL=PUBLIC
@@ -2028,10 +2028,6 @@ OPENCV_MODULE_opencv_gapi_WRAPPERS:INTERNAL=python
 OPENCV_MODULE_opencv_highgui_BINARY_DIR:INTERNAL=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/highgui
 //The category of the module
 OPENCV_MODULE_opencv_highgui_CLASS:INTERNAL=PUBLIC
-//Flattened dependencies of opencv_highgui module
-OPENCV_MODULE_opencv_highgui_DEPS:INTERNAL=opencv_core;opencv_imgproc;opencv_imgcodecs;opencv_videoio
-//Extra dependencies of opencv_highgui module
-OPENCV_MODULE_opencv_highgui_DEPS_EXT:INTERNAL=
 //Flattened dependencies of opencv_highgui module (for linker)
 OPENCV_MODULE_opencv_highgui_DEPS_TO_LINK:INTERNAL=opencv_core;opencv_imgproc;opencv_imgcodecs;opencv_videoio
 //Brief description of opencv_highgui module
@@ -2040,7 +2036,7 @@ OPENCV_MODULE_opencv_highgui_DESCRIPTION:INTERNAL=High-level GUI
 OPENCV_MODULE_opencv_highgui_HEADERS:INTERNAL=C:/thelab/code/github/ib-opencv-demo/modules/highgui/include/opencv2/highgui.hpp;C:/thelab/code/github/ib-opencv-demo/modules/highgui/include/opencv2/highgui/highgui.hpp;C:/thelab/code/github/ib-opencv-demo/modules/highgui/include/opencv2/highgui/highgui_c.h
 OPENCV_MODULE_opencv_highgui_IS_PART_OF_WORLD:INTERNAL=ON
 OPENCV_MODULE_opencv_highgui_LABEL:INTERNAL=Main;opencv_highgui
-OPENCV_MODULE_opencv_highgui_LINK_DEPS:INTERNAL=;comctl32;gdi32;ole32;setupapi;ws2_32
+OPENCV_MODULE_opencv_highgui_LINK_DEPS:INTERNAL=
 //Location of opencv_highgui module sources
 OPENCV_MODULE_opencv_highgui_LOCATION:INTERNAL=C:/thelab/code/github/ib-opencv-demo/modules/highgui
 //Optional dependencies of opencv_highgui module
@@ -2118,7 +2114,7 @@ OPENCV_MODULE_opencv_imgproc_WRAPPERS:INTERNAL=java;objc;python;js
 //Location of opencv_java module sources
 OPENCV_MODULE_opencv_java_LOCATION:INTERNAL=C:/thelab/code/github/ib-opencv-demo/modules/java
 //Optional dependencies of opencv_java module
-OPENCV_MODULE_opencv_java_OPT_DEPS:INTERNAL=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_video;opencv_videoio
+OPENCV_MODULE_opencv_java_OPT_DEPS:INTERNAL=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_video;opencv_videoio
 //Optional private dependencies of opencv_java module
 OPENCV_MODULE_opencv_java_PRIVATE_OPT_DEPS:INTERNAL=
 //Required private dependencies of opencv_java module
@@ -2131,12 +2127,12 @@ OPENCV_MODULE_opencv_java_bindings_generator_BINARY_DIR:INTERNAL=C:/thelab/code/
 //The category of the module
 OPENCV_MODULE_opencv_java_bindings_generator_CLASS:INTERNAL=INTERNAL
 //Flattened dependencies of opencv_java_bindings_generator module
-OPENCV_MODULE_opencv_java_bindings_generator_DEPS:INTERNAL=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_highgui;opencv_objdetect;opencv_video
+OPENCV_MODULE_opencv_java_bindings_generator_DEPS:INTERNAL=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_objdetect;opencv_video
 //Extra dependencies of opencv_java_bindings_generator module
 OPENCV_MODULE_opencv_java_bindings_generator_DEPS_EXT:INTERNAL=
 //Flattened dependencies of opencv_java_bindings_generator module
 // (for linker)
-OPENCV_MODULE_opencv_java_bindings_generator_DEPS_TO_LINK:INTERNAL=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_highgui;opencv_objdetect;opencv_video
+OPENCV_MODULE_opencv_java_bindings_generator_DEPS_TO_LINK:INTERNAL=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_objdetect;opencv_video
 //Brief description of opencv_java_bindings_generator module
 OPENCV_MODULE_opencv_java_bindings_generator_DESCRIPTION:INTERNAL=The java_bindings_generator OpenCV module
 OPENCV_MODULE_opencv_java_bindings_generator_IS_PART_OF_WORLD:INTERNAL=OFF
@@ -2145,7 +2141,7 @@ OPENCV_MODULE_opencv_java_bindings_generator_LINK_DEPS:INTERNAL=
 //Location of opencv_java_bindings_generator module sources
 OPENCV_MODULE_opencv_java_bindings_generator_LOCATION:INTERNAL=C:/thelab/code/github/ib-opencv-demo/modules/java/generator
 //Optional dependencies of opencv_java_bindings_generator module
-OPENCV_MODULE_opencv_java_bindings_generator_OPT_DEPS:INTERNAL=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_video;opencv_videoio
+OPENCV_MODULE_opencv_java_bindings_generator_OPT_DEPS:INTERNAL=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_video;opencv_videoio
 //Optional private dependencies of opencv_java_bindings_generator
 // module
 OPENCV_MODULE_opencv_java_bindings_generator_PRIVATE_OPT_DEPS:INTERNAL=
@@ -2322,7 +2318,7 @@ OPENCV_MODULE_opencv_photo_WRAPPERS:INTERNAL=java;objc;python;js
 //Location of opencv_python2 module sources
 OPENCV_MODULE_opencv_python2_LOCATION:INTERNAL=C:/thelab/code/github/ib-opencv-demo/modules/python
 //Optional dependencies of opencv_python2 module
-OPENCV_MODULE_opencv_python2_OPT_DEPS:INTERNAL=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio
+OPENCV_MODULE_opencv_python2_OPT_DEPS:INTERNAL=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio
 //Optional private dependencies of opencv_python2 module
 OPENCV_MODULE_opencv_python2_PRIVATE_OPT_DEPS:INTERNAL=
 //Required private dependencies of opencv_python2 module
@@ -2334,7 +2330,7 @@ OPENCV_MODULE_opencv_python2_WRAPPERS:INTERNAL=
 //Location of opencv_python3 module sources
 OPENCV_MODULE_opencv_python3_LOCATION:INTERNAL=C:/thelab/code/github/ib-opencv-demo/modules/python
 //Optional dependencies of opencv_python3 module
-OPENCV_MODULE_opencv_python3_OPT_DEPS:INTERNAL=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio
+OPENCV_MODULE_opencv_python3_OPT_DEPS:INTERNAL=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio
 //Optional private dependencies of opencv_python3 module
 OPENCV_MODULE_opencv_python3_PRIVATE_OPT_DEPS:INTERNAL=
 //Required private dependencies of opencv_python3 module
@@ -2347,12 +2343,12 @@ OPENCV_MODULE_opencv_python_bindings_generator_BINARY_DIR:INTERNAL=C:/thelab/cod
 //The category of the module
 OPENCV_MODULE_opencv_python_bindings_generator_CLASS:INTERNAL=INTERNAL
 //Flattened dependencies of opencv_python_bindings_generator module
-OPENCV_MODULE_opencv_python_bindings_generator_DEPS:INTERNAL=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_highgui;opencv_objdetect;opencv_stitching;opencv_video;opencv_gapi
+OPENCV_MODULE_opencv_python_bindings_generator_DEPS:INTERNAL=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_objdetect;opencv_stitching;opencv_video;opencv_gapi
 //Extra dependencies of opencv_python_bindings_generator module
 OPENCV_MODULE_opencv_python_bindings_generator_DEPS_EXT:INTERNAL=
 //Flattened dependencies of opencv_python_bindings_generator module
 // (for linker)
-OPENCV_MODULE_opencv_python_bindings_generator_DEPS_TO_LINK:INTERNAL=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_highgui;opencv_objdetect;opencv_stitching;opencv_video;opencv_gapi
+OPENCV_MODULE_opencv_python_bindings_generator_DEPS_TO_LINK:INTERNAL=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_objdetect;opencv_stitching;opencv_video;opencv_gapi
 //Brief description of opencv_python_bindings_generator module
 OPENCV_MODULE_opencv_python_bindings_generator_DESCRIPTION:INTERNAL=The python_bindings_generator OpenCV module
 OPENCV_MODULE_opencv_python_bindings_generator_IS_PART_OF_WORLD:INTERNAL=OFF
@@ -2361,7 +2357,7 @@ OPENCV_MODULE_opencv_python_bindings_generator_LINK_DEPS:INTERNAL=
 //Location of opencv_python_bindings_generator module sources
 OPENCV_MODULE_opencv_python_bindings_generator_LOCATION:INTERNAL=C:/thelab/code/github/ib-opencv-demo/modules/python/bindings
 //Optional dependencies of opencv_python_bindings_generator module
-OPENCV_MODULE_opencv_python_bindings_generator_OPT_DEPS:INTERNAL=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio
+OPENCV_MODULE_opencv_python_bindings_generator_OPT_DEPS:INTERNAL=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio
 //Optional private dependencies of opencv_python_bindings_generator
 // module
 OPENCV_MODULE_opencv_python_bindings_generator_PRIVATE_OPT_DEPS:INTERNAL=
@@ -2431,10 +2427,6 @@ OPENCV_MODULE_opencv_stitching_WRAPPERS:INTERNAL=python
 OPENCV_MODULE_opencv_ts_BINARY_DIR:INTERNAL=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/ts
 //The category of the module
 OPENCV_MODULE_opencv_ts_CLASS:INTERNAL=INTERNAL
-//Flattened dependencies of opencv_ts module
-OPENCV_MODULE_opencv_ts_DEPS:INTERNAL=opencv_core;opencv_imgproc;opencv_imgcodecs;opencv_videoio;opencv_highgui
-//Extra dependencies of opencv_ts module
-OPENCV_MODULE_opencv_ts_DEPS_EXT:INTERNAL=
 //Flattened dependencies of opencv_ts module (for linker)
 OPENCV_MODULE_opencv_ts_DEPS_TO_LINK:INTERNAL=opencv_core;opencv_imgproc;opencv_imgcodecs;opencv_videoio;opencv_highgui
 //Brief description of opencv_ts module
@@ -2569,7 +2561,7 @@ OpenBLAS_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OpenBLAS_LIB
 OpenBLAS_LIB-ADVANCED:INTERNAL=1
 //List of OpenCVModules targets
-OpenCVModules_TARGETS:INTERNAL=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_highgui;opencv_objdetect;opencv_stitching;opencv_video;opencv_gapi
+OpenCVModules_TARGETS:INTERNAL=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_objdetect;opencv_stitching;opencv_video;opencv_gapi
 //Result of TRY_COMPILE
 OpenMP_COMPILE_RESULT_CXX_openmp:INTERNAL=TRUE
 //Result of TRY_COMPILE
