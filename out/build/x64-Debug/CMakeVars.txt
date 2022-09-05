@@ -400,7 +400,7 @@ CMAKE_MSVC_RUNTIME_LIBRARY_DEFAULT=
 CMAKE_MT=C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/mt.exe
 CMAKE_MT=C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/mt.exe
 CMAKE_NINJA_CMCLDEPS_RC=1
-CMAKE_NUMBER_OF_MAKEFILES=69
+CMAKE_NUMBER_OF_MAKEFILES=66
 CMAKE_PARENT_LIST_FILE=C:/thelab/code/github/ib-opencv-demo/CMakeLists.txt
 CMAKE_PATCH_VERSION=21032501
 CMAKE_PCH_COPY_COMPILE_PDB=ON
@@ -558,11 +558,11 @@ CPACK_INSTALLED_DIRECTORIES=C:/thelab/code/github/ib-opencv-demo;/
 CPACK_INSTALL_CMAKE_PROJECTS=
 CPACK_INSTALL_PREFIX=C:/thelab/code/github/ib-opencv-demo/out/install/x64-Debug
 CPACK_MODULE_PATH=
-CPACK_NSIS_DISPLAY_NAME=OpenCV 92caeda
+CPACK_NSIS_DISPLAY_NAME=OpenCV f84203e-dirty
 CPACK_NSIS_INSTALLER_ICON_CODE=
 CPACK_NSIS_INSTALLER_MUI_ICON_CODE=
 CPACK_NSIS_INSTALL_ROOT=$PROGRAMFILES64
-CPACK_NSIS_PACKAGE_NAME=OpenCV 92caeda
+CPACK_NSIS_PACKAGE_NAME=OpenCV f84203e-dirty
 CPACK_NSIS_UNINSTALL_NAME=Uninstall
 CPACK_OUTPUT_CONFIG_FILE=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CPackConfig.cmake
 CPACK_PACKAGE_CONTACT=admin@opencv.org
@@ -574,13 +574,13 @@ machine perception in the commercial products. Being a BSD-licensed product,
 OpenCV makes it easy for businesses to utilize and modify the code.
 CPACK_PACKAGE_DESCRIPTION_FILE=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Templates/CPack.GenericDescription.txt
 CPACK_PACKAGE_DESCRIPTION_SUMMARY=Open Computer Vision Library
-CPACK_PACKAGE_FILE_NAME=OpenCV-92caeda-AMD64
-CPACK_PACKAGE_INSTALL_DIRECTORY=OpenCV 92caeda
-CPACK_PACKAGE_INSTALL_REGISTRY_KEY=OpenCV 92caeda
+CPACK_PACKAGE_FILE_NAME=OpenCV-f84203e-dirty-AMD64
+CPACK_PACKAGE_INSTALL_DIRECTORY=OpenCV f84203e-dirty
+CPACK_PACKAGE_INSTALL_REGISTRY_KEY=OpenCV f84203e-dirty
 CPACK_PACKAGE_NAME=OpenCV
 CPACK_PACKAGE_RELOCATABLE=true
 CPACK_PACKAGE_VENDOR=OpenCV Foundation
-CPACK_PACKAGE_VERSION=92caeda
+CPACK_PACKAGE_VERSION=f84203e-dirty
 CPACK_PACKAGE_VERSION_MAJOR=4
 CPACK_PACKAGE_VERSION_MINOR=6
 CPACK_PACKAGE_VERSION_PATCH=0
@@ -604,7 +604,7 @@ CPACK_SOURCE_GENERATOR=7Z;ZIP
 CPACK_SOURCE_IGNORE_FILES=/CVS/;/\\.svn/;/\\.bzr/;/\\.hg/;/\\.git/;\\.swp\$;\\.#;/#
 CPACK_SOURCE_INSTALLED_DIRECTORIES=C:/thelab/code/github/ib-opencv-demo;/
 CPACK_SOURCE_OUTPUT_CONFIG_FILE=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CPackSourceConfig.cmake
-CPACK_SOURCE_PACKAGE_FILE_NAME=OpenCV-92caeda-AMD64
+CPACK_SOURCE_PACKAGE_FILE_NAME=OpenCV-f84203e-dirty-AMD64
 CPACK_SOURCE_TOPLEVEL_TAG=win64-Source
 CPACK_SOURCE_ZIP=ON
 CPACK_STRIP_FILES=
@@ -800,7 +800,7 @@ FFMPEG_libswscale_VERSION=5.9.100
 FILE=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/3rdparty/ippicv/ippicv_win/iw/include/iw/iw_ll.h
 FIND_PACKAGE_MESSAGE_DETAILS_OpenMP=[TRUE][cfound components: C ][v2.0()]
 FIND_PACKAGE_MESSAGE_DETAILS_OpenMP_C=[-openmp][v2.0()]
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp=[C:/Users/Jonathan.Peck/AppData/Local/Programs/Python/Python310/python.exe][v3.10.5(2.7)]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp=[C:/Users/ib10demo/AppData/Local/Programs/Python/Python310/python.exe][v3.10.6(2.7)]
 FIND_PACKAGE_MESSAGE_DETAILS_PythonLibs=[C:/Users/Jonathan.Peck/AppData/Local/Programs/Python/Python310/libs/python310.lib][C:/Users/Jonathan.Peck/AppData/Local/Programs/Python/Python310/include][v3.10.5(3.10.5)]
 FIND_PACKAGE_MESSAGE_DETAILS_Threads=[TRUE][v()]
 FIXED_ORDER_MODULES=core;imgproc;imgcodecs;videoio;highgui;video;calib3d;features2d;objdetect;dnn;ml;flann;photo;stitching
@@ -946,7 +946,6 @@ HAVE_opencv_java=OFF
 HAVE_opencv_java_bindings_generator=ON
 HAVE_opencv_js_bindings_generator=ON
 HAVE_opencv_ml=ON
-HAVE_opencv_objc_bindings_generator=ON
 HAVE_opencv_objdetect=ON
 HAVE_opencv_photo=ON
 HAVE_opencv_python2=OFF
@@ -1695,7 +1694,7 @@ OPENCV_LICENSES_INSTALL_PATH=etc/licenses
 OPENCV_LICENSE_FILE=C:/thelab/code/github/ib-opencv-demo/LICENSE
 OPENCV_LINKER_LIBS=ippiw;ippicv
 OPENCV_MATHJAX_RELPATH=https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0
-OPENCV_MODULES_BUILD=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_python_tests;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_highgui;opencv_objdetect;opencv_stitching;opencv_ts;opencv_video;opencv_gapi;opencv_java_bindings_generator;opencv_js_bindings_generator;opencv_objc_bindings_generator;opencv_python_bindings_generator
+OPENCV_MODULES_BUILD=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_python_tests;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_highgui;opencv_objdetect;opencv_stitching;opencv_ts;opencv_video;opencv_gapi;opencv_java_bindings_generator;opencv_js_bindings_generator;opencv_python_bindings_generator
 OPENCV_MODULES_BUILD_ST=calib3d;core;dnn;features2d;flann;gapi;highgui;imgcodecs;imgproc;ml;objdetect;photo;stitching;ts;video;videoio
 OPENCV_MODULES_CONFIGCMAKE=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio
 OPENCV_MODULES_DISABLED_AUTO=
@@ -1704,7 +1703,7 @@ OPENCV_MODULES_DISABLED_FORCE=opencv_java;opencv_python2;opencv_python3
 OPENCV_MODULES_DISABLED_FORCE_ST=java;python2;python3
 OPENCV_MODULES_DISABLED_USER=opencv_world
 OPENCV_MODULES_DISABLED_USER_ST=world
-OPENCV_MODULES_EXTRA=java_bindings_generator;js_bindings_generator;objc_bindings_generator;python2;python3;python_bindings_generator;python_tests
+OPENCV_MODULES_EXTRA=java_bindings_generator;js_bindings_generator;python2;python3;python_bindings_generator;python_tests
 OPENCV_MODULES_MAIN=core;imgproc;imgcodecs;videoio;highgui;video;calib3d;features2d;objdetect;dnn;ml;flann;photo;stitching;gapi;java;ts;world
 OPENCV_MODULES_PATH=C:/thelab/code/github/ib-opencv-demo/modules
 OPENCV_MODULES_PUBLIC=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio
@@ -1943,18 +1942,15 @@ OPENCV_MODULE_opencv_objc_REQ_DEPS=
 OPENCV_MODULE_opencv_objc_WRAPPERS=
 OPENCV_MODULE_opencv_objc_bindings_generator_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objc_bindings_generator
 OPENCV_MODULE_opencv_objc_bindings_generator_CLASS=INTERNAL
-OPENCV_MODULE_opencv_objc_bindings_generator_DEPS=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_objdetect;opencv_video
-OPENCV_MODULE_opencv_objc_bindings_generator_DEPS_EXT=
 OPENCV_MODULE_opencv_objc_bindings_generator_DEPS_TO_LINK=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_objdetect;opencv_video
 OPENCV_MODULE_opencv_objc_bindings_generator_DESCRIPTION=The objc_bindings_generator OpenCV module
 OPENCV_MODULE_opencv_objc_bindings_generator_IS_PART_OF_WORLD=OFF
 OPENCV_MODULE_opencv_objc_bindings_generator_LABEL=Main;opencv_objc_bindings_generator
-OPENCV_MODULE_opencv_objc_bindings_generator_LINK_DEPS=
 OPENCV_MODULE_opencv_objc_bindings_generator_LOCATION=C:/thelab/code/github/ib-opencv-demo/modules/objc/generator
 OPENCV_MODULE_opencv_objc_bindings_generator_OPT_DEPS=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_video;opencv_videoio
 OPENCV_MODULE_opencv_objc_bindings_generator_PRIVATE_OPT_DEPS=
 OPENCV_MODULE_opencv_objc_bindings_generator_PRIVATE_REQ_DEPS=
-OPENCV_MODULE_opencv_objc_bindings_generator_REQ_DEPS=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_objc_bindings_generator_REQ_DEPS=
 OPENCV_MODULE_opencv_objc_bindings_generator_WRAPPERS=
 OPENCV_MODULE_opencv_objdetect_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objdetect
 OPENCV_MODULE_opencv_objdetect_CLASS=PUBLIC
@@ -2135,7 +2131,7 @@ OPENCV_TEST_DATA_INSTALL_PATH=testdata
 OPENCV_TEST_INSTALL_PATH=x64/vc16/bin
 OPENCV_TIMESTAMP=2022-09-04T04:09:21Z
 OPENCV_TRACE=1
-OPENCV_VCSVERSION=92caeda
+OPENCV_VCSVERSION=f84203e-dirty
 OPENCV_VERIFICATIONS=WITH_1394;WITH_AVFOUNDATION;WITH_CAP_IOS;WITH_CPUFEATURES;WITH_VTK;WITH_CUDA;WITH_CUFFT;WITH_CUBLAS;WITH_CUDNN;WITH_NVCUVID;WITH_EIGEN;WITH_FFMPEG;WITH_GSTREAMER;WITH_GTK;WITH_GTK_2_X;WITH_WAYLAND;WITH_IPP;WITH_HALIDE;WITH_VULKAN;WITH_OPENVINO;WITH_WEBNN;WITH_JASPER;WITH_OPENJPEG;WITH_JPEG;WITH_WEBP;WITH_OPENEXR;WITH_OPENGL;WITH_OPENVX;WITH_OPENNI;WITH_OPENNI2;WITH_PNG;WITH_GDCM;WITH_PVAPI;WITH_ARAVIS;WITH_QT;WITH_WIN32UI;WITH_TBB;WITH_HPX;WITH_OPENMP;WITH_PTHREADS_PF;WITH_TIFF;WITH_V4L;WITH_DSHOW;WITH_MSMF;WITH_MSMF_DXVA;WITH_XIMEA;WITH_UEYE;WITH_XINE;WITH_CLP;WITH_OPENCL;WITH_OPENCL_SVM;WITH_OPENCLAMDFFT;WITH_OPENCLAMDBLAS;WITH_DIRECTX;WITH_OPENCL_D3D11_NV;WITH_LIBREALSENSE;WITH_VA;WITH_VA_INTEL;WITH_MFX;WITH_GDAL;WITH_GPHOTO2;WITH_LAPACK;WITH_ITT;WITH_PROTOBUF;WITH_IMGCODEC_HDR;WITH_IMGCODEC_SUNRASTER;WITH_IMGCODEC_PXM;WITH_IMGCODEC_PFM;WITH_QUIRC;WITH_ANDROID_MEDIANDK;WITH_ANDROID_NATIVE_CAMERA;WITH_TENGINE;WITH_ONNX;WITH_TIMVX;WITH_OBSENSOR
 OPENCV_VERIFY_WITH_1394=HAVE_DC1394_2
 OPENCV_VERIFY_WITH_ANDROID_MEDIANDK=HAVE_ANDROID_MEDIANDK
@@ -2410,8 +2406,8 @@ TIFF_VERSION_LINES=#define TIFF_VERSION_CLASSIC 42;#define TIFF_VERSION_BIG 43
 TIFF_VERSION_STRING=4.2.0
 TRY_OUT=Change Dir: C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_0eedc && [1/2] Building CXX object CMakeFiles\cmTC_0eedc.dir\directx.cpp.obj
-[2/2] Linking CXX executable cmTC_0eedc.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b99bd && [1/2] Building CXX object CMakeFiles\cmTC_b99bd.dir\directx.cpp.obj
+[2/2] Linking CXX executable cmTC_b99bd.exe
 
 
 Threads_FOUND=TRUE
@@ -2581,11 +2577,11 @@ set(CPACK_INSTALLED_DIRECTORIES "C:/thelab/code/github/ib-opencv-demo;/")
 set(CPACK_INSTALL_CMAKE_PROJECTS "")
 set(CPACK_INSTALL_PREFIX "C:/thelab/code/github/ib-opencv-demo/out/install/x64-Debug")
 set(CPACK_MODULE_PATH "")
-set(CPACK_NSIS_DISPLAY_NAME "OpenCV 92caeda")
+set(CPACK_NSIS_DISPLAY_NAME "OpenCV f84203e-dirty")
 set(CPACK_NSIS_INSTALLER_ICON_CODE "")
 set(CPACK_NSIS_INSTALLER_MUI_ICON_CODE "")
 set(CPACK_NSIS_INSTALL_ROOT "$PROGRAMFILES64")
-set(CPACK_NSIS_PACKAGE_NAME "OpenCV 92caeda")
+set(CPACK_NSIS_PACKAGE_NAME "OpenCV f84203e-dirty")
 set(CPACK_NSIS_UNINSTALL_NAME "Uninstall")
 set(CPACK_OUTPUT_CONFIG_FILE "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CPackConfig.cmake")
 set(CPACK_PACKAGE_CONTACT "admin@opencv.org")
@@ -2597,13 +2593,13 @@ machine perception in the commercial products. Being a BSD-licensed product,
 OpenCV makes it easy for businesses to utilize and modify the code.")
 set(CPACK_PACKAGE_DESCRIPTION_FILE "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Templates/CPack.GenericDescription.txt")
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Open Computer Vision Library")
-set(CPACK_PACKAGE_FILE_NAME "OpenCV-92caeda-AMD64")
-set(CPACK_PACKAGE_INSTALL_DIRECTORY "OpenCV 92caeda")
-set(CPACK_PACKAGE_INSTALL_REGISTRY_KEY "OpenCV 92caeda")
+set(CPACK_PACKAGE_FILE_NAME "OpenCV-f84203e-dirty-AMD64")
+set(CPACK_PACKAGE_INSTALL_DIRECTORY "OpenCV f84203e-dirty")
+set(CPACK_PACKAGE_INSTALL_REGISTRY_KEY "OpenCV f84203e-dirty")
 set(CPACK_PACKAGE_NAME "OpenCV")
 set(CPACK_PACKAGE_RELOCATABLE "true")
 set(CPACK_PACKAGE_VENDOR "OpenCV Foundation")
-set(CPACK_PACKAGE_VERSION "92caeda")
+set(CPACK_PACKAGE_VERSION "f84203e-dirty")
 set(CPACK_PACKAGE_VERSION_MAJOR "4")
 set(CPACK_PACKAGE_VERSION_MINOR "6")
 set(CPACK_PACKAGE_VERSION_PATCH "0")
@@ -2627,7 +2623,7 @@ set(CPACK_SOURCE_GENERATOR "7Z;ZIP")
 set(CPACK_SOURCE_IGNORE_FILES "/CVS/;/\\.svn/;/\\.bzr/;/\\.hg/;/\\.git/;\\.swp\$;\\.#;/#")
 set(CPACK_SOURCE_INSTALLED_DIRECTORIES "C:/thelab/code/github/ib-opencv-demo;/")
 set(CPACK_SOURCE_OUTPUT_CONFIG_FILE "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CPackSourceConfig.cmake")
-set(CPACK_SOURCE_PACKAGE_FILE_NAME "OpenCV-92caeda-AMD64")
+set(CPACK_SOURCE_PACKAGE_FILE_NAME "OpenCV-f84203e-dirty-AMD64")
 set(CPACK_SOURCE_TOPLEVEL_TAG "win64-Source")
 set(CPACK_SOURCE_ZIP "ON")
 set(CPACK_STRIP_FILES "")

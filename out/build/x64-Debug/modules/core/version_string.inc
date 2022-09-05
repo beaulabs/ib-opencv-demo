@@ -1,6 +1,6 @@
 "\n"
 "General configuration for OpenCV 4.6.0-dev =====================================\n"
-"  Version control:               92caeda\n"
+"  Version control:               f84203e-dirty\n"
 "\n"
 "  Platform:\n"
 "    Timestamp:                   2022-09-04T04:09:21Z\n"

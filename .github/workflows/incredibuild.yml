@@ -17,7 +17,7 @@ on:
 jobs:
     build:
       # The type of runner that the job will run on
-      runs-on: self-hosted
+      runs-on: [self-hosted, Windows, X64, cloud-ib-demo]
       defaults:
         run:
            shell: powershell
@@ -37,7 +37,7 @@ jobs:
     
     incredibuild:
       # Type of runner job will run on
-      runs-on: self-hosted
+      runs-on: [self-hosted, Windows, X64, cloud-ib-demo]
       defaults:
         run:
            shell: powershell
