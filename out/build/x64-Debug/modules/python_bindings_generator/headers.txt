@@ -74,8 +74,6 @@ C:/thelab/code/github/ib-opencv-demo/modules/videoio/include/opencv2/videoio/reg
 C:/thelab/code/github/ib-opencv-demo/modules/videoio/include/opencv2/videoio/videoio.hpp
 C:/thelab/code/github/ib-opencv-demo/modules/calib3d/include/opencv2/calib3d.hpp
 C:/thelab/code/github/ib-opencv-demo/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
-C:/thelab/code/github/ib-opencv-demo/modules/highgui/include/opencv2/highgui.hpp
-C:/thelab/code/github/ib-opencv-demo/modules/highgui/include/opencv2/highgui/highgui.hpp
 C:/thelab/code/github/ib-opencv-demo/modules/objdetect/include/opencv2/objdetect.hpp
 C:/thelab/code/github/ib-opencv-demo/modules/objdetect/include/opencv2/objdetect/face.hpp
 C:/thelab/code/github/ib-opencv-demo/modules/objdetect/include/opencv2/objdetect/objdetect.hpp

@@ -10,7 +10,6 @@
     { "name": "imgcodecs", "location": "modules/imgcodecs" },
     { "name": "videoio", "location": "modules/videoio" },
     { "name": "calib3d", "location": "modules/calib3d" },
-    { "name": "highgui", "location": "modules/highgui" },
     { "name": "objdetect", "location": "modules/objdetect" },
     { "name": "video", "location": "modules/video" }
   ],

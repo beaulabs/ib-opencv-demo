@@ -105,16 +105,6 @@ set_target_properties(opencv_calib3d PROPERTIES
 list(APPEND _IMPORT_CHECK_TARGETS opencv_calib3d )
 list(APPEND _IMPORT_CHECK_FILES_FOR_opencv_calib3d "${_IMPORT_PREFIX}/x64/vc16/lib/opencv_calib3d460d.lib" "${_IMPORT_PREFIX}/x64/vc16/bin/opencv_calib3d460d.dll" )
 
-# Import target "opencv_highgui" for configuration "Debug"
-set_property(TARGET opencv_highgui APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
-set_target_properties(opencv_highgui PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "${_IMPORT_PREFIX}/x64/vc16/lib/opencv_highgui460d.lib"
-  IMPORTED_LOCATION_DEBUG "${_IMPORT_PREFIX}/x64/vc16/bin/opencv_highgui460d.dll"
-  )
-
-list(APPEND _IMPORT_CHECK_TARGETS opencv_highgui )
-list(APPEND _IMPORT_CHECK_FILES_FOR_opencv_highgui "${_IMPORT_PREFIX}/x64/vc16/lib/opencv_highgui460d.lib" "${_IMPORT_PREFIX}/x64/vc16/bin/opencv_highgui460d.dll" )
-
 # Import target "opencv_objdetect" for configuration "Debug"
 set_property(TARGET opencv_objdetect APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(opencv_objdetect PROPERTIES
