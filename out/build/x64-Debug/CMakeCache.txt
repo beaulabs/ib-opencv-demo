@@ -1493,7 +1493,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=69
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=66
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
@@ -1586,7 +1586,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_OpenMP:INTERNAL=[TRUE][cfound components: C ][v2.0(
 //Details about finding OpenMP_C
 FIND_PACKAGE_MESSAGE_DETAILS_OpenMP_C:INTERNAL=[-openmp][v2.0()]
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[C:/Users/Jonathan.Peck/AppData/Local/Programs/Python/Python310/python.exe][v3.10.5(2.7)]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[C:/Users/ib10demo/AppData/Local/Programs/Python/Python310/python.exe][v3.10.6(2.7)]
 //Details about finding PythonLibs
 FIND_PACKAGE_MESSAGE_DETAILS_PythonLibs:INTERNAL=[C:/Users/Jonathan.Peck/AppData/Local/Programs/Python/Python310/libs/python310.lib][C:/Users/Jonathan.Peck/AppData/Local/Programs/Python/Python310/include][v3.10.5(3.10.5)]
 //Details about finding Threads
@@ -1769,9 +1769,6 @@ HAVE_opencv_java_bindings_generator:INTERNAL=ON
 HAVE_opencv_js_bindings_generator:INTERNAL=ON
 //Module opencv_ml will be built in current configuration
 HAVE_opencv_ml:INTERNAL=ON
-//Module opencv_objc_bindings_generator will be built in current
-// configuration
-HAVE_opencv_objc_bindings_generator:INTERNAL=ON
 //Module opencv_objdetect will be built in current configuration
 HAVE_opencv_objdetect:INTERNAL=ON
 //Module opencv_photo will be built in current configuration
@@ -1835,7 +1832,7 @@ OPENCV_JAVA_BINDINGS_DIR:INTERNAL=C:/thelab/code/github/ib-opencv-demo/out/build
 OPENCV_JAVA_SIGNATURES_FILE:INTERNAL=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/java_bindings_generator/opencv_java_signatures.json
 OPENCV_JS_BINDINGS_DIR:INTERNAL=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/js_bindings_generator
 //List of OpenCV modules included into the build
-OPENCV_MODULES_BUILD:INTERNAL=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_python_tests;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_highgui;opencv_objdetect;opencv_stitching;opencv_ts;opencv_video;opencv_gapi;opencv_java_bindings_generator;opencv_js_bindings_generator;opencv_objc_bindings_generator;opencv_python_bindings_generator
+OPENCV_MODULES_BUILD:INTERNAL=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_python_tests;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_highgui;opencv_objdetect;opencv_stitching;opencv_ts;opencv_video;opencv_gapi;opencv_java_bindings_generator;opencv_js_bindings_generator;opencv_python_bindings_generator
 //List of OpenCV modules implicitly disabled due to dependencies
 OPENCV_MODULES_DISABLED_AUTO:INTERNAL=
 //List of OpenCV modules which can not be build in current configuration
@@ -1843,7 +1840,7 @@ OPENCV_MODULES_DISABLED_FORCE:INTERNAL=opencv_java;opencv_python2;opencv_python3
 //List of OpenCV modules explicitly disabled by user
 OPENCV_MODULES_DISABLED_USER:INTERNAL=opencv_world
 //List of extra modules
-OPENCV_MODULES_EXTRA:INTERNAL=java_bindings_generator;js_bindings_generator;objc_bindings_generator;python2;python3;python_bindings_generator;python_tests
+OPENCV_MODULES_EXTRA:INTERNAL=java_bindings_generator;js_bindings_generator;python2;python3;python_bindings_generator;python_tests
 //List of main modules
 OPENCV_MODULES_MAIN:INTERNAL=core;imgproc;imgcodecs;videoio;highgui;video;calib3d;features2d;objdetect;dnn;ml;flann;photo;stitching;gapi;java;ts;world
 //List of OpenCV modules marked for export
@@ -2242,17 +2239,12 @@ OPENCV_MODULE_opencv_objc_bindings_generator_BINARY_DIR:INTERNAL=C:/thelab/code/
 //The category of the module
 OPENCV_MODULE_opencv_objc_bindings_generator_CLASS:INTERNAL=INTERNAL
 //Flattened dependencies of opencv_objc_bindings_generator module
-OPENCV_MODULE_opencv_objc_bindings_generator_DEPS:INTERNAL=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_objdetect;opencv_video
-//Extra dependencies of opencv_objc_bindings_generator module
-OPENCV_MODULE_opencv_objc_bindings_generator_DEPS_EXT:INTERNAL=
-//Flattened dependencies of opencv_objc_bindings_generator module
 // (for linker)
 OPENCV_MODULE_opencv_objc_bindings_generator_DEPS_TO_LINK:INTERNAL=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_objdetect;opencv_video
 //Brief description of opencv_objc_bindings_generator module
 OPENCV_MODULE_opencv_objc_bindings_generator_DESCRIPTION:INTERNAL=The objc_bindings_generator OpenCV module
 OPENCV_MODULE_opencv_objc_bindings_generator_IS_PART_OF_WORLD:INTERNAL=OFF
 OPENCV_MODULE_opencv_objc_bindings_generator_LABEL:INTERNAL=Main;opencv_objc_bindings_generator
-OPENCV_MODULE_opencv_objc_bindings_generator_LINK_DEPS:INTERNAL=
 //Location of opencv_objc_bindings_generator module sources
 OPENCV_MODULE_opencv_objc_bindings_generator_LOCATION:INTERNAL=C:/thelab/code/github/ib-opencv-demo/modules/objc/generator
 //Optional dependencies of opencv_objc_bindings_generator module
@@ -2264,7 +2256,7 @@ OPENCV_MODULE_opencv_objc_bindings_generator_PRIVATE_OPT_DEPS:INTERNAL=
 // module
 OPENCV_MODULE_opencv_objc_bindings_generator_PRIVATE_REQ_DEPS:INTERNAL=
 //Required dependencies of opencv_objc_bindings_generator module
-OPENCV_MODULE_opencv_objc_bindings_generator_REQ_DEPS:INTERNAL=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_objc_bindings_generator_REQ_DEPS:INTERNAL=
 //List of wrappers supporting module opencv_objc_bindings_generator
 OPENCV_MODULE_opencv_objc_bindings_generator_WRAPPERS:INTERNAL=
 OPENCV_MODULE_opencv_objdetect_BINARY_DIR:INTERNAL=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objdetect

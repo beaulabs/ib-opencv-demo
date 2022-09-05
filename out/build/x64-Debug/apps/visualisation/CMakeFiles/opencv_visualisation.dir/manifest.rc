@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/apps/visualisation/CMakeFiles/opencv_visualisation.dir/embed.manifest"
