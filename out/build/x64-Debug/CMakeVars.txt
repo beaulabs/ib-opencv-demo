@@ -83,11 +83,10 @@ BUILD_opencv_java_bindings_generator=ON
 BUILD_opencv_js=OFF
 BUILD_opencv_js_bindings_generator=ON
 BUILD_opencv_ml=ON
-BUILD_opencv_objc_bindings_generator=ON
 BUILD_opencv_objdetect=ON
 BUILD_opencv_photo=ON
-BUILD_opencv_python_bindings_generator=ON
-BUILD_opencv_python_tests=ON
+BUILD_opencv_python_bindings_generator=False
+BUILD_opencv_python_tests=False
 BUILD_opencv_stitching=ON
 BUILD_opencv_ts=ON
 BUILD_opencv_video=ON
@@ -499,7 +498,7 @@ CPACK_BINARY_WIX=OFF
 CPACK_BINARY_ZIP=OFF
 CPACK_BUILD_SOURCE_DIRS=C:/thelab/code/github/ib-opencv-demo;C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug
 CPACK_CMAKE_GENERATOR=Ninja
-CPACK_COMPONENTS_ALL=dev;libs;licenses;pdb;scripts
+CPACK_COMPONENTS_ALL=dev;libs;licenses;pdb
 CPACK_COMPONENT_DEV_CONFLICTS=libopencv-dev, libopencv-calib3d-dev, libopencv-core-dev, libopencv-dnn-dev, libopencv-features2d-dev, libopencv-flann-dev, libopencv-gapi-dev, libopencv-imgcodecs-dev, libopencv-imgproc-dev, libopencv-ml-dev, libopencv-objdetect-dev, libopencv-photo-dev, libopencv-stitching-dev, libopencv-video-dev, libopencv-videoio-dev
 CPACK_COMPONENT_DEV_DEPENDS=libs
 CPACK_COMPONENT_DEV_DESCRIPTION=Development files for Open Source Computer Vision Library
@@ -558,11 +557,11 @@ CPACK_INSTALLED_DIRECTORIES=C:/thelab/code/github/ib-opencv-demo;/
 CPACK_INSTALL_CMAKE_PROJECTS=
 CPACK_INSTALL_PREFIX=C:/thelab/code/github/ib-opencv-demo/out/install/x64-Debug
 CPACK_MODULE_PATH=
-CPACK_NSIS_DISPLAY_NAME=OpenCV d429ee0-dirty
+CPACK_NSIS_DISPLAY_NAME=OpenCV a622f4c-dirty
 CPACK_NSIS_INSTALLER_ICON_CODE=
 CPACK_NSIS_INSTALLER_MUI_ICON_CODE=
 CPACK_NSIS_INSTALL_ROOT=$PROGRAMFILES64
-CPACK_NSIS_PACKAGE_NAME=OpenCV d429ee0-dirty
+CPACK_NSIS_PACKAGE_NAME=OpenCV a622f4c-dirty
 CPACK_NSIS_UNINSTALL_NAME=Uninstall
 CPACK_OUTPUT_CONFIG_FILE=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CPackConfig.cmake
 CPACK_PACKAGE_CONTACT=admin@opencv.org
@@ -574,13 +573,13 @@ machine perception in the commercial products. Being a BSD-licensed product,
 OpenCV makes it easy for businesses to utilize and modify the code.
 CPACK_PACKAGE_DESCRIPTION_FILE=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Templates/CPack.GenericDescription.txt
 CPACK_PACKAGE_DESCRIPTION_SUMMARY=Open Computer Vision Library
-CPACK_PACKAGE_FILE_NAME=OpenCV-d429ee0-dirty-AMD64
-CPACK_PACKAGE_INSTALL_DIRECTORY=OpenCV d429ee0-dirty
-CPACK_PACKAGE_INSTALL_REGISTRY_KEY=OpenCV d429ee0-dirty
+CPACK_PACKAGE_FILE_NAME=OpenCV-a622f4c-dirty-AMD64
+CPACK_PACKAGE_INSTALL_DIRECTORY=OpenCV a622f4c-dirty
+CPACK_PACKAGE_INSTALL_REGISTRY_KEY=OpenCV a622f4c-dirty
 CPACK_PACKAGE_NAME=OpenCV
 CPACK_PACKAGE_RELOCATABLE=true
 CPACK_PACKAGE_VENDOR=OpenCV Foundation
-CPACK_PACKAGE_VERSION=d429ee0-dirty
+CPACK_PACKAGE_VERSION=a622f4c-dirty
 CPACK_PACKAGE_VERSION_MAJOR=4
 CPACK_PACKAGE_VERSION_MINOR=6
 CPACK_PACKAGE_VERSION_PATCH=0
@@ -604,7 +603,7 @@ CPACK_SOURCE_GENERATOR=7Z;ZIP
 CPACK_SOURCE_IGNORE_FILES=/CVS/;/\\.svn/;/\\.bzr/;/\\.hg/;/\\.git/;\\.swp\$;\\.#;/#
 CPACK_SOURCE_INSTALLED_DIRECTORIES=C:/thelab/code/github/ib-opencv-demo;/
 CPACK_SOURCE_OUTPUT_CONFIG_FILE=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CPackSourceConfig.cmake
-CPACK_SOURCE_PACKAGE_FILE_NAME=OpenCV-d429ee0-dirty-AMD64
+CPACK_SOURCE_PACKAGE_FILE_NAME=OpenCV-a622f4c-dirty-AMD64
 CPACK_SOURCE_TOPLEVEL_TAG=win64-Source
 CPACK_SOURCE_ZIP=ON
 CPACK_STRIP_FILES=
@@ -801,7 +800,7 @@ FILE=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/3rdparty/ippicv/ip
 FIND_PACKAGE_MESSAGE_DETAILS_OpenMP=[TRUE][cfound components: C ][v2.0()]
 FIND_PACKAGE_MESSAGE_DETAILS_OpenMP_C=[-openmp][v2.0()]
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp=[C:/Users/ib10demo/AppData/Local/Programs/Python/Python310/python.exe][v3.10.6(2.7)]
-FIND_PACKAGE_MESSAGE_DETAILS_PythonLibs=[C:/Users/Jonathan.Peck/AppData/Local/Programs/Python/Python310/libs/python310.lib][C:/Users/Jonathan.Peck/AppData/Local/Programs/Python/Python310/include][v3.10.5(3.10.5)]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonLibs=[C:/Users/ib10demo/AppData/Local/Programs/Python/Python310/libs/python310.lib][C:/Users/ib10demo/AppData/Local/Programs/Python/Python310/include][v3.10.6(3.10.6)]
 FIND_PACKAGE_MESSAGE_DETAILS_Threads=[TRUE][v()]
 FIXED_ORDER_MODULES=core;imgproc;imgcodecs;videoio;highgui;video;calib3d;features2d;objdetect;dnn;ml;flann;photo;stitching
 GIT_EXECUTABLE=C:/Program Files/Git/cmd/git.exe
@@ -950,8 +949,8 @@ HAVE_opencv_objdetect=ON
 HAVE_opencv_photo=ON
 HAVE_opencv_python2=OFF
 HAVE_opencv_python3=OFF
-HAVE_opencv_python_bindings_generator=ON
-HAVE_opencv_python_tests=ON
+HAVE_opencv_python_bindings_generator=OFF
+HAVE_opencv_python_tests=OFF
 HAVE_opencv_stitching=ON
 HAVE_opencv_ts=OFF
 HAVE_opencv_video=ON
@@ -1671,7 +1670,7 @@ OPENCV_EXTRA_MODULES_PATH=
 OPENCV_FORCE_3RDPARTY_BUILD=OFF
 OPENCV_GAPI_GSTREAMER=OFF
 OPENCV_GENERATE_PKGCONFIG=OFF
-OPENCV_GENERATE_SETUPVARS=ON
+OPENCV_GENERATE_SETUPVARS=False
 OPENCV_INCLUDE_INSTALL_PATH=include
 OPENCV_INITIAL_PASS=OFF
 OPENCV_INSTALL_BINARIES_PREFIX=x64/vc16/
@@ -1688,20 +1687,19 @@ OPENCV_JS_BINDINGS_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/
 OPENCV_LIBVERSION=4.6.0
 OPENCV_LIB_ARCHIVE_INSTALL_PATH=x64/vc16/lib
 OPENCV_LIB_INSTALL_PATH=x64/vc16/lib
-OPENCV_LIB_RUNTIME_DIR_RELATIVE_CMAKECONFIG=x64/vc16/bin
 OPENCV_LICENSES_INSTALL_PATH=etc/licenses
 OPENCV_LICENSE_FILE=C:/thelab/code/github/ib-opencv-demo/LICENSE
 OPENCV_LINKER_LIBS=ippiw;ippicv
 OPENCV_MATHJAX_RELPATH=https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0
-OPENCV_MODULES_BUILD=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_python_tests;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_objdetect;opencv_stitching;opencv_video;opencv_gapi;opencv_java_bindings_generator;opencv_js_bindings_generator;opencv_python_bindings_generator
+OPENCV_MODULES_BUILD=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_objdetect;opencv_stitching;opencv_video;opencv_gapi;opencv_java_bindings_generator;opencv_js_bindings_generator
 OPENCV_MODULES_BUILD_ST=calib3d;core;dnn;features2d;flann;gapi;imgcodecs;imgproc;ml;objdetect;photo;stitching;video;videoio
 OPENCV_MODULES_CONFIGCMAKE=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio
 OPENCV_MODULES_DISABLED_AUTO=opencv_ts
 OPENCV_MODULES_DISABLED_AUTO_ST=ts
 OPENCV_MODULES_DISABLED_FORCE=opencv_java;opencv_python2;opencv_python3
 OPENCV_MODULES_DISABLED_FORCE_ST=java;python2;python3
-OPENCV_MODULES_DISABLED_USER=opencv_highgui;opencv_world
-OPENCV_MODULES_DISABLED_USER_ST=highgui;world
+OPENCV_MODULES_DISABLED_USER=opencv_highgui;opencv_python_bindings_generator;opencv_python_tests;opencv_world
+OPENCV_MODULES_DISABLED_USER_ST=highgui;python_bindings_generator;python_tests;world
 OPENCV_MODULES_EXTRA=java_bindings_generator;js_bindings_generator;python2;python3;python_bindings_generator;python_tests
 OPENCV_MODULES_MAIN=core;imgproc;imgcodecs;videoio;highgui;video;calib3d;features2d;objdetect;dnn;ml;flann;photo;stitching;gapi;java;ts;world
 OPENCV_MODULES_PATH=C:/thelab/code/github/ib-opencv-demo/modules
@@ -1824,11 +1822,8 @@ OPENCV_MODULE_opencv_gapi_PRIVATE_REQ_DEPS=
 OPENCV_MODULE_opencv_gapi_REQ_DEPS=opencv_imgproc
 OPENCV_MODULE_opencv_gapi_SOURCES=C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/grunarg.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/gorigin.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/gmat.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/garray.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/gopaque.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/gscalar.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/gframe.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/gkernel.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/gbackend.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/gproto.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/gnode.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/gcall.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/gcomputation.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/operators.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/kernels_core.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/kernels_imgproc.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/kernels_video.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/kernels_nnparsers.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/kernels_streaming.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/kernels_stereo.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/render.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/render_ocv.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/ginfer.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/media.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/rmat.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/compiler/gmodel.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/compiler/gmodelbuilder.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/compiler/gislandmodel.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/compiler/gcompiler.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/compiler/gcompiled.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/compiler/gstreaming.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/compiler/passes/helpers.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/compiler/passes/dump_dot.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/compiler/passes/islands.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/compiler/passes/meta.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/compiler/passes/kernels.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/compiler/passes/exec.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/compiler/passes/transformations.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/compiler/passes/pattern_matching.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/compiler/passes/perform_substitution.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/compiler/passes/streaming.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/compiler/passes/intrin.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/executor/gexecutor.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/executor/gtbbexecutor.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/executor/gstreamingexecutor.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/executor/gasync.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/cpu/gcpubackend.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/cpu/gcpukernel.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/cpu/gcpuimgproc.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/cpu/gcpustereo.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/cpu/gcpuvideo.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/cpu/gcpucore.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/cpu/gnnparsers.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/fluid/gfluidbuffer.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/fluid/gfluidbackend.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/fluid/gfluidimgproc.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/fluid/gfluidimgproc_func.dispatch.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/fluid/gfluidcore.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/fluid/gfluidcore_func.dispatch.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/oak/goak.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/oak/goakbackend.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/oak/goak_memory_adapters.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/ocl/goclbackend.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/ocl/goclkernel.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/ocl/goclimgproc.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/ocl/goclcore.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/ie/giebackend.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/ie/giebackend/giewrapper.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/onnx/gonnxbackend.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/render/grenderocv.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/render/ft_render.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/plaidml/gplaidmlcore.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/plaidml/gplaidmlbackend.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/common/gmetabackend.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/common/gcompoundbackend.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/common/gcompoundkernel.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/api/s11n.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/common/serialization.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/streaming/gstreamingbackend.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/ie/bindings_ie.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/backends/python/gpythonbackend.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/source.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/source_priv.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/file_data_provider.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/cfg_params.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/cfg_params_parser.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/utils.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/data_provider_interface_exception.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/accelerators/surface/base_frame_adapter.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/accelerators/surface/cpu_frame_adapter.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/accelerators/surface/dx11_frame_adapter.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/accelerators/surface/surface.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/accelerators/surface/surface_pool.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/accelerators/utils/shared_lock.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/accelerators/accel_policy_cpu.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/accelerators/accel_policy_dx11.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/accelerators/accel_policy_va_api.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/accelerators/dx11_alloc_resource.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/engine/engine_session.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/engine/processing_engine_base.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/engine/decode/decode_engine_legacy.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/engine/decode/decode_session.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/engine/transcode/transcode_engine_legacy.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/engine/transcode/transcode_session.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/engine/preproc/preproc_engine.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/engine/preproc/preproc_session.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/engine/preproc/preproc_dispatcher.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/engine/preproc_engine_interface.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/demux/async_mfp_demux_data_provider.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/data_provider_dispatcher.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/cfg_param_device_selector.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/onevpl/device_selector_interface.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/gstreamer/gstreamer_pipeline_facade.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/gstreamer/gstreamerpipeline.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/gstreamer/gstreamersource.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/gstreamer/gstreamer_buffer_utils.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/gstreamer/gstreamer_media_adapter.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/streaming/gstreamer/gstreamerenv.cpp;C:/thelab/code/github/ib-opencv-demo/modules/gapi/src/utils/itt.cpp;C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi/backends/fluid/gfluidimgproc_func.sse4_1.cpp;C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi/backends/fluid/gfluidcore_func.sse4_1.cpp;C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi/backends/fluid/gfluidimgproc_func.avx2.cpp;C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi/backends/fluid/gfluidcore_func.avx2.cpp
 OPENCV_MODULE_opencv_gapi_WRAPPERS=python
-OPENCV_MODULE_opencv_highgui_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/highgui
 OPENCV_MODULE_opencv_highgui_CLASS=PUBLIC
-OPENCV_MODULE_opencv_highgui_DEPS_TO_LINK=opencv_core;opencv_imgproc;opencv_imgcodecs;opencv_videoio
 OPENCV_MODULE_opencv_highgui_DESCRIPTION=High-level GUI
-OPENCV_MODULE_opencv_highgui_HEADERS=C:/thelab/code/github/ib-opencv-demo/modules/highgui/include/opencv2/highgui.hpp;C:/thelab/code/github/ib-opencv-demo/modules/highgui/include/opencv2/highgui/highgui.hpp;C:/thelab/code/github/ib-opencv-demo/modules/highgui/include/opencv2/highgui/highgui_c.h
 OPENCV_MODULE_opencv_highgui_IS_PART_OF_WORLD=ON
 OPENCV_MODULE_opencv_highgui_LABEL=Main;opencv_highgui
 OPENCV_MODULE_opencv_highgui_LINK_DEPS=
@@ -1837,7 +1832,6 @@ OPENCV_MODULE_opencv_highgui_OPT_DEPS=opencv_imgcodecs;opencv_videoio
 OPENCV_MODULE_opencv_highgui_PRIVATE_OPT_DEPS=
 OPENCV_MODULE_opencv_highgui_PRIVATE_REQ_DEPS=
 OPENCV_MODULE_opencv_highgui_REQ_DEPS=opencv_imgproc
-OPENCV_MODULE_opencv_highgui_SOURCES=C:/thelab/code/github/ib-opencv-demo/modules/highgui/src/backend.cpp;C:/thelab/code/github/ib-opencv-demo/modules/highgui/src/window.cpp;C:/thelab/code/github/ib-opencv-demo/modules/highgui/src/roiSelector.cpp;C:/thelab/code/github/ib-opencv-demo/modules/highgui/src/window_w32.cpp;C:/thelab/code/github/ib-opencv-demo/modules/highgui/src/precomp.hpp
 OPENCV_MODULE_opencv_highgui_WRAPPERS=python;java
 OPENCV_MODULE_opencv_imgcodecs_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgcodecs
 OPENCV_MODULE_opencv_imgcodecs_CLASS=PUBLIC
@@ -1936,18 +1930,6 @@ OPENCV_MODULE_opencv_objc_PRIVATE_OPT_DEPS=
 OPENCV_MODULE_opencv_objc_PRIVATE_REQ_DEPS=
 OPENCV_MODULE_opencv_objc_REQ_DEPS=
 OPENCV_MODULE_opencv_objc_WRAPPERS=
-OPENCV_MODULE_opencv_objc_bindings_generator_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objc_bindings_generator
-OPENCV_MODULE_opencv_objc_bindings_generator_CLASS=INTERNAL
-OPENCV_MODULE_opencv_objc_bindings_generator_DEPS_TO_LINK=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_objdetect;opencv_video
-OPENCV_MODULE_opencv_objc_bindings_generator_DESCRIPTION=The objc_bindings_generator OpenCV module
-OPENCV_MODULE_opencv_objc_bindings_generator_IS_PART_OF_WORLD=OFF
-OPENCV_MODULE_opencv_objc_bindings_generator_LABEL=Main;opencv_objc_bindings_generator
-OPENCV_MODULE_opencv_objc_bindings_generator_LOCATION=C:/thelab/code/github/ib-opencv-demo/modules/objc/generator
-OPENCV_MODULE_opencv_objc_bindings_generator_OPT_DEPS=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_video;opencv_videoio
-OPENCV_MODULE_opencv_objc_bindings_generator_PRIVATE_OPT_DEPS=
-OPENCV_MODULE_opencv_objc_bindings_generator_PRIVATE_REQ_DEPS=
-OPENCV_MODULE_opencv_objc_bindings_generator_REQ_DEPS=
-OPENCV_MODULE_opencv_objc_bindings_generator_WRAPPERS=
 OPENCV_MODULE_opencv_objdetect_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objdetect
 OPENCV_MODULE_opencv_objdetect_CLASS=PUBLIC
 OPENCV_MODULE_opencv_objdetect_DEPS=opencv_core;opencv_flann;opencv_imgproc;opencv_dnn;opencv_features2d;opencv_calib3d
@@ -1996,8 +1978,6 @@ OPENCV_MODULE_opencv_python3_REQ_DEPS=
 OPENCV_MODULE_opencv_python3_WRAPPERS=
 OPENCV_MODULE_opencv_python_bindings_generator_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/python_bindings_generator
 OPENCV_MODULE_opencv_python_bindings_generator_CLASS=INTERNAL
-OPENCV_MODULE_opencv_python_bindings_generator_DEPS=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_objdetect;opencv_stitching;opencv_video;opencv_gapi
-OPENCV_MODULE_opencv_python_bindings_generator_DEPS_EXT=
 OPENCV_MODULE_opencv_python_bindings_generator_DEPS_TO_LINK=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_objdetect;opencv_stitching;opencv_video;opencv_gapi
 OPENCV_MODULE_opencv_python_bindings_generator_DESCRIPTION=The python_bindings_generator OpenCV module
 OPENCV_MODULE_opencv_python_bindings_generator_IS_PART_OF_WORLD=OFF
@@ -2011,8 +1991,6 @@ OPENCV_MODULE_opencv_python_bindings_generator_REQ_DEPS=
 OPENCV_MODULE_opencv_python_bindings_generator_WRAPPERS=
 OPENCV_MODULE_opencv_python_tests_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/python_tests
 OPENCV_MODULE_opencv_python_tests_CLASS=INTERNAL
-OPENCV_MODULE_opencv_python_tests_DEPS=
-OPENCV_MODULE_opencv_python_tests_DEPS_EXT=
 OPENCV_MODULE_opencv_python_tests_DEPS_TO_LINK=
 OPENCV_MODULE_opencv_python_tests_DESCRIPTION=The python_tests OpenCV module
 OPENCV_MODULE_opencv_python_tests_IS_PART_OF_WORLD=OFF
@@ -2041,11 +2019,8 @@ OPENCV_MODULE_opencv_stitching_PRIVATE_REQ_DEPS=
 OPENCV_MODULE_opencv_stitching_REQ_DEPS=opencv_imgproc;opencv_features2d;opencv_calib3d;opencv_flann
 OPENCV_MODULE_opencv_stitching_SOURCES=C:/thelab/code/github/ib-opencv-demo/modules/stitching/src/autocalib.cpp;C:/thelab/code/github/ib-opencv-demo/modules/stitching/src/blenders.cpp;C:/thelab/code/github/ib-opencv-demo/modules/stitching/src/camera.cpp;C:/thelab/code/github/ib-opencv-demo/modules/stitching/src/exposure_compensate.cpp;C:/thelab/code/github/ib-opencv-demo/modules/stitching/src/matchers.cpp;C:/thelab/code/github/ib-opencv-demo/modules/stitching/src/motion_estimators.cpp;C:/thelab/code/github/ib-opencv-demo/modules/stitching/src/seam_finders.cpp;C:/thelab/code/github/ib-opencv-demo/modules/stitching/src/stitcher.cpp;C:/thelab/code/github/ib-opencv-demo/modules/stitching/src/timelapsers.cpp;C:/thelab/code/github/ib-opencv-demo/modules/stitching/src/util.cpp;C:/thelab/code/github/ib-opencv-demo/modules/stitching/src/warpers.cpp;C:/thelab/code/github/ib-opencv-demo/modules/stitching/src/warpers_cuda.cpp;C:/thelab/code/github/ib-opencv-demo/modules/stitching/src/opencl/multibandblend.cl;C:/thelab/code/github/ib-opencv-demo/modules/stitching/src/opencl/warpers.cl;C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/stitching/opencl_kernels_stitching.cpp;C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/stitching/opencl_kernels_stitching.hpp;C:/thelab/code/github/ib-opencv-demo/modules/stitching/src/precomp.hpp;C:/thelab/code/github/ib-opencv-demo/modules/stitching/src/util_log.hpp
 OPENCV_MODULE_opencv_stitching_WRAPPERS=python
-OPENCV_MODULE_opencv_ts_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/ts
 OPENCV_MODULE_opencv_ts_CLASS=INTERNAL
-OPENCV_MODULE_opencv_ts_DEPS_TO_LINK=opencv_core;opencv_imgproc;opencv_imgcodecs;opencv_videoio;opencv_highgui
 OPENCV_MODULE_opencv_ts_DESCRIPTION=The ts module
-OPENCV_MODULE_opencv_ts_HEADERS=C:/thelab/code/github/ib-opencv-demo/modules/ts/include/opencv2/ts.hpp;C:/thelab/code/github/ib-opencv-demo/modules/ts/include/opencv2/ts/cuda_perf.hpp;C:/thelab/code/github/ib-opencv-demo/modules/ts/include/opencv2/ts/cuda_test.hpp;C:/thelab/code/github/ib-opencv-demo/modules/ts/include/opencv2/ts/ocl_perf.hpp;C:/thelab/code/github/ib-opencv-demo/modules/ts/include/opencv2/ts/ocl_test.hpp;C:/thelab/code/github/ib-opencv-demo/modules/ts/include/opencv2/ts/ts_ext.hpp;C:/thelab/code/github/ib-opencv-demo/modules/ts/include/opencv2/ts/ts_gtest.h;C:/thelab/code/github/ib-opencv-demo/modules/ts/include/opencv2/ts/ts_perf.hpp
 OPENCV_MODULE_opencv_ts_IS_PART_OF_WORLD=OFF
 OPENCV_MODULE_opencv_ts_LABEL=Main;opencv_ts
 OPENCV_MODULE_opencv_ts_LINK_DEPS=
@@ -2054,7 +2029,6 @@ OPENCV_MODULE_opencv_ts_OPT_DEPS=
 OPENCV_MODULE_opencv_ts_PRIVATE_OPT_DEPS=
 OPENCV_MODULE_opencv_ts_PRIVATE_REQ_DEPS=
 OPENCV_MODULE_opencv_ts_REQ_DEPS=opencv_core;opencv_imgproc;opencv_imgcodecs;opencv_videoio;opencv_highgui
-OPENCV_MODULE_opencv_ts_SOURCES=C:/thelab/code/github/ib-opencv-demo/modules/ts/src/cuda_perf.cpp;C:/thelab/code/github/ib-opencv-demo/modules/ts/src/cuda_test.cpp;C:/thelab/code/github/ib-opencv-demo/modules/ts/src/ocl_perf.cpp;C:/thelab/code/github/ib-opencv-demo/modules/ts/src/ocl_test.cpp;C:/thelab/code/github/ib-opencv-demo/modules/ts/src/ts.cpp;C:/thelab/code/github/ib-opencv-demo/modules/ts/src/ts_arrtest.cpp;C:/thelab/code/github/ib-opencv-demo/modules/ts/src/ts_func.cpp;C:/thelab/code/github/ib-opencv-demo/modules/ts/src/ts_gtest.cpp;C:/thelab/code/github/ib-opencv-demo/modules/ts/src/ts_perf.cpp;C:/thelab/code/github/ib-opencv-demo/modules/ts/src/ts_tags.cpp;C:/thelab/code/github/ib-opencv-demo/modules/ts/src/precomp.hpp;C:/thelab/code/github/ib-opencv-demo/modules/ts/src/ts_tags.hpp
 OPENCV_MODULE_opencv_ts_WRAPPERS=
 OPENCV_MODULE_opencv_video_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/video
 OPENCV_MODULE_opencv_video_CLASS=PUBLIC
@@ -2102,30 +2076,24 @@ OPENCV_MODULE_opencv_world_PRIVATE_REQ_DEPS=
 OPENCV_MODULE_opencv_world_REQ_DEPS=opencv_core
 OPENCV_MODULE_opencv_world_WRAPPERS=
 OPENCV_MOD_LIST=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio
-OPENCV_OBJC_BINDINGS_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objc_bindings_generator
 OPENCV_OTHER_INSTALL_PATH=etc
 OPENCV_PACKAGE_ARCH_SUFFIX=AMD64
 OPENCV_PROCESSING_EXTRA_MODULES=1
 OPENCV_PYTHON3_VERSION=OFF
 OPENCV_PYTHON_BINDINGS_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/python_bindings_generator
-OPENCV_PYTHON_DIR_RELATIVE_CMAKECONFIG=python_loader_is_not_installed
 OPENCV_PYTHON_SIGNATURES_FILE=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/python_bindings_generator/pyopencv_signatures.json
 OPENCV_PYTHON_TESTS_CONFIG_FILE=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv_python_tests.cfg
 OPENCV_PYTHON_TESTS_CONFIG_FILE_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug
 OPENCV_SAMPLES_BIN_INSTALL_PATH=x64/vc16/samples
 OPENCV_SAMPLES_SRC_INSTALL_PATH=samples
-OPENCV_SCRIPT_EXTENSION=.cmd
 OPENCV_SEMIHOSTING=
-OPENCV_SETUPVARS_FILENAME=setup_vars_opencv4.cmd
-OPENCV_SETUPVARS_INSTALL_PATH=.
-OPENCV_SETUPVARS_TEMPLATE=setup_vars_win32.cmd.in
 OPENCV_SOVERSION=406
 OPENCV_SUPPRESS_DEPRECATIONS=1
 OPENCV_TEST_DATA_INSTALL_PATH=testdata
 OPENCV_TEST_INSTALL_PATH=x64/vc16/bin
-OPENCV_TIMESTAMP=2022-09-04T04:09:21Z
+OPENCV_TIMESTAMP=2022-09-11T23:44:45Z
 OPENCV_TRACE=1
-OPENCV_VCSVERSION=d429ee0-dirty
+OPENCV_VCSVERSION=a622f4c-dirty
 OPENCV_VERIFICATIONS=WITH_1394;WITH_AVFOUNDATION;WITH_CAP_IOS;WITH_CPUFEATURES;WITH_VTK;WITH_CUDA;WITH_CUFFT;WITH_CUBLAS;WITH_CUDNN;WITH_NVCUVID;WITH_EIGEN;WITH_FFMPEG;WITH_GSTREAMER;WITH_GTK;WITH_GTK_2_X;WITH_WAYLAND;WITH_IPP;WITH_HALIDE;WITH_VULKAN;WITH_OPENVINO;WITH_WEBNN;WITH_JASPER;WITH_OPENJPEG;WITH_JPEG;WITH_WEBP;WITH_OPENEXR;WITH_OPENGL;WITH_OPENVX;WITH_OPENNI;WITH_OPENNI2;WITH_PNG;WITH_GDCM;WITH_PVAPI;WITH_ARAVIS;WITH_QT;WITH_WIN32UI;WITH_TBB;WITH_HPX;WITH_OPENMP;WITH_PTHREADS_PF;WITH_TIFF;WITH_V4L;WITH_DSHOW;WITH_MSMF;WITH_MSMF_DXVA;WITH_XIMEA;WITH_UEYE;WITH_XINE;WITH_CLP;WITH_OPENCL;WITH_OPENCL_SVM;WITH_OPENCLAMDFFT;WITH_OPENCLAMDBLAS;WITH_DIRECTX;WITH_OPENCL_D3D11_NV;WITH_LIBREALSENSE;WITH_VA;WITH_VA_INTEL;WITH_MFX;WITH_GDAL;WITH_GPHOTO2;WITH_LAPACK;WITH_ITT;WITH_PROTOBUF;WITH_IMGCODEC_HDR;WITH_IMGCODEC_SUNRASTER;WITH_IMGCODEC_PXM;WITH_IMGCODEC_PFM;WITH_QUIRC;WITH_ANDROID_MEDIANDK;WITH_ANDROID_NATIVE_CAMERA;WITH_TENGINE;WITH_ONNX;WITH_TIMVX;WITH_OBSENSOR
 OPENCV_VERIFY_WITH_1394=HAVE_DC1394_2
 OPENCV_VERIFY_WITH_ANDROID_MEDIANDK=HAVE_ANDROID_MEDIANDK
@@ -2346,23 +2314,23 @@ PYTHON2_VERSION_MINOR=
 PYTHON2_VERSION_STRING=
 PYTHON3INTERP_FOUND=TRUE
 PYTHON3LIBS_FOUND=TRUE
-PYTHON3LIBS_VERSION_STRING=3.10.5
+PYTHON3LIBS_VERSION_STRING=3.10.6
 PYTHON3_DEBUG_LIBRARIES=PYTHON_DEBUG_LIBRARY-NOTFOUND
-PYTHON3_EXECUTABLE=C:/Users/Jonathan.Peck/AppData/Local/Programs/Python/Python310/python.exe
-PYTHON3_INCLUDE_DIR=C:/Users/Jonathan.Peck/AppData/Local/Programs/Python/Python310/include
+PYTHON3_EXECUTABLE=C:/Users/ib10demo/AppData/Local/Programs/Python/Python310/python.exe
+PYTHON3_INCLUDE_DIR=C:/Users/ib10demo/AppData/Local/Programs/Python/Python310/include
 PYTHON3_INCLUDE_DIR2=
-PYTHON3_INCLUDE_PATH=C:/Users/Jonathan.Peck/AppData/Local/Programs/Python/Python310/include
-PYTHON3_LIBRARIES=C:/Users/Jonathan.Peck/AppData/Local/Programs/Python/Python310/libs/python310.lib
-PYTHON3_LIBRARY=C:/Users/Jonathan.Peck/AppData/Local/Programs/Python/Python310/libs/python310.lib
+PYTHON3_INCLUDE_PATH=C:/Users/ib10demo/AppData/Local/Programs/Python/Python310/include
+PYTHON3_LIBRARIES=C:/Users/ib10demo/AppData/Local/Programs/Python/Python310/libs/python310.lib
+PYTHON3_LIBRARY=C:/Users/ib10demo/AppData/Local/Programs/Python/Python310/libs/python310.lib
 PYTHON3_LIBRARY_DEBUG=PYTHON_DEBUG_LIBRARY-NOTFOUND
-PYTHON3_NUMPY_INCLUDE_DIRS=
-PYTHON3_NUMPY_VERSION=
-PYTHON3_PACKAGES_PATH=C:/Users/Jonathan.Peck/AppData/Local/Programs/Python/Python310/Lib/site-packages
+PYTHON3_NUMPY_INCLUDE_DIRS=C:/Users/ib10demo/AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/core/include
+PYTHON3_NUMPY_VERSION=1.23.2
+PYTHON3_PACKAGES_PATH=C:/Users/ib10demo/AppData/Local/Programs/Python/Python310/Lib/site-packages
 PYTHON3_VERSION_MAJOR=3
 PYTHON3_VERSION_MINOR=10
-PYTHON3_VERSION_STRING=3.10.5
+PYTHON3_VERSION_STRING=3.10.6
 PYTHON_DEFAULT_AVAILABLE=TRUE
-PYTHON_DEFAULT_EXECUTABLE=C:/Users/Jonathan.Peck/AppData/Local/Programs/Python/Python310/python.exe
+PYTHON_DEFAULT_EXECUTABLE=C:/Users/ib10demo/AppData/Local/Programs/Python/Python310/python.exe
 ProgramFiles_ENV_PATH=C:/Program Files
 Protobuf_LIBRARIES=libprotobuf
 Protobuf_VERSION=3.19.1
@@ -2400,8 +2368,8 @@ TIFF_VERSION_LINES=#define TIFF_VERSION_CLASSIC 42;#define TIFF_VERSION_BIG 43
 TIFF_VERSION_STRING=4.2.0
 TRY_OUT=Change Dir: C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_766e4 && [1/2] Building CXX object CMakeFiles\cmTC_766e4.dir\directx.cpp.obj
-[2/2] Linking CXX executable cmTC_766e4.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_7bc61 && [1/2] Building CXX object CMakeFiles\cmTC_7bc61.dir\directx.cpp.obj
+[2/2] Linking CXX executable cmTC_7bc61.exe
 
 
 Threads_FOUND=TRUE
@@ -2512,7 +2480,7 @@ set(CPACK_BINARY_WIX "OFF")
 set(CPACK_BINARY_ZIP "OFF")
 set(CPACK_BUILD_SOURCE_DIRS "C:/thelab/code/github/ib-opencv-demo;C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug")
 set(CPACK_CMAKE_GENERATOR "Ninja")
-set(CPACK_COMPONENTS_ALL "dev;libs;licenses;pdb;scripts")
+set(CPACK_COMPONENTS_ALL "dev;libs;licenses;pdb")
 set(CPACK_COMPONENT_DEV_CONFLICTS "libopencv-dev, libopencv-calib3d-dev, libopencv-core-dev, libopencv-dnn-dev, libopencv-features2d-dev, libopencv-flann-dev, libopencv-gapi-dev, libopencv-imgcodecs-dev, libopencv-imgproc-dev, libopencv-ml-dev, libopencv-objdetect-dev, libopencv-photo-dev, libopencv-stitching-dev, libopencv-video-dev, libopencv-videoio-dev")
 set(CPACK_COMPONENT_DEV_DEPENDS "libs")
 set(CPACK_COMPONENT_DEV_DESCRIPTION "Development files for Open Source Computer Vision Library")
@@ -2571,11 +2539,11 @@ set(CPACK_INSTALLED_DIRECTORIES "C:/thelab/code/github/ib-opencv-demo;/")
 set(CPACK_INSTALL_CMAKE_PROJECTS "")
 set(CPACK_INSTALL_PREFIX "C:/thelab/code/github/ib-opencv-demo/out/install/x64-Debug")
 set(CPACK_MODULE_PATH "")
-set(CPACK_NSIS_DISPLAY_NAME "OpenCV d429ee0-dirty")
+set(CPACK_NSIS_DISPLAY_NAME "OpenCV a622f4c-dirty")
 set(CPACK_NSIS_INSTALLER_ICON_CODE "")
 set(CPACK_NSIS_INSTALLER_MUI_ICON_CODE "")
 set(CPACK_NSIS_INSTALL_ROOT "$PROGRAMFILES64")
-set(CPACK_NSIS_PACKAGE_NAME "OpenCV d429ee0-dirty")
+set(CPACK_NSIS_PACKAGE_NAME "OpenCV a622f4c-dirty")
 set(CPACK_NSIS_UNINSTALL_NAME "Uninstall")
 set(CPACK_OUTPUT_CONFIG_FILE "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CPackConfig.cmake")
 set(CPACK_PACKAGE_CONTACT "admin@opencv.org")
@@ -2587,13 +2555,13 @@ machine perception in the commercial products. Being a BSD-licensed product,
 OpenCV makes it easy for businesses to utilize and modify the code.")
 set(CPACK_PACKAGE_DESCRIPTION_FILE "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Templates/CPack.GenericDescription.txt")
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Open Computer Vision Library")
-set(CPACK_PACKAGE_FILE_NAME "OpenCV-d429ee0-dirty-AMD64")
-set(CPACK_PACKAGE_INSTALL_DIRECTORY "OpenCV d429ee0-dirty")
-set(CPACK_PACKAGE_INSTALL_REGISTRY_KEY "OpenCV d429ee0-dirty")
+set(CPACK_PACKAGE_FILE_NAME "OpenCV-a622f4c-dirty-AMD64")
+set(CPACK_PACKAGE_INSTALL_DIRECTORY "OpenCV a622f4c-dirty")
+set(CPACK_PACKAGE_INSTALL_REGISTRY_KEY "OpenCV a622f4c-dirty")
 set(CPACK_PACKAGE_NAME "OpenCV")
 set(CPACK_PACKAGE_RELOCATABLE "true")
 set(CPACK_PACKAGE_VENDOR "OpenCV Foundation")
-set(CPACK_PACKAGE_VERSION "d429ee0-dirty")
+set(CPACK_PACKAGE_VERSION "a622f4c-dirty")
 set(CPACK_PACKAGE_VERSION_MAJOR "4")
 set(CPACK_PACKAGE_VERSION_MINOR "6")
 set(CPACK_PACKAGE_VERSION_PATCH "0")
@@ -2617,7 +2585,7 @@ set(CPACK_SOURCE_GENERATOR "7Z;ZIP")
 set(CPACK_SOURCE_IGNORE_FILES "/CVS/;/\\.svn/;/\\.bzr/;/\\.hg/;/\\.git/;\\.swp\$;\\.#;/#")
 set(CPACK_SOURCE_INSTALLED_DIRECTORIES "C:/thelab/code/github/ib-opencv-demo;/")
 set(CPACK_SOURCE_OUTPUT_CONFIG_FILE "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CPackSourceConfig.cmake")
-set(CPACK_SOURCE_PACKAGE_FILE_NAME "OpenCV-d429ee0-dirty-AMD64")
+set(CPACK_SOURCE_PACKAGE_FILE_NAME "OpenCV-a622f4c-dirty-AMD64")
 set(CPACK_SOURCE_TOPLEVEL_TAG "win64-Source")
 set(CPACK_SOURCE_ZIP "ON")
 set(CPACK_STRIP_FILES "")
@@ -2725,12 +2693,10 @@ mdi=ON
 mkl_root_paths=MKL_ROOT_DIR-NOTFOUND
 mod=
 module=
-name=python_bindings_generator
+name=js_bindings_generator
 next=ON
 old-jpeg=OFF
 opencl_features=NVD3D11
-opencv_annotation_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/apps/annotation
-opencv_annotation_SOURCE_DIR=C:/thelab/code/github/ib-opencv-demo/apps/annotation
 opencv_calib3d_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/calib3d
 opencv_calib3d_LIB_DEPENDS=general;opencv_core;general;opencv_flann;general;opencv_imgproc;general;opencv_features2d;general;ippiw;general;ippicv;
 opencv_calib3d_SOURCE_DIR=C:/thelab/code/github/ib-opencv-demo/modules/calib3d
@@ -2749,17 +2715,12 @@ opencv_flann_SOURCE_DIR=C:/thelab/code/github/ib-opencv-demo/modules/flann
 opencv_gapi_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi
 opencv_gapi_LIB_DEPENDS=general;opencv_core;general;opencv_flann;general;opencv_imgproc;general;opencv_dnn;general;opencv_features2d;general;opencv_calib3d;general;opencv_video;general;ippiw;general;ippicv;general;ade;general;ittnotify;general;wsock32;general;ws2_32;
 opencv_gapi_SOURCE_DIR=C:/thelab/code/github/ib-opencv-demo/modules/gapi
-opencv_highgui_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/highgui
-opencv_highgui_LIB_DEPENDS=general;opencv_core;general;opencv_imgproc;general;opencv_imgcodecs;general;opencv_videoio;general;ippiw;general;ippicv;general;comctl32;general;gdi32;general;ole32;general;setupapi;general;ws2_32;
-opencv_highgui_SOURCE_DIR=C:/thelab/code/github/ib-opencv-demo/modules/highgui
 opencv_imgcodecs_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgcodecs
 opencv_imgcodecs_LIB_DEPENDS=general;opencv_core;general;opencv_imgproc;general;ippiw;general;ippicv;general;libjpeg-turbo;general;libwebp;general;libpng;general;libtiff;general;libopenjp2;general;IlmImf;general;zlib;
 opencv_imgcodecs_SOURCE_DIR=C:/thelab/code/github/ib-opencv-demo/modules/imgcodecs
 opencv_imgproc_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc
 opencv_imgproc_LIB_DEPENDS=general;opencv_core;general;ippiw;general;ippicv;
 opencv_imgproc_SOURCE_DIR=C:/thelab/code/github/ib-opencv-demo/modules/imgproc
-opencv_interactive-calibration_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/apps/interactive-calibration
-opencv_interactive-calibration_SOURCE_DIR=C:/thelab/code/github/ib-opencv-demo/apps/interactive-calibration
 opencv_java_bindings_generator_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/java_bindings_generator
 opencv_java_bindings_generator_SOURCE_DIR=C:/thelab/code/github/ib-opencv-demo/modules/java/generator
 opencv_js_bindings_generator_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/js_bindings_generator
@@ -2769,8 +2730,6 @@ opencv_ml_LIB_DEPENDS=general;opencv_core;general;ippiw;general;ippicv;
 opencv_ml_SOURCE_DIR=C:/thelab/code/github/ib-opencv-demo/modules/ml
 opencv_model_diagnostics_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/apps/model-diagnostics
 opencv_model_diagnostics_SOURCE_DIR=C:/thelab/code/github/ib-opencv-demo/apps/model-diagnostics
-opencv_objc_bindings_generator_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objc_bindings_generator
-opencv_objc_bindings_generator_SOURCE_DIR=C:/thelab/code/github/ib-opencv-demo/modules/objc/generator
 opencv_objdetect_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objdetect
 opencv_objdetect_LIB_DEPENDS=general;opencv_core;general;opencv_flann;general;opencv_imgproc;general;opencv_dnn;general;opencv_features2d;general;opencv_calib3d;general;ippiw;general;ippicv;general;quirc;
 opencv_objdetect_SOURCE_DIR=C:/thelab/code/github/ib-opencv-demo/modules/objdetect
@@ -2784,9 +2743,6 @@ opencv_python_tests_SOURCE_DIR=C:/thelab/code/github/ib-opencv-demo/modules/pyth
 opencv_stitching_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/stitching
 opencv_stitching_LIB_DEPENDS=general;opencv_core;general;opencv_flann;general;opencv_imgproc;general;opencv_features2d;general;opencv_calib3d;general;ippiw;general;ippicv;
 opencv_stitching_SOURCE_DIR=C:/thelab/code/github/ib-opencv-demo/modules/stitching
-opencv_ts_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/ts
-opencv_ts_LIB_DEPENDS=general;opencv_core;general;opencv_imgproc;general;opencv_imgcodecs;general;opencv_videoio;general;opencv_highgui;general;ippiw;general;ippicv;
-opencv_ts_SOURCE_DIR=C:/thelab/code/github/ib-opencv-demo/modules/ts
 opencv_version_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/apps/version
 opencv_version_SOURCE_DIR=C:/thelab/code/github/ib-opencv-demo/apps/version
 opencv_version_win32_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/apps/version
@@ -2797,8 +2753,6 @@ opencv_video_SOURCE_DIR=C:/thelab/code/github/ib-opencv-demo/modules/video
 opencv_videoio_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/videoio
 opencv_videoio_LIB_DEPENDS=general;opencv_core;general;opencv_imgproc;general;opencv_imgcodecs;general;ippiw;general;ippicv;
 opencv_videoio_SOURCE_DIR=C:/thelab/code/github/ib-opencv-demo/modules/videoio
-opencv_visualisation_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/apps/visualisation
-opencv_visualisation_SOURCE_DIR=C:/thelab/code/github/ib-opencv-demo/apps/visualisation
 openexr_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/3rdparty/openexr
 openexr_SOURCE_DIR=C:/thelab/code/github/ib-opencv-demo/3rdparty/openexr
 openjpeg_BINARY_DIR=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/3rdparty/openjpeg
