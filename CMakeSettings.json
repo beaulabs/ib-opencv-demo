@@ -15,6 +15,21 @@
           "name": "BUILD_opencv_highgui",
           "value": "False",
           "type": "BOOL"
+        },
+        {
+          "name": "BUILD_opencv_python_bindings_generator",
+          "value": "False",
+          "type": "BOOL"
+        },
+        {
+          "name": "BUILD_opencv_python_tests",
+          "value": "False",
+          "type": "BOOL"
+        },
+        {
+          "name": "OPENCV_GENERATE_SETUPVARS",
+          "value": "False",
+          "type": "BOOL"
         }
       ]
     },
@@ -31,6 +46,26 @@
       "variables": [
         {
           "name": "BUILD_opencv_highgui",
+          "value": "False",
+          "type": "BOOL"
+        },
+        {
+          "name": "BUILD_opencv_python3",
+          "value": "False",
+          "type": "BOOL"
+        },
+        {
+          "name": "BUILD_opencv_python_tests",
+          "value": "False",
+          "type": "BOOL"
+        },
+        {
+          "name": "BUILD_opencv_python_bindings_generator",
+          "value": "False",
+          "type": "BOOL"
+        },
+        {
+          "name": "OPENCV_GENERATE_SETUPVARS",
           "value": "False",
           "type": "BOOL"
         }
