@@ -1,7 +1,7 @@
 {
   "configurations": [
     {
-      "name": "x64-Debug",
+      "name": "Debug-VS",
       "generator": "Ninja",
       "configurationType": "Debug",
       "inheritEnvironments": [ "msvc_x64_x64" ],
@@ -34,8 +34,8 @@
       ]
     },
     {
-      "name": "x64-Release",
-      "generator": "Ninja",
+      "name": "Release-VS",
+      "generator": "Visual Studio 16 2019",
       "configurationType": "Release",
       "inheritEnvironments": [ "msvc_x64_x64" ],
       "buildRoot": "${projectDir}\\out\\build\\${name}",
@@ -70,6 +70,28 @@
           "type": "BOOL"
         }
       ]
+    },
+    {
+      "name": "Debug-BC-VS",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "msvc_x64_x64" ]
+    },
+    {
+      "name": "Debug-CI-VS",
+      "generator": "Visual Studio 16 2019",
+      "configurationType": "Debug",
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "msvc_x64_x64" ]
     }
   ]
 }
