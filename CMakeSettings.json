@@ -1,99 +1,6 @@
 {
   "configurations": [
     {
-      "name": "Debug-VS",
-      "generator": "Ninja",
-      "configurationType": "Debug",
-      "inheritEnvironments": [ "msvc_x64_x64" ],
-      "buildRoot": "${projectDir}\\out\\build\\${name}",
-      "installRoot": "${projectDir}\\out\\install\\${name}",
-      "cmakeCommandArgs": "",
-      "buildCommandArgs": "",
-      "ctestCommandArgs": "",
-      "variables": [
-        {
-          "name": "BUILD_opencv_highgui",
-          "value": "False",
-          "type": "BOOL"
-        },
-        {
-          "name": "BUILD_opencv_python_bindings_generator",
-          "value": "False",
-          "type": "BOOL"
-        },
-        {
-          "name": "BUILD_opencv_python_tests",
-          "value": "False",
-          "type": "BOOL"
-        },
-        {
-          "name": "OPENCV_GENERATE_SETUPVARS",
-          "value": "False",
-          "type": "BOOL"
-        }
-      ]
-    },
-    {
-      "name": "Release-VS",
-      "generator": "Visual Studio 16 2019",
-      "configurationType": "Release",
-      "inheritEnvironments": [ "msvc_x64_x64" ],
-      "buildRoot": "${projectDir}\\out\\build\\${name}",
-      "installRoot": "${projectDir}\\out\\install\\${name}",
-      "cmakeCommandArgs": "",
-      "buildCommandArgs": "",
-      "ctestCommandArgs": "",
-      "variables": [
-        {
-          "name": "BUILD_opencv_highgui",
-          "value": "False",
-          "type": "BOOL"
-        },
-        {
-          "name": "BUILD_opencv_python3",
-          "value": "False",
-          "type": "BOOL"
-        },
-        {
-          "name": "BUILD_opencv_python_tests",
-          "value": "False",
-          "type": "BOOL"
-        },
-        {
-          "name": "BUILD_opencv_python_bindings_generator",
-          "value": "False",
-          "type": "BOOL"
-        },
-        {
-          "name": "OPENCV_GENERATE_SETUPVARS",
-          "value": "False",
-          "type": "BOOL"
-        }
-      ]
-    },
-    {
-      "name": "Debug-BC-VS",
-      "generator": "Ninja",
-      "configurationType": "Debug",
-      "buildRoot": "${projectDir}\\out\\build\\${name}",
-      "installRoot": "${projectDir}\\out\\install\\${name}",
-      "cmakeCommandArgs": "",
-      "buildCommandArgs": "",
-      "ctestCommandArgs": "",
-      "inheritEnvironments": [ "msvc_x64_x64" ]
-    },
-    {
-      "name": "Debug-CI-VS",
-      "generator": "Visual Studio 16 2019",
-      "configurationType": "Debug",
-      "buildRoot": "${projectDir}\\out\\build\\${name}",
-      "installRoot": "${projectDir}\\out\\install\\${name}",
-      "cmakeCommandArgs": "",
-      "buildCommandArgs": "",
-      "ctestCommandArgs": "",
-      "inheritEnvironments": [ "msvc_x64_x64" ]
-    },
-    {
       "name": "x64-Debug",
       "generator": "Ninja",
       "configurationType": "Debug",
@@ -102,8 +9,18 @@
       "cmakeCommandArgs": "",
       "buildCommandArgs": "",
       "ctestCommandArgs": "",
-      "inheritEnvironments": [ "msvc_x64_x64" ],
-      "variables": []
+      "inheritEnvironments": [ "msvc_x64_x64" ]
+    },
+    {
+      "name": "x64-Debug-VSI-BC",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "msvc_x64_x64" ]
     }
   ]
 }

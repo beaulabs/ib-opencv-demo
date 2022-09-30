@@ -28,10 +28,9 @@ bin/
 *.pdb
 *.ilk
 /out/build/x64-Release
-/out/build/Debug-BC-Ninja
-/out/build/Debug-Ninja
-/out/build/Debug-BC-VS
-/out/build/Debug-VS
+/out/build/x64-Debug-Ninja
+/out/build/x64-Debug-VSI
+/out/build/x64-Debug-VSI-BC
 node_modules
 xcuserdata/
 
