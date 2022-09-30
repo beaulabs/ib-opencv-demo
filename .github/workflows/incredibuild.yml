@@ -33,7 +33,7 @@ jobs:
             $env:Path += ";C:\Program Files\Cmake\bin;C:\Program Files (x86)\Incredibuild"
             write-output "Updated Path"
             write-output "Executing cmake..."
-            cmake -G "Visual Studio 16 2019" -A x64 -S ..\.. -B "Debug-CI-VS"
+            cmake -G "Visual Studio 16 2019" -A x64 -S ..\.. -B "x64-Debug"
     
     incredibuild:
       # Type of runner job will run on
@@ -51,10 +51,10 @@ jobs:
 
       - name: have Incredibuild run and distribute the compilation to the grid
         run: |
-            cd C:\thelab\code\github\ib-opencv-demo\out\build\Debug-CI-VS
+            cd C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug
             write-output "Updating Path"
             $env:Path += ";C:\Program Files\Cmake\bin;C:\Program Files (x86)\Incredibuild"
             write-output "Updated Path"
             write-output "Executing Incredibuild..."
-            BuildConsole OpenCV.sln /rebuild /VsVersion="vc16" /OpenMonitor /cfg="Debug-CI-VS"
+            BuildConsole OpenCV.sln /rebuild /VsVersion="vc16" /OpenMonitor /cfg="Debug|x64"
 
