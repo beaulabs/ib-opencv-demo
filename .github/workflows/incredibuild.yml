@@ -56,5 +56,5 @@ jobs:
             $env:Path += ";C:\Program Files\Cmake\bin;C:\Program Files (x86)\Incredibuild"
             write-output "Updated Path"
             write-output "Executing Incredibuild..."
-            BuildConsole OpenCV.sln /rebuild /VsVersion="vc16" /OpenMonitor /cfg="Deubg|x64"
+            BuildConsole OpenCV.sln /rebuild /VsVersion="vc16" /OpenMonitor /cfg="Debug-CI-VS|x64"
 
