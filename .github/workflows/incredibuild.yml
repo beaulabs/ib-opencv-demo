@@ -36,5 +36,5 @@ jobs:
             call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
             write-output "Executing Incredibuild..."
             #BuildConsole OpenCV.sln /rebuild /VsVersion="vc16" /OpenMonitor /cfg="Debug|x64"
-            buildconsole /command="cmake --build . --clean-first"
+            buildconsole /command="cmake --build . --clean-first -j 150"
 
