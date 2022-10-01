@@ -31,6 +31,7 @@ bin/
 /out/build/x64-Debug-Ninja
 /out/build/x64-Debug-VSI-BC
 /out/build/x64-Debug
+/out/build/x64-Debug-CI
 node_modules
 xcuserdata/
 
