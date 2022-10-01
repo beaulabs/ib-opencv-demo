@@ -34,13 +34,13 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc16/bin" TYPE EXECUTABLE FILES "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_versiond.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x64/vc16/bin" TYPE EXECUTABLE FILES "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_versiond.exe")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc16/bin" TYPE EXECUTABLE FILES "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_version_win32d.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x64/vc16/bin" TYPE EXECUTABLE FILES "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_version_win32d.exe")
   endif()
 endif()
 

@@ -766,6 +766,21 @@
     <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\dnn\opencv_dnn_AVX.dir\$(Configuration)\layers_common.avx.obj">
       <Filter>Object Libraries</Filter>
     </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\dnn\opencv_dnn_AVX2.dir\$(Configuration)\fast_convolution.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\dnn\opencv_dnn_AVX2.dir\$(Configuration)\layers\layers_common.avx2.cpp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\dnn\opencv_dnn_AVX2.dir\$(Configuration)\int8layers\layers_common.avx2.cpp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\dnn\opencv_dnn_AVX512_SKX.dir\$(Configuration)\layers\layers_common.avx512_skx.cpp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\dnn\opencv_dnn_AVX512_SKX.dir\$(Configuration)\int8layers\layers_common.avx512_skx.cpp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\dnn\vs_version.rc">

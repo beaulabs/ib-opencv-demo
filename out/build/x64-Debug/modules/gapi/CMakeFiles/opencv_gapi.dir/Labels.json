@@ -1889,6 +1889,12 @@
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi/opencv_gapi_SSE4_1.dir/$(Configuration)/gfluidcore_func.sse4_1.obj"
 		},
 		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi/opencv_gapi_AVX2.dir/$(Configuration)/gfluidimgproc_func.avx2.obj"
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi/opencv_gapi_AVX2.dir/$(Configuration)/gfluidcore_func.avx2.obj"
+		},
+		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/cvconfig.h"
 		},
 		{

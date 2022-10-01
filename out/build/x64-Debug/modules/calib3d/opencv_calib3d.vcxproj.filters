@@ -226,6 +226,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\calib3d\opencv_calib3d_AVX2.dir\$(Configuration)\undistort.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
     <ResourceCompile Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\calib3d\vs_version.rc">
       <Filter>Src</Filter>
     </ResourceCompile>
@@ -242,6 +247,9 @@
     </Filter>
     <Filter Include="Include\opencv2\calib3d">
       <UniqueIdentifier>{E7071393-24C3-3C9C-B042-A3BC7DD9147E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{DF8FAC6A-A812-361B-AF3B-DF7B388A5E70}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{1FB24BA9-049C-3CDC-8C7F-AED6BFE1241E}</UniqueIdentifier>
