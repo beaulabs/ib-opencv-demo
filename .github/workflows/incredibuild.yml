@@ -30,6 +30,9 @@ jobs:
       - name: have Incredibuild run and distribute the compilation to the grid
         run: |
             cd C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug
+            echo "Setting up environment..."
+            $env:Path += ";C:\Program Files\Cmake\bin;C:\Program Files (x86)\Incredibuild"
+            call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
             echo "Executing Incredibuild..."
             buildconsole /command="cmake --build ."
 
