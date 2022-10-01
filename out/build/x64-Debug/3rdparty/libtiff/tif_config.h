@@ -150,7 +150,7 @@
 #define SIZEOF_SIGNED_LONG_LONG 8
 
 /* The size of `unsigned char *', as computed by sizeof. */
-#define SIZEOF_UNSIGNED_CHAR_P 8
+#define SIZEOF_UNSIGNED_CHAR_P 4
 
 /* The size of `unsigned int', as computed by sizeof. */
 #define SIZEOF_UNSIGNED_INT 4
@@ -177,10 +177,10 @@
 #define TIFF_PTRDIFF_FORMAT "%ld"
 
 /* Unsigned size type formatter */
-#define TIFF_SIZE_FORMAT "%llu"
+#define TIFF_SIZE_FORMAT "%u"
 
 /* Signed size type formatter */
-#define TIFF_SSIZE_FORMAT "%lld"
+#define TIFF_SSIZE_FORMAT "%d"
 
 /* Unsigned 32-bit type formatter */
 #define TIFF_UINT32_FORMAT "%u"

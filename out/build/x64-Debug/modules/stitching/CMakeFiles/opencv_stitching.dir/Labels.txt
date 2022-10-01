@@ -133,6 +133,10 @@ C:/thelab/code/github/ib-opencv-demo/modules/stitching/src/util_log.hpp
  Module
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/cvconfig.h
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/stitching/opencv_stitching_pch.cpp
+ Main
+ opencv_stitching
+ Module
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/stitching/vs_version.rc
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/stitching/opencv_stitching_main.cpp
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/stitching/opencl_kernels_stitching.cpp.rule
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CMakeFiles/77542183c9f8a9ce90e33e01cbd8e900/opencl_kernels_stitching.cpp.rule

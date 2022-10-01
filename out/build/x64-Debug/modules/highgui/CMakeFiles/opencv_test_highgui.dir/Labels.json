@@ -27,6 +27,15 @@
 				"opencv_highgui",
 				"AccuracyTest"
 			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/highgui/opencv_test_highgui_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"AccuracyTest"
+			]
 		}
 	],
 	"target" : 

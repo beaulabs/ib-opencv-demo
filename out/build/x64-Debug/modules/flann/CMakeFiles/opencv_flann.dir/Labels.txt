@@ -165,5 +165,9 @@ C:/thelab/code/github/ib-opencv-demo/modules/flann/src/precomp.hpp
  Module
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/cvconfig.h
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/flann/opencv_flann_pch.cpp
+ Main
+ opencv_flann
+ Module
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/flann/vs_version.rc
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/flann/opencv_flann_main.cpp

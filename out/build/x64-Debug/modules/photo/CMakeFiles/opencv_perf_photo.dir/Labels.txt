@@ -23,3 +23,7 @@ C:/thelab/code/github/ib-opencv-demo/modules/photo/perf/perf_precomp.hpp
  Main
  opencv_photo
  PerfTest
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/photo/opencv_perf_photo_pch.cpp
+ Main
+ opencv_photo
+ PerfTest

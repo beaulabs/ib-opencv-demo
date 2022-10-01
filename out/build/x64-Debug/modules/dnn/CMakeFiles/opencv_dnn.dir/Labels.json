@@ -2216,58 +2216,7 @@
 			]
 		},
 		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/layers/layers_common.avx.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_dnn",
-				"Module"
-			]
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/modules/dnn/src/layers/fast_convolution/fast_convolution.avx2.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_dnn",
-				"Module"
-			]
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/layers/layers_common.avx2.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_dnn",
-				"Module"
-			]
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/int8layers/layers_common.avx2.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_dnn",
-				"Module"
-			]
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/layers/layers_common.avx512_skx.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_dnn",
-				"Module"
-			]
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/int8layers/layers_common.avx512_skx.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_dnn",
-				"Module"
-			]
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/opencv_dnn_AVX.dir/$(Configuration)/layers_common.avx.obj"
 		},
 		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/cvconfig.h"
@@ -2276,13 +2225,22 @@
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp"
 		},
 		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/opencv_dnn_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_dnn",
+				"Module"
+			]
+		},
+		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/vs_version.rc"
 		},
 		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/opencv_dnn_main.cpp"
 		},
 		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/opencl_kernels_dnn.cpp.rule"
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CMakeFiles/f54c1af8762c9d4aa466668636527a79/opencl_kernels_dnn.cpp.rule"
 		}
 	],
 	"target" : 

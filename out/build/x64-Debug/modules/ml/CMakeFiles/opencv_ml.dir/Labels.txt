@@ -85,5 +85,9 @@ C:/thelab/code/github/ib-opencv-demo/modules/ml/src/precomp.hpp
  Module
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/cvconfig.h
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/ml/opencv_ml_pch.cpp
+ Main
+ opencv_ml
+ Module
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/ml/vs_version.rc
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/ml/opencv_ml_main.cpp

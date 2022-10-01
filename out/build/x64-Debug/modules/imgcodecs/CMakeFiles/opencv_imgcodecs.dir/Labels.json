@@ -449,6 +449,15 @@
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp"
 		},
 		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgcodecs/opencv_imgcodecs_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgcodecs",
+				"Module"
+			]
+		},
+		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgcodecs/vs_version.rc"
 		},
 		{

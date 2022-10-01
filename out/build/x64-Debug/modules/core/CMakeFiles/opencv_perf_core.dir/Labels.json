@@ -297,6 +297,15 @@
 				"opencv_core",
 				"PerfTest"
 			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_perf_core_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_core",
+				"PerfTest"
+			]
 		}
 	],
 	"target" : 

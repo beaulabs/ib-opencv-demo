@@ -67,3 +67,7 @@ C:/thelab/code/github/ib-opencv-demo/modules/video/test/test_trackers.impl.hpp
  Main
  opencv_video
  AccuracyTest
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/video/opencv_test_video_pch.cpp
+ Main
+ opencv_video
+ AccuracyTest

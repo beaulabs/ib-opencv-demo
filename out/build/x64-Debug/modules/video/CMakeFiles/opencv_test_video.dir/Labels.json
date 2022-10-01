@@ -144,6 +144,15 @@
 				"opencv_video",
 				"AccuracyTest"
 			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/video/opencv_test_video_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_video",
+				"AccuracyTest"
+			]
 		}
 	],
 	"target" : 

@@ -45,6 +45,15 @@
 				"opencv_photo",
 				"PerfTest"
 			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/photo/opencv_perf_photo_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_photo",
+				"PerfTest"
+			]
 		}
 	],
 	"target" : 

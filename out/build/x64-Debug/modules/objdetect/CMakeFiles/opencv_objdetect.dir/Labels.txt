@@ -85,6 +85,10 @@ C:/thelab/code/github/ib-opencv-demo/modules/objdetect/src/qrcode_encoder_table.
  Module
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/cvconfig.h
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objdetect/opencv_objdetect_pch.cpp
+ Main
+ opencv_objdetect
+ Module
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objdetect/vs_version.rc
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objdetect/opencv_objdetect_main.cpp
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objdetect/opencl_kernels_objdetect.cpp.rule
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CMakeFiles/5a8b72d1c878e306647764561b2aba99/opencl_kernels_objdetect.cpp.rule

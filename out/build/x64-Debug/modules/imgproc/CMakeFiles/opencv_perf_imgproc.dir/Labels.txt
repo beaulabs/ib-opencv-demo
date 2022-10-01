@@ -163,3 +163,7 @@ C:/thelab/code/github/ib-opencv-demo/modules/imgproc/perf/perf_precomp.hpp
  Main
  opencv_imgproc
  PerfTest
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_perf_imgproc_pch.cpp
+ Main
+ opencv_imgproc
+ PerfTest

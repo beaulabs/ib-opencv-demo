@@ -15,3 +15,7 @@ C:/thelab/code/github/ib-opencv-demo/modules/flann/test/test_precomp.hpp
  Main
  opencv_flann
  AccuracyTest
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/flann/opencv_test_flann_pch.cpp
+ Main
+ opencv_flann
+ AccuracyTest

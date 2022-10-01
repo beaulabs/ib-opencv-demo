@@ -33,15 +33,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x64/vc16/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/opencv_videoio460d.lib")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc16/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/Debug/opencv_videoio460d.lib")
+  endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibsx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x64/vc16/bin" TYPE SHARED_LIBRARY OPTIONAL FILES "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/opencv_videoio460d.dll")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc16/bin" TYPE SHARED_LIBRARY OPTIONAL FILES "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_videoio460d.dll")
+  endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpdbx")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x64/vc16/bin" TYPE FILE OPTIONAL FILES "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/opencv_videoio460d.pdb")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc16/bin" TYPE FILE OPTIONAL FILES "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_videoio460d.pdb")
+  endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -69,6 +75,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONEN
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibsx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x64/vc16/bin" TYPE FILE RENAME "opencv_videoio_ffmpeg460_64.dll" FILES "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/3rdparty/ffmpeg/opencv_videoio_ffmpeg_64.dll")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc16/bin" TYPE FILE RENAME "opencv_videoio_ffmpeg460.dll" FILES "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/3rdparty/ffmpeg/opencv_videoio_ffmpeg.dll")
 endif()
 

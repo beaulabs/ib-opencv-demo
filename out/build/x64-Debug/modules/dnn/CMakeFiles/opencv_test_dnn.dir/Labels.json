@@ -279,6 +279,15 @@
 				"opencv_dnn",
 				"AccuracyTest"
 			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/opencv_test_dnn_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_dnn",
+				"AccuracyTest"
+			]
 		}
 	],
 	"target" : 

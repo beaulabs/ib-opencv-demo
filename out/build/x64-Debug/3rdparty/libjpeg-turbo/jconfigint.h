@@ -1,5 +1,5 @@
 /* libjpeg-turbo build number */
-#define BUILD  "opencv-4.6.0-dev-libjpeg-turbo-debug"
+#define BUILD  "opencv-4.6.0-dev-libjpeg-turbo"
 
 /* Compiler's inline keyword */
 #undef inline
@@ -25,7 +25,7 @@
 #define VERSION  "2.1.3"
 
 /* The size of `size_t', as computed by sizeof. */
-#define SIZEOF_SIZE_T  8
+#define SIZEOF_SIZE_T  4
 
 /* Define if your compiler has __builtin_ctzl() and sizeof(unsigned long) == sizeof(size_t). */
 /* #undef HAVE_BUILTIN_CTZL */

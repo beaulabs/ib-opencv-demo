@@ -72,6 +72,15 @@
 				"opencv_calib3d",
 				"PerfTest"
 			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/calib3d/opencv_perf_calib3d_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"PerfTest"
+			]
 		}
 	],
 	"target" : 
