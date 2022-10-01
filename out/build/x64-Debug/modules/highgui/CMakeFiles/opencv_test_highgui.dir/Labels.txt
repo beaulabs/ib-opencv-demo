@@ -15,7 +15,3 @@ C:/thelab/code/github/ib-opencv-demo/modules/highgui/test/test_precomp.hpp
  Main
  opencv_highgui
  AccuracyTest
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/highgui/opencv_test_highgui_pch.cpp
- Main
- opencv_highgui
- AccuracyTest

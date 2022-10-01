@@ -63,15 +63,6 @@
 				"opencv_objdetect",
 				"AccuracyTest"
 			]
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objdetect/opencv_test_objdetect_pch.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_objdetect",
-				"AccuracyTest"
-			]
 		}
 	],
 	"target" : 

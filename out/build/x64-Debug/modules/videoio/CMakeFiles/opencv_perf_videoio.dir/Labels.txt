@@ -23,7 +23,3 @@ C:/thelab/code/github/ib-opencv-demo/modules/videoio/perf/perf_precomp.hpp
  Main
  opencv_videoio
  PerfTest
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/videoio/opencv_perf_videoio_pch.cpp
- Main
- opencv_videoio
- PerfTest

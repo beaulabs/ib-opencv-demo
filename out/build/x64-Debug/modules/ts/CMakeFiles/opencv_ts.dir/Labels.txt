@@ -85,7 +85,3 @@ C:/thelab/code/github/ib-opencv-demo/modules/ts/src/ts_tags.hpp
  Module
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/cvconfig.h
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/ts/opencv_ts_pch.cpp
- Main
- opencv_ts
- Module

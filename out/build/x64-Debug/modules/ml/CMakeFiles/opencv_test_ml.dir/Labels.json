@@ -126,15 +126,6 @@
 				"opencv_ml",
 				"AccuracyTest"
 			]
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/ml/opencv_test_ml_pch.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_ml",
-				"AccuracyTest"
-			]
 		}
 	],
 	"target" : 

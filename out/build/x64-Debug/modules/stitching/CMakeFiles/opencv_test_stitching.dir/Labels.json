@@ -90,15 +90,6 @@
 				"opencv_stitching",
 				"AccuracyTest"
 			]
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/stitching/opencv_test_stitching_pch.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_stitching",
-				"AccuracyTest"
-			]
 		}
 	],
 	"target" : 

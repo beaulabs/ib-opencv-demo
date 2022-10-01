@@ -360,15 +360,6 @@
 				"opencv_imgproc",
 				"PerfTest"
 			]
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_perf_imgproc_pch.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_imgproc",
-				"PerfTest"
-			]
 		}
 	],
 	"target" : 

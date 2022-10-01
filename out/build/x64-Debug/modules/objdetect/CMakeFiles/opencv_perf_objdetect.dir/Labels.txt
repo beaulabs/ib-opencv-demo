@@ -23,7 +23,3 @@ C:/thelab/code/github/ib-opencv-demo/modules/objdetect/perf/perf_precomp.hpp
  Main
  opencv_objdetect
  PerfTest
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objdetect/opencv_perf_objdetect_pch.cpp
- Main
- opencv_objdetect
- PerfTest

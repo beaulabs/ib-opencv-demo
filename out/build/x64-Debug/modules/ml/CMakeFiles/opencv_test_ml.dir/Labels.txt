@@ -59,7 +59,3 @@ C:/thelab/code/github/ib-opencv-demo/modules/ml/test/test_precomp.hpp
  Main
  opencv_ml
  AccuracyTest
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/ml/opencv_test_ml_pch.cpp
- Main
- opencv_ml
- AccuracyTest

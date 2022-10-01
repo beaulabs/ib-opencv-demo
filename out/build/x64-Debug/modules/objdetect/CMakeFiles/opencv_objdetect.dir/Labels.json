@@ -188,22 +188,13 @@
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp"
 		},
 		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objdetect/opencv_objdetect_pch.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_objdetect",
-				"Module"
-			]
-		},
-		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objdetect/vs_version.rc"
 		},
 		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objdetect/opencv_objdetect_main.cpp"
 		},
 		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CMakeFiles/5a8b72d1c878e306647764561b2aba99/opencl_kernels_objdetect.cpp.rule"
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objdetect/opencl_kernels_objdetect.cpp.rule"
 		}
 	],
 	"target" : 

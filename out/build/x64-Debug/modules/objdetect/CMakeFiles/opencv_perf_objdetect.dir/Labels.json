@@ -45,15 +45,6 @@
 				"opencv_objdetect",
 				"PerfTest"
 			]
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objdetect/opencv_perf_objdetect_pch.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_objdetect",
-				"PerfTest"
-			]
 		}
 	],
 	"target" : 

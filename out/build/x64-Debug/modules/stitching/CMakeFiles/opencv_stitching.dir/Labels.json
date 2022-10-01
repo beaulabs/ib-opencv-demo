@@ -296,22 +296,13 @@
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp"
 		},
 		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/stitching/opencv_stitching_pch.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_stitching",
-				"Module"
-			]
-		},
-		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/stitching/vs_version.rc"
 		},
 		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/stitching/opencv_stitching_main.cpp"
 		},
 		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CMakeFiles/77542183c9f8a9ce90e33e01cbd8e900/opencl_kernels_stitching.cpp.rule"
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/stitching/opencl_kernels_stitching.cpp.rule"
 		}
 	],
 	"target" : 
