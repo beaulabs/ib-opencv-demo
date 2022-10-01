@@ -1299,11 +1299,11 @@ CPACK_INSTALLED_DIRECTORIES=C:/thelab/code/github/ib-opencv-demo;/
 CPACK_INSTALL_CMAKE_PROJECTS=
 CPACK_INSTALL_PREFIX=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug-CI/install
 CPACK_MODULE_PATH=
-CPACK_NSIS_DISPLAY_NAME=OpenCV ce7f526-dirty
+CPACK_NSIS_DISPLAY_NAME=OpenCV 671c352-dirty
 CPACK_NSIS_INSTALLER_ICON_CODE=
 CPACK_NSIS_INSTALLER_MUI_ICON_CODE=
 CPACK_NSIS_INSTALL_ROOT=$PROGRAMFILES64
-CPACK_NSIS_PACKAGE_NAME=OpenCV ce7f526-dirty
+CPACK_NSIS_PACKAGE_NAME=OpenCV 671c352-dirty
 CPACK_NSIS_UNINSTALL_NAME=Uninstall
 CPACK_OUTPUT_CONFIG_FILE=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug-CI/CPackConfig.cmake
 CPACK_PACKAGE_CONTACT=admin@opencv.org
@@ -1315,13 +1315,13 @@ machine perception in the commercial products. Being a BSD-licensed product,
 OpenCV makes it easy for businesses to utilize and modify the code.
 CPACK_PACKAGE_DESCRIPTION_FILE=C:/Program Files/CMake/share/cmake-3.24/Templates/CPack.GenericDescription.txt
 CPACK_PACKAGE_DESCRIPTION_SUMMARY=Open Computer Vision Library
-CPACK_PACKAGE_FILE_NAME=OpenCV-ce7f526-dirty-AMD64
-CPACK_PACKAGE_INSTALL_DIRECTORY=OpenCV ce7f526-dirty
-CPACK_PACKAGE_INSTALL_REGISTRY_KEY=OpenCV ce7f526-dirty
+CPACK_PACKAGE_FILE_NAME=OpenCV-671c352-dirty-AMD64
+CPACK_PACKAGE_INSTALL_DIRECTORY=OpenCV 671c352-dirty
+CPACK_PACKAGE_INSTALL_REGISTRY_KEY=OpenCV 671c352-dirty
 CPACK_PACKAGE_NAME=OpenCV
 CPACK_PACKAGE_RELOCATABLE=true
 CPACK_PACKAGE_VENDOR=OpenCV Foundation
-CPACK_PACKAGE_VERSION=ce7f526-dirty
+CPACK_PACKAGE_VERSION=671c352-dirty
 CPACK_PACKAGE_VERSION_MAJOR=4
 CPACK_PACKAGE_VERSION_MINOR=6
 CPACK_PACKAGE_VERSION_PATCH=0
@@ -1345,7 +1345,7 @@ CPACK_SOURCE_GENERATOR=7Z;ZIP
 CPACK_SOURCE_IGNORE_FILES=/CVS/;/\\.svn/;/\\.bzr/;/\\.hg/;/\\.git/;\\.swp\$;\\.#;/#
 CPACK_SOURCE_INSTALLED_DIRECTORIES=C:/thelab/code/github/ib-opencv-demo;/
 CPACK_SOURCE_OUTPUT_CONFIG_FILE=C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug-CI/CPackSourceConfig.cmake
-CPACK_SOURCE_PACKAGE_FILE_NAME=OpenCV-ce7f526-dirty-AMD64
+CPACK_SOURCE_PACKAGE_FILE_NAME=OpenCV-671c352-dirty-AMD64
 CPACK_SOURCE_TOPLEVEL_TAG=win64-Source
 CPACK_SOURCE_ZIP=ON
 CPACK_STRIP_FILES=
@@ -2855,9 +2855,9 @@ OPENCV_SOVERSION=406
 OPENCV_SUPPRESS_DEPRECATIONS=1
 OPENCV_TEST_DATA_INSTALL_PATH=testdata
 OPENCV_TEST_INSTALL_PATH=x64/vc16/bin
-OPENCV_TIMESTAMP=2022-10-01T01:36:33Z
+OPENCV_TIMESTAMP=2022-10-01T03:19:28Z
 OPENCV_TRACE=1
-OPENCV_VCSVERSION=ce7f526-dirty
+OPENCV_VCSVERSION=671c352-dirty
 OPENCV_VERIFICATIONS=WITH_1394;WITH_AVFOUNDATION;WITH_CAP_IOS;WITH_CPUFEATURES;WITH_VTK;WITH_CUDA;WITH_CUFFT;WITH_CUBLAS;WITH_CUDNN;WITH_NVCUVID;WITH_EIGEN;WITH_FFMPEG;WITH_GSTREAMER;WITH_GTK;WITH_GTK_2_X;WITH_WAYLAND;WITH_IPP;WITH_HALIDE;WITH_VULKAN;WITH_OPENVINO;WITH_WEBNN;WITH_JASPER;WITH_OPENJPEG;WITH_JPEG;WITH_WEBP;WITH_OPENEXR;WITH_OPENGL;WITH_OPENVX;WITH_OPENNI;WITH_OPENNI2;WITH_PNG;WITH_GDCM;WITH_PVAPI;WITH_ARAVIS;WITH_QT;WITH_WIN32UI;WITH_TBB;WITH_HPX;WITH_OPENMP;WITH_PTHREADS_PF;WITH_TIFF;WITH_V4L;WITH_DSHOW;WITH_MSMF;WITH_MSMF_DXVA;WITH_XIMEA;WITH_UEYE;WITH_XINE;WITH_CLP;WITH_OPENCL;WITH_OPENCL_SVM;WITH_OPENCLAMDFFT;WITH_OPENCLAMDBLAS;WITH_DIRECTX;WITH_OPENCL_D3D11_NV;WITH_LIBREALSENSE;WITH_VA;WITH_VA_INTEL;WITH_MFX;WITH_GDAL;WITH_GPHOTO2;WITH_LAPACK;WITH_ITT;WITH_PROTOBUF;WITH_IMGCODEC_HDR;WITH_IMGCODEC_SUNRASTER;WITH_IMGCODEC_PXM;WITH_IMGCODEC_PFM;WITH_QUIRC;WITH_ANDROID_MEDIANDK;WITH_ANDROID_NATIVE_CAMERA;WITH_TENGINE;WITH_ONNX;WITH_TIMVX;WITH_OBSENSOR
 OPENCV_VERIFY_WITH_1394=HAVE_DC1394_2
 OPENCV_VERIFY_WITH_ANDROID_MEDIANDK=HAVE_ANDROID_MEDIANDK
@@ -2982,11 +2982,11 @@ OPT=
 OPT2=
 OUTPUT=Change Dir: C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug-CI/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_7d83b && [1/2] Building C object CMakeFiles\cmTC_7d83b.dir\CheckIncludeFile.c.obj
-[2/2] Linking C executable cmTC_7d83b.exe
+Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_e49e2 && [1/2] Building C object CMakeFiles\cmTC_e49e2.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_e49e2.exe
 
 
-OUTPUT_LINES=Change Dir: C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug-CI/CMakeFiles/CMakeTmp;;Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_77275 && [1/2] Building C object CMakeFiles\cmTC_77275.dir\src.c.obj;[2/2] Linking C executable cmTC_77275.exe;;
+OUTPUT_LINES=Change Dir: C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug-CI/CMakeFiles/CMakeTmp;;Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_4cae1 && [1/2] Building C object CMakeFiles\cmTC_4cae1.dir\src.c.obj;[2/2] Linking C executable cmTC_4cae1.exe;;
 OpenBLAS=
 OpenBLAS_FOUND=OFF
 OpenBLAS_INCLUDE_DIR=OpenBLAS_INCLUDE_DIR-NOTFOUND
@@ -3150,8 +3150,8 @@ TIFF_VERSION_LINES=#define TIFF_VERSION_CLASSIC 42;#define TIFF_VERSION_BIG 43
 TIFF_VERSION_STRING=4.2.0
 TRY_OUT=Change Dir: C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug-CI/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_511e3 && [1/2] Building CXX object CMakeFiles\cmTC_511e3.dir\directx.cpp.obj
-[2/2] Linking CXX executable cmTC_511e3.exe
+Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_59244 && [1/2] Building CXX object CMakeFiles\cmTC_59244.dir\directx.cpp.obj
+[2/2] Linking CXX executable cmTC_59244.exe
 
 
 Threads_FOUND=TRUE
@@ -3327,11 +3327,11 @@ set(CPACK_INSTALLED_DIRECTORIES "C:/thelab/code/github/ib-opencv-demo;/")
 set(CPACK_INSTALL_CMAKE_PROJECTS "")
 set(CPACK_INSTALL_PREFIX "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug-CI/install")
 set(CPACK_MODULE_PATH "")
-set(CPACK_NSIS_DISPLAY_NAME "OpenCV ce7f526-dirty")
+set(CPACK_NSIS_DISPLAY_NAME "OpenCV 671c352-dirty")
 set(CPACK_NSIS_INSTALLER_ICON_CODE "")
 set(CPACK_NSIS_INSTALLER_MUI_ICON_CODE "")
 set(CPACK_NSIS_INSTALL_ROOT "$PROGRAMFILES64")
-set(CPACK_NSIS_PACKAGE_NAME "OpenCV ce7f526-dirty")
+set(CPACK_NSIS_PACKAGE_NAME "OpenCV 671c352-dirty")
 set(CPACK_NSIS_UNINSTALL_NAME "Uninstall")
 set(CPACK_OUTPUT_CONFIG_FILE "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug-CI/CPackConfig.cmake")
 set(CPACK_PACKAGE_CONTACT "admin@opencv.org")
@@ -3343,13 +3343,13 @@ machine perception in the commercial products. Being a BSD-licensed product,
 OpenCV makes it easy for businesses to utilize and modify the code.")
 set(CPACK_PACKAGE_DESCRIPTION_FILE "C:/Program Files/CMake/share/cmake-3.24/Templates/CPack.GenericDescription.txt")
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Open Computer Vision Library")
-set(CPACK_PACKAGE_FILE_NAME "OpenCV-ce7f526-dirty-AMD64")
-set(CPACK_PACKAGE_INSTALL_DIRECTORY "OpenCV ce7f526-dirty")
-set(CPACK_PACKAGE_INSTALL_REGISTRY_KEY "OpenCV ce7f526-dirty")
+set(CPACK_PACKAGE_FILE_NAME "OpenCV-671c352-dirty-AMD64")
+set(CPACK_PACKAGE_INSTALL_DIRECTORY "OpenCV 671c352-dirty")
+set(CPACK_PACKAGE_INSTALL_REGISTRY_KEY "OpenCV 671c352-dirty")
 set(CPACK_PACKAGE_NAME "OpenCV")
 set(CPACK_PACKAGE_RELOCATABLE "true")
 set(CPACK_PACKAGE_VENDOR "OpenCV Foundation")
-set(CPACK_PACKAGE_VERSION "ce7f526-dirty")
+set(CPACK_PACKAGE_VERSION "671c352-dirty")
 set(CPACK_PACKAGE_VERSION_MAJOR "4")
 set(CPACK_PACKAGE_VERSION_MINOR "6")
 set(CPACK_PACKAGE_VERSION_PATCH "0")
@@ -3373,7 +3373,7 @@ set(CPACK_SOURCE_GENERATOR "7Z;ZIP")
 set(CPACK_SOURCE_IGNORE_FILES "/CVS/;/\\.svn/;/\\.bzr/;/\\.hg/;/\\.git/;\\.swp\$;\\.#;/#")
 set(CPACK_SOURCE_INSTALLED_DIRECTORIES "C:/thelab/code/github/ib-opencv-demo;/")
 set(CPACK_SOURCE_OUTPUT_CONFIG_FILE "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug-CI/CPackSourceConfig.cmake")
-set(CPACK_SOURCE_PACKAGE_FILE_NAME "OpenCV-ce7f526-dirty-AMD64")
+set(CPACK_SOURCE_PACKAGE_FILE_NAME "OpenCV-671c352-dirty-AMD64")
 set(CPACK_SOURCE_TOPLEVEL_TAG "win64-Source")
 set(CPACK_SOURCE_ZIP "ON")
 set(CPACK_STRIP_FILES "")

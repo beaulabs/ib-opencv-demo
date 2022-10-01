@@ -29,7 +29,7 @@ jobs:
 
       - name: Have Incredibuild run and distribute the compilation to the grid
         run: |
-            cd C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug-Ninja
+            cd C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug-CI
             echo "Setting up environment..."
             call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
             echo "Updated Path"
