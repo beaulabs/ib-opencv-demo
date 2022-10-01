@@ -4,37 +4,40 @@ name: CI-IB trigger
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
-
-# Trigger the workflow on a pull request event merge - only for the main branch
 on:
+# Trigger the workflow on a pull request event merge - only for the main branch
   pull_request:
     types:
       - closed
     branches:
-      - main
+      - 'main/**'
 
 # Workflow will execute CMake to build x64 Release then call Incredibuild to distribute compilation.
 jobs:
+    build:
+      # The type of runner that the job will run on
+      runs-on: "self-hosted"
+
+    # Steps/tasks to execute
+      steps:
+      - uses: actions/checkout@v2
+
+      - name: cmake x64 release
+        working-directory: C:\thelab\code\github\opencv\out\build\
+        run: cmake -G "Ninja" -DCMAKE_BUILD_TYPE=Debug -S ../.. -B "./x64-Debug"
     
     incredibuild:
       # Type of runner job will run on
-      runs-on: [self-hosted, Windows, X64, cloud-ib-demo]
-      defaults:
-        run:
-           shell: cmd
+      runs-on: self-hosted
+
+      # We need the build job completed to compile
+      needs: build
 
       # Steps/tasks to execute
       steps:
       - uses: actions/checkout@v2
 
       - name: have Incredibuild run and distribute the compilation to the grid
-        run: |
-            cd C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug-CI
-            write-output "Updating Path"
-            $env:Path += ";C:\Program Files\Cmake\bin;C:\Program Files (x86)\Incredibuild"
-            write-output "Updated Path"
-            call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
-            write-output "Executing Incredibuild..."
-            #BuildConsole OpenCV.sln /rebuild /VsVersion="vc16" /OpenMonitor /cfg="Debug|x64"
-            buildconsole /command="cmake --build . --config=Debug --clean-first -j 1024"
+        working-directory: C:\thelab\code\github\opencv\out\build\x64-Release
+        run: BuildConsole /command="cmake --build ."
 
