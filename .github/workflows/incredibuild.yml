@@ -21,7 +21,7 @@ jobs:
       runs-on: [self-hosted, Windows, X64, cloud-ib-demo]
       defaults:
         run:
-           shell: powershell
+           shell: cmd
 
       # Steps/tasks to execute
       steps:
@@ -33,7 +33,8 @@ jobs:
             write-output "Updating Path"
             $env:Path += ";C:\Program Files\Cmake\bin;C:\Program Files (x86)\Incredibuild"
             write-output "Updated Path"
+            call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
             write-output "Executing Incredibuild..."
             #BuildConsole OpenCV.sln /rebuild /VsVersion="vc16" /OpenMonitor /cfg="Debug|x64"
-            buildconsole /command="ninja"
+            buildconsole /command="cmake --build . --clean-first"
 
