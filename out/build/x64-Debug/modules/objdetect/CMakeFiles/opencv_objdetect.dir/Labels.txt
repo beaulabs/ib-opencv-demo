@@ -1,0 +1,90 @@
+# Target labels
+ Main
+ opencv_objdetect
+ Module
+# Source files and their labels
+C:/thelab/code/github/ib-opencv-demo/modules/objdetect/include/opencv2/objdetect.hpp
+ Main
+ opencv_objdetect
+ Module
+C:/thelab/code/github/ib-opencv-demo/modules/objdetect/include/opencv2/objdetect/detection_based_tracker.hpp
+ Main
+ opencv_objdetect
+ Module
+C:/thelab/code/github/ib-opencv-demo/modules/objdetect/include/opencv2/objdetect/face.hpp
+ Main
+ opencv_objdetect
+ Module
+C:/thelab/code/github/ib-opencv-demo/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
+ Main
+ opencv_objdetect
+ Module
+C:/thelab/code/github/ib-opencv-demo/modules/objdetect/src/cascadedetect.cpp
+ Main
+ opencv_objdetect
+ Module
+C:/thelab/code/github/ib-opencv-demo/modules/objdetect/src/cascadedetect_convert.cpp
+ Main
+ opencv_objdetect
+ Module
+C:/thelab/code/github/ib-opencv-demo/modules/objdetect/src/detection_based_tracker.cpp
+ Main
+ opencv_objdetect
+ Module
+C:/thelab/code/github/ib-opencv-demo/modules/objdetect/src/face_detect.cpp
+ Main
+ opencv_objdetect
+ Module
+C:/thelab/code/github/ib-opencv-demo/modules/objdetect/src/face_recognize.cpp
+ Main
+ opencv_objdetect
+ Module
+C:/thelab/code/github/ib-opencv-demo/modules/objdetect/src/hog.cpp
+ Main
+ opencv_objdetect
+ Module
+C:/thelab/code/github/ib-opencv-demo/modules/objdetect/src/main.cpp
+ Main
+ opencv_objdetect
+ Module
+C:/thelab/code/github/ib-opencv-demo/modules/objdetect/src/qrcode.cpp
+ Main
+ opencv_objdetect
+ Module
+C:/thelab/code/github/ib-opencv-demo/modules/objdetect/src/qrcode_encoder.cpp
+ Main
+ opencv_objdetect
+ Module
+C:/thelab/code/github/ib-opencv-demo/modules/objdetect/src/opencl/cascadedetect.cl
+ Main
+ opencv_objdetect
+ Module
+C:/thelab/code/github/ib-opencv-demo/modules/objdetect/src/opencl/objdetect_hog.cl
+ Main
+ opencv_objdetect
+ Module
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objdetect/opencl_kernels_objdetect.cpp
+ Main
+ opencv_objdetect
+ Module
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objdetect/opencl_kernels_objdetect.hpp
+ Main
+ opencv_objdetect
+ Module
+C:/thelab/code/github/ib-opencv-demo/modules/objdetect/src/cascadedetect.hpp
+ Main
+ opencv_objdetect
+ Module
+C:/thelab/code/github/ib-opencv-demo/modules/objdetect/src/precomp.hpp
+ Main
+ opencv_objdetect
+ Module
+C:/thelab/code/github/ib-opencv-demo/modules/objdetect/src/qrcode_encoder_table.inl.hpp
+ Main
+ opencv_objdetect
+ Module
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/cvconfig.h
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objdetect/vs_version.rc
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objdetect/opencv_objdetect_main.cpp
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/objdetect/opencl_kernels_objdetect.cpp.rule
