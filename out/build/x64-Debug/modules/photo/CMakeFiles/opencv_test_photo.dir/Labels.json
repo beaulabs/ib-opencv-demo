@@ -99,6 +99,15 @@
 				"opencv_photo",
 				"AccuracyTest"
 			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/photo/opencv_test_photo_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_photo",
+				"AccuracyTest"
+			]
 		}
 	],
 	"target" : 

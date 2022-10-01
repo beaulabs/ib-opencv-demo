@@ -368,6 +368,15 @@
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp"
 		},
 		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/flann/opencv_flann_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_flann",
+				"Module"
+			]
+		},
+		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/flann/vs_version.rc"
 		},
 		{

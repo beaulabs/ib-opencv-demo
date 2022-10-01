@@ -117,5 +117,9 @@ C:/thelab/code/github/ib-opencv-demo/modules/videoio/src/cap_obsensor/obsensor_s
  Module
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/cvconfig.h
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/videoio/opencv_videoio_pch.cpp
+ Main
+ opencv_videoio
+ Module
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/videoio/vs_version.rc
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/videoio/opencv_videoio_main.cpp

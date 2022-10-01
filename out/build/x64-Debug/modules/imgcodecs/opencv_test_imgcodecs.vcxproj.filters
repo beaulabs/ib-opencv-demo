@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\imgcodecs\test\test_common.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\imgcodecs\test\test_grfmt.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\imgcodecs\test\test_jpeg.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\imgcodecs\test\test_main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\imgcodecs\test\test_png.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\imgcodecs\test\test_read_write.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\imgcodecs\test\test_tiff.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\imgcodecs\test\test_webp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\imgcodecs\opencv_test_imgcodecs_pch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\thelab\code\github\ib-opencv-demo\modules\imgcodecs\test\test_common.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\thelab\code\github\ib-opencv-demo\modules\imgcodecs\test\test_exr.impl.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\thelab\code\github\ib-opencv-demo\modules\imgcodecs\test\test_precomp.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\thelab\code\github\ib-opencv-demo\modules\imgcodecs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{B5354EB4-08BF-3A89-9BDB-9FD9B7954B0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{1CDC6584-E128-3A54-9FB8-F4CE88391DF8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

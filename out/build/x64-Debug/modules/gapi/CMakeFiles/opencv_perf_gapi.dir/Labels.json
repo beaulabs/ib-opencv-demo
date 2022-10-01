@@ -225,6 +225,15 @@
 				"opencv_gapi",
 				"PerfTest"
 			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi/opencv_perf_gapi_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_gapi",
+				"PerfTest"
+			]
 		}
 	],
 	"target" : 

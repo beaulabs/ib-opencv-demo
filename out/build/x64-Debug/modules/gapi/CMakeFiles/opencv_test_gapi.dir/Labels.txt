@@ -451,3 +451,7 @@ C:/thelab/code/github/ib-opencv-demo/modules/gapi/test/test_precomp.hpp
  Main
  opencv_gapi
  AccuracyTest
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi/opencv_test_gapi_pch.cpp
+ Main
+ opencv_gapi
+ AccuracyTest

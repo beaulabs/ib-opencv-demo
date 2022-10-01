@@ -315,6 +315,15 @@
 				"opencv_calib3d",
 				"AccuracyTest"
 			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/calib3d/opencv_test_calib3d_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"AccuracyTest"
+			]
 		}
 	],
 	"target" : 

@@ -987,32 +987,13 @@ C:/thelab/code/github/ib-opencv-demo/modules/dnn/src/vkcom/vulkan/vk_loader.hpp
  Main
  opencv_dnn
  Module
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/layers/layers_common.avx.cpp
- Main
- opencv_dnn
- Module
-C:/thelab/code/github/ib-opencv-demo/modules/dnn/src/layers/fast_convolution/fast_convolution.avx2.cpp
- Main
- opencv_dnn
- Module
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/layers/layers_common.avx2.cpp
- Main
- opencv_dnn
- Module
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/int8layers/layers_common.avx2.cpp
- Main
- opencv_dnn
- Module
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/layers/layers_common.avx512_skx.cpp
- Main
- opencv_dnn
- Module
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/int8layers/layers_common.avx512_skx.cpp
- Main
- opencv_dnn
- Module
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/opencv_dnn_AVX.dir/$(Configuration)/layers_common.avx.obj
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/cvconfig.h
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/opencv_dnn_pch.cpp
+ Main
+ opencv_dnn
+ Module
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/vs_version.rc
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/opencv_dnn_main.cpp
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/opencl_kernels_dnn.cpp.rule
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CMakeFiles/f54c1af8762c9d4aa466668636527a79/opencl_kernels_dnn.cpp.rule

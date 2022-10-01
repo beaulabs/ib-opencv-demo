@@ -80,6 +80,15 @@
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp"
 		},
 		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/highgui/opencv_highgui_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/highgui/vs_version.rc"
 		},
 		{

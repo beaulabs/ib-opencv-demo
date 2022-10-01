@@ -31,3 +31,7 @@ C:/thelab/code/github/ib-opencv-demo/modules/features2d/perf/perf_precomp.hpp
  Main
  opencv_features2d
  PerfTest
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/features2d/opencv_perf_features2d_pch.cpp
+ Main
+ opencv_features2d
+ PerfTest

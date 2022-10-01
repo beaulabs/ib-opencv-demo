@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\3rdparty\quirc\src\decode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\3rdparty\quirc\src\quirc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\3rdparty\quirc\src\version_db.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\thelab\code\github\ib-opencv-demo\3rdparty\quirc\include\quirc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\thelab\code\github\ib-opencv-demo\3rdparty\quirc\include\quirc_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\thelab\code\github\ib-opencv-demo\3rdparty\quirc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F52E5493-F8A8-3A10-B67E-5E0FC43755C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1FB24BA9-049C-3CDC-8C7F-AED6BFE1241E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -51,3 +51,7 @@ C:/thelab/code/github/ib-opencv-demo/modules/videoio/test/test_precomp.hpp
  Main
  opencv_videoio
  AccuracyTest
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/videoio/opencv_test_videoio_pch.cpp
+ Main
+ opencv_videoio
+ AccuracyTest

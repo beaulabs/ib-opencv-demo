@@ -67,3 +67,7 @@ C:/thelab/code/github/ib-opencv-demo/modules/video/perf/perf_precomp.hpp
  Main
  opencv_video
  PerfTest
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/video/opencv_perf_video_pch.cpp
+ Main
+ opencv_video
+ PerfTest

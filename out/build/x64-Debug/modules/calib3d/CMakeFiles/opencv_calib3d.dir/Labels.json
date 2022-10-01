@@ -605,7 +605,13 @@
 			]
 		},
 		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/calib3d/undistort.avx2.cpp",
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/cvconfig.h"
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/calib3d/opencv_calib3d_pch.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -614,19 +620,13 @@
 			]
 		},
 		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/cvconfig.h"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp"
-		},
-		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/calib3d/vs_version.rc"
 		},
 		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/calib3d/opencv_calib3d_main.cpp"
 		},
 		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/calib3d/opencl_kernels_calib3d.cpp.rule"
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CMakeFiles/129e2afd1cd40602c62089ef398ebeca/opencl_kernels_calib3d.cpp.rule"
 		}
 	],
 	"target" : 

@@ -108,6 +108,15 @@
 				"opencv_videoio",
 				"AccuracyTest"
 			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/videoio/opencv_test_videoio_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_videoio",
+				"AccuracyTest"
+			]
 		}
 	],
 	"target" : 

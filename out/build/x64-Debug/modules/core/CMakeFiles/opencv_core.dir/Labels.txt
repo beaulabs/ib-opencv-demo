@@ -1203,71 +1203,15 @@ C:/thelab/code/github/ib-opencv-demo/modules/core/src/va_wrapper.impl.hpp
  Main
  opencv_core
  Module
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/arithm.sse4_1.cpp
- Main
- opencv_core
- Module
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/matmul.sse4_1.cpp
- Main
- opencv_core
- Module
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/stat.sse4_2.cpp
- Main
- opencv_core
- Module
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/mathfuncs_core.avx.cpp
- Main
- opencv_core
- Module
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/mathfuncs_core.avx2.cpp
- Main
- opencv_core
- Module
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/stat.avx2.cpp
- Main
- opencv_core
- Module
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/arithm.avx2.cpp
- Main
- opencv_core
- Module
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/convert.avx2.cpp
- Main
- opencv_core
- Module
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/convert_scale.avx2.cpp
- Main
- opencv_core
- Module
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/count_non_zero.avx2.cpp
- Main
- opencv_core
- Module
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/matmul.avx2.cpp
- Main
- opencv_core
- Module
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/mean.avx2.cpp
- Main
- opencv_core
- Module
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/merge.avx2.cpp
- Main
- opencv_core
- Module
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/split.avx2.cpp
- Main
- opencv_core
- Module
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/sum.avx2.cpp
- Main
- opencv_core
- Module
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/matmul.avx512_skx.cpp
- Main
- opencv_core
- Module
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_core_SSE4_1.dir/$(Configuration)/arithm.sse4_1.obj
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_core_SSE4_1.dir/$(Configuration)/matmul.sse4_1.obj
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_core_SSE4_2.dir/$(Configuration)/stat.sse4_2.obj
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_core_AVX.dir/$(Configuration)/mathfuncs_core.avx.obj
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/cvconfig.h
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_core_pch.cpp
+ Main
+ opencv_core
+ Module
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/vs_version.rc
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencl_kernels_core.cpp.rule
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CMakeFiles/2d69932c846e1ca2c2f62205c8b1a90d/opencl_kernels_core.cpp.rule

@@ -47,3 +47,7 @@ C:/thelab/code/github/ib-opencv-demo/modules/photo/test/test_precomp.hpp
  Main
  opencv_photo
  AccuracyTest
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/photo/opencv_test_photo_pch.cpp
+ Main
+ opencv_photo
+ AccuracyTest

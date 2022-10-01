@@ -145,106 +145,106 @@ set_target_properties(opencv_gapi PROPERTIES
 # Import target "opencv_core" for configuration "Debug"
 set_property(TARGET opencv_core APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(opencv_core PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/opencv_core460d.lib"
-  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/opencv_core460d.dll"
+  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/Debug/opencv_core460d.lib"
+  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_core460d.dll"
   )
 
 # Import target "opencv_flann" for configuration "Debug"
 set_property(TARGET opencv_flann APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(opencv_flann PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/opencv_flann460d.lib"
-  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/opencv_flann460d.dll"
+  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/Debug/opencv_flann460d.lib"
+  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_flann460d.dll"
   )
 
 # Import target "opencv_imgproc" for configuration "Debug"
 set_property(TARGET opencv_imgproc APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(opencv_imgproc PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/opencv_imgproc460d.lib"
-  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/opencv_imgproc460d.dll"
+  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/Debug/opencv_imgproc460d.lib"
+  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_imgproc460d.dll"
   )
 
 # Import target "opencv_ml" for configuration "Debug"
 set_property(TARGET opencv_ml APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(opencv_ml PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/opencv_ml460d.lib"
-  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/opencv_ml460d.dll"
+  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/Debug/opencv_ml460d.lib"
+  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_ml460d.dll"
   )
 
 # Import target "opencv_photo" for configuration "Debug"
 set_property(TARGET opencv_photo APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(opencv_photo PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/opencv_photo460d.lib"
-  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/opencv_photo460d.dll"
+  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/Debug/opencv_photo460d.lib"
+  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_photo460d.dll"
   )
 
 # Import target "opencv_dnn" for configuration "Debug"
 set_property(TARGET opencv_dnn APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(opencv_dnn PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/opencv_dnn460d.lib"
-  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/opencv_dnn460d.dll"
+  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/Debug/opencv_dnn460d.lib"
+  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_dnn460d.dll"
   )
 
 # Import target "opencv_features2d" for configuration "Debug"
 set_property(TARGET opencv_features2d APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(opencv_features2d PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/opencv_features2d460d.lib"
-  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/opencv_features2d460d.dll"
+  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/Debug/opencv_features2d460d.lib"
+  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_features2d460d.dll"
   )
 
 # Import target "opencv_imgcodecs" for configuration "Debug"
 set_property(TARGET opencv_imgcodecs APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(opencv_imgcodecs PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/opencv_imgcodecs460d.lib"
-  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/opencv_imgcodecs460d.dll"
+  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/Debug/opencv_imgcodecs460d.lib"
+  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_imgcodecs460d.dll"
   )
 
 # Import target "opencv_videoio" for configuration "Debug"
 set_property(TARGET opencv_videoio APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(opencv_videoio PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/opencv_videoio460d.lib"
-  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/opencv_videoio460d.dll"
+  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/Debug/opencv_videoio460d.lib"
+  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_videoio460d.dll"
   )
 
 # Import target "opencv_calib3d" for configuration "Debug"
 set_property(TARGET opencv_calib3d APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(opencv_calib3d PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/opencv_calib3d460d.lib"
-  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/opencv_calib3d460d.dll"
+  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/Debug/opencv_calib3d460d.lib"
+  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_calib3d460d.dll"
   )
 
 # Import target "opencv_highgui" for configuration "Debug"
 set_property(TARGET opencv_highgui APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(opencv_highgui PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/opencv_highgui460d.lib"
-  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/opencv_highgui460d.dll"
+  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/Debug/opencv_highgui460d.lib"
+  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_highgui460d.dll"
   )
 
 # Import target "opencv_objdetect" for configuration "Debug"
 set_property(TARGET opencv_objdetect APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(opencv_objdetect PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/opencv_objdetect460d.lib"
-  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/opencv_objdetect460d.dll"
+  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/Debug/opencv_objdetect460d.lib"
+  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_objdetect460d.dll"
   )
 
 # Import target "opencv_stitching" for configuration "Debug"
 set_property(TARGET opencv_stitching APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(opencv_stitching PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/opencv_stitching460d.lib"
-  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/opencv_stitching460d.dll"
+  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/Debug/opencv_stitching460d.lib"
+  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_stitching460d.dll"
   )
 
 # Import target "opencv_video" for configuration "Debug"
 set_property(TARGET opencv_video APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(opencv_video PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/opencv_video460d.lib"
-  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/opencv_video460d.dll"
+  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/Debug/opencv_video460d.lib"
+  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_video460d.dll"
   )
 
 # Import target "opencv_gapi" for configuration "Debug"
 set_property(TARGET opencv_gapi APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(opencv_gapi PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/opencv_gapi460d.lib"
-  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/opencv_gapi460d.dll"
+  IMPORTED_IMPLIB_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/Debug/opencv_gapi460d.lib"
+  IMPORTED_LOCATION_DEBUG "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_gapi460d.dll"
   )
 
 # This file does not depend on other imported targets which have

@@ -404,13 +404,22 @@
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp"
 		},
 		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/video/opencv_video_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_video",
+				"Module"
+			]
+		},
+		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/video/vs_version.rc"
 		},
 		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/video/opencv_video_main.cpp"
 		},
 		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/video/opencl_kernels_video.cpp.rule"
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CMakeFiles/2464beece3d0aea4502f2e8bd5a81c3c/opencl_kernels_video.cpp.rule"
 		}
 	],
 	"target" : 

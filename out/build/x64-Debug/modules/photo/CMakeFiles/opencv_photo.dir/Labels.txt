@@ -125,6 +125,10 @@ C:/thelab/code/github/ib-opencv-demo/modules/photo/src/seamless_cloning.hpp
  Module
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/cvconfig.h
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/photo/opencv_photo_pch.cpp
+ Main
+ opencv_photo
+ Module
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/photo/vs_version.rc
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/photo/opencv_photo_main.cpp
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/photo/opencl_kernels_photo.cpp.rule
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CMakeFiles/bef91e31c75768f0e35ef96d6463f197/opencl_kernels_photo.cpp.rule

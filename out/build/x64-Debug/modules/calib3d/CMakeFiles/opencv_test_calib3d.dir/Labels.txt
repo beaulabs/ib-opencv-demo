@@ -143,3 +143,7 @@ C:/thelab/code/github/ib-opencv-demo/modules/calib3d/test/test_precomp.hpp
  Main
  opencv_calib3d
  AccuracyTest
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/calib3d/opencv_test_calib3d_pch.cpp
+ Main
+ opencv_calib3d
+ AccuracyTest

@@ -144,6 +144,15 @@
 				"opencv_video",
 				"PerfTest"
 			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/video/opencv_perf_video_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_video",
+				"PerfTest"
+			]
 		}
 	],
 	"target" : 

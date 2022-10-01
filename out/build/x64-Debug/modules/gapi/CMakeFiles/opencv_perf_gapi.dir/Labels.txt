@@ -103,3 +103,7 @@ C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp
  Main
  opencv_gapi
  PerfTest
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi/opencv_perf_gapi_pch.cpp
+ Main
+ opencv_gapi
+ PerfTest
