@@ -18,7 +18,7 @@ jobs:
     
     incredibuild:
       # Type of runner job will run on
-      runs-on: [self-hosted, Windows, X64, ib-cloud-demo]
+      runs-on: [self-hosted, Windows, X64, cloud-ib-demo]
       defaults:
         run:
            shell: powershell
