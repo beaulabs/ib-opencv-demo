@@ -33,5 +33,6 @@ jobs:
             write-output "Updating Path"
             $env:Path += ";C:\Program Files\Cmake\bin;C:\Program Files (x86)\Incredibuild"
             write-output "Updated Path"
+            write-output "Here we go..."
             write-output "Executing Incredibuild..."
             BuildConsole OpenCV.sln /build /VsVersion="vc16" /OpenMonitor /cfg="Debug|x64"            

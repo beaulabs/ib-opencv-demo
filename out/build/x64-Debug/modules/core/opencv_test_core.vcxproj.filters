@@ -115,6 +115,9 @@
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\test\test_intrin128.sse2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\test\test_intrin128.sse3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_pch.cpp">
       <Filter>Src</Filter>
     </ClCompile>
@@ -146,9 +149,6 @@
     <CustomBuild Include="C:\thelab\code\github\ib-opencv-demo\modules\core\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_SSE4_1.dir\$(Configuration)\test_intrin128.sse3.obj">
-      <Filter>Object Libraries</Filter>
-    </Object>
     <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_SSE4_1.dir\$(Configuration)\test_intrin128.ssse3.obj">
       <Filter>Object Libraries</Filter>
     </Object>
@@ -162,6 +162,21 @@
       <Filter>Object Libraries</Filter>
     </Object>
     <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_AVX.dir\$(Configuration)\test_intrin128.avx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_AVX2.dir\$(Configuration)\test_intrin128.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_AVX2.dir\$(Configuration)\test_intrin256.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_AVX512_SKX.dir\$(Configuration)\test_intrin128.avx512_skx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_AVX512_SKX.dir\$(Configuration)\test_intrin256.avx512_skx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_AVX512_SKX.dir\$(Configuration)\test_intrin512.avx512_skx.obj">
       <Filter>Object Libraries</Filter>
     </Object>
   </ItemGroup>

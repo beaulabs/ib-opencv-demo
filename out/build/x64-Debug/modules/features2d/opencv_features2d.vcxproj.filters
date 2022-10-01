@@ -172,6 +172,15 @@
     <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\features2d\opencv_features2d_SSE4_1.dir\$(Configuration)\sift.sse4_1.obj">
       <Filter>Object Libraries</Filter>
     </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\features2d\opencv_features2d_AVX2.dir\$(Configuration)\fast.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\features2d\opencv_features2d_AVX2.dir\$(Configuration)\sift.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\features2d\opencv_features2d_AVX512_SKX.dir\$(Configuration)\sift.avx512_skx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\features2d\vs_version.rc">

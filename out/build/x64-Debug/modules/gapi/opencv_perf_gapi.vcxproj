@@ -4,21 +4,21 @@
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|Win32">
+    <ProjectConfiguration Include="Debug|x64">
       <Configuration>Debug</Configuration>
-      <Platform>Win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{28FFD4A5-15D4-347D-B60A-1D125B22581C}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
-    <Platform>Win32</Platform>
+    <Platform>x64</Platform>
     <ProjectName>opencv_perf_gapi</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v142</PlatformToolset>
@@ -32,14 +32,14 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\bin\Debug\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_perf_gapi.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_perf_gapid</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
-    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_perf_gapi.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_perf_gapid</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\3rdparty\ippicv\ippicv_win\icv\include;C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\3rdparty\ippicv\ippicv_win\iw\include;C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug;C:\thelab\code\github\ib-opencv-demo\modules\ts\include;C:\thelab\code\github\ib-opencv-demo\modules\gapi\include;C:\thelab\code\github\ib-opencv-demo\modules\imgcodecs\include;C:\thelab\code\github\ib-opencv-demo\modules\core\include;C:\thelab\code\github\ib-opencv-demo\modules\flann\include;C:\thelab\code\github\ib-opencv-demo\modules\imgproc\include;C:\thelab\code\github\ib-opencv-demo\modules\dnn\include;C:\thelab\code\github\ib-opencv-demo\modules\features2d\include;C:\thelab\code\github\ib-opencv-demo\modules\calib3d\include;C:\thelab\code\github\ib-opencv-demo\modules\video\include;C:\thelab\code\github\ib-opencv-demo\modules\videoio\include;C:\thelab\code\github\ib-opencv-demo\modules\highgui\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
@@ -47,7 +47,6 @@
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589</DisableSpecificWarnings>
-      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <ExceptionHandling>Async</ExceptionHandling>
       <FloatingPointModel>Precise</FloatingPointModel>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -76,9 +75,9 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\lib\Debug\opencv_ts460d.lib;..\..\lib\Debug\opencv_gapi460d.lib;..\..\lib\Debug\opencv_highgui460d.lib;..\..\lib\Debug\opencv_video460d.lib;..\..\3rdparty\lib\Debug\ippiwd.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\ia32\ippicvmt.lib;..\..\lib\Debug\opencv_videoio460d.lib;..\..\lib\Debug\opencv_imgcodecs460d.lib;..\..\lib\Debug\opencv_dnn460d.lib;..\..\lib\Debug\opencv_calib3d460d.lib;..\..\lib\Debug\opencv_features2d460d.lib;..\..\lib\Debug\opencv_flann460d.lib;..\..\lib\Debug\opencv_imgproc460d.lib;..\..\lib\Debug\opencv_core460d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\lib\Debug\opencv_ts460d.lib;..\..\lib\Debug\opencv_gapi460d.lib;..\..\lib\Debug\opencv_highgui460d.lib;..\..\lib\Debug\opencv_video460d.lib;..\..\3rdparty\lib\Debug\ippiwd.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;..\..\lib\Debug\opencv_videoio460d.lib;..\..\lib\Debug\opencv_imgcodecs460d.lib;..\..\lib\Debug\opencv_dnn460d.lib;..\..\lib\Debug\opencv_calib3d460d.lib;..\..\lib\Debug\opencv_features2d460d.lib;..\..\lib\Debug\opencv_flann460d.lib;..\..\lib\Debug\opencv_imgproc460d.lib;..\..\lib\Debug\opencv_core460d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImportLibrary>C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_perf_gapid.lib</ImportLibrary>
@@ -92,8 +91,8 @@
   <ItemGroup>
     <CustomBuild Include="C:\thelab\code\github\ib-opencv-demo\modules\gapi\CMakeLists.txt">
       <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/thelab/code/github/ib-opencv-demo/modules/gapi/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/thelab/code/github/ib-opencv-demo/modules/gapi/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/thelab/code/github/ib-opencv-demo -BC:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug --check-stamp-file C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
@@ -102,91 +101,91 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\thelab\code\github\ib-opencv-demo\cmake\templates\dllmain.cpp.in;C:\thelab\code\github\ib-opencv-demo\cmake\templates\vs_version.rc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\gapi\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\thelab\code\github\ib-opencv-demo\cmake\templates\dllmain.cpp.in;C:\thelab\code\github\ib-opencv-demo\cmake\templates\vs_version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\gapi\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\gapi\perf\common\gapi_core_perf_tests.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\gapi\perf\common\gapi_imgproc_perf_tests.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\gapi\perf\common\gapi_render_perf_tests.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\gapi\perf\common\gapi_video_perf_tests.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\gapi\perf\cpu\gapi_core_perf_tests_cpu.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\gapi\perf\cpu\gapi_core_perf_tests_fluid.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\gapi\perf\cpu\gapi_imgproc_perf_tests_cpu.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\gapi\perf\cpu\gapi_imgproc_perf_tests_fluid.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\gapi\perf\cpu\gapi_video_perf_tests_cpu.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\gapi\perf\gpu\gapi_core_perf_tests_gpu.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\gapi\perf\gpu\gapi_imgproc_perf_tests_gpu.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\gapi\perf\internal\gapi_compiler_perf_tests.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\gapi\perf\perf_bench.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\gapi\perf\perf_main.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\gapi\perf\render\gapi_render_perf_tests_ocv.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\gapi\perf\streaming\gapi_streaming_source_perf_tests.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClInclude Include="C:\thelab\code\github\ib-opencv-demo\modules\gapi\perf\common\gapi_core_perf_tests.hpp" />
     <ClInclude Include="C:\thelab\code\github\ib-opencv-demo\modules\gapi\perf\common\gapi_core_perf_tests_inl.hpp" />
@@ -198,8 +197,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\thelab\code\github\ib-opencv-demo\modules\gapi\perf\common\gapi_video_perf_tests_inl.hpp" />
     <ClInclude Include="C:\thelab\code\github\ib-opencv-demo\modules\gapi\perf\perf_precomp.hpp" />
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\gapi\opencv_perf_gapi_pch.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/gapi/perf/perf_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -407,7 +407,13 @@
 			]
 		},
 		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_test_core_SSE4_1.dir/$(Configuration)/test_intrin128.sse3.obj"
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/test/test_intrin128.sse3.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_core",
+				"AccuracyTest"
+			]
 		},
 		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_test_core_SSE4_1.dir/$(Configuration)/test_intrin128.ssse3.obj"
@@ -423,6 +429,21 @@
 		},
 		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_test_core_AVX.dir/$(Configuration)/test_intrin128.avx.obj"
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_test_core_AVX2.dir/$(Configuration)/test_intrin128.avx2.obj"
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_test_core_AVX2.dir/$(Configuration)/test_intrin256.avx2.obj"
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_test_core_AVX512_SKX.dir/$(Configuration)/test_intrin128.avx512_skx.obj"
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_test_core_AVX512_SKX.dir/$(Configuration)/test_intrin256.avx512_skx.obj"
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_test_core_AVX512_SKX.dir/$(Configuration)/test_intrin512.avx512_skx.obj"
 		},
 		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_test_core_pch.cpp",

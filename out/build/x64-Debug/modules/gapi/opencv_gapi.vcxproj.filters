@@ -653,6 +653,12 @@
     <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\gapi\opencv_gapi_SSE4_1.dir\$(Configuration)\gfluidcore_func.sse4_1.obj">
       <Filter>Object Libraries</Filter>
     </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\gapi\opencv_gapi_AVX2.dir\$(Configuration)\gfluidimgproc_func.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\gapi\opencv_gapi_AVX2.dir\$(Configuration)\gfluidcore_func.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\gapi\vs_version.rc">

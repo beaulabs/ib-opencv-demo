@@ -934,6 +934,42 @@
     <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_core_AVX.dir\$(Configuration)\mathfuncs_core.avx.obj">
       <Filter>Object Libraries</Filter>
     </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_core_AVX2.dir\$(Configuration)\mathfuncs_core.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_core_AVX2.dir\$(Configuration)\stat.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_core_AVX2.dir\$(Configuration)\arithm.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_core_AVX2.dir\$(Configuration)\convert.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_core_AVX2.dir\$(Configuration)\convert_scale.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_core_AVX2.dir\$(Configuration)\count_non_zero.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_core_AVX2.dir\$(Configuration)\matmul.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_core_AVX2.dir\$(Configuration)\mean.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_core_AVX2.dir\$(Configuration)\merge.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_core_AVX2.dir\$(Configuration)\split.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_core_AVX2.dir\$(Configuration)\sum.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_core_AVX512_SKX.dir\$(Configuration)\matmul.avx512_skx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\vs_version.rc">

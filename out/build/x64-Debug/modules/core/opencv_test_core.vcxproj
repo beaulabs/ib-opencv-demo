@@ -4,21 +4,21 @@
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|Win32">
+    <ProjectConfiguration Include="Debug|x64">
       <Configuration>Debug</Configuration>
-      <Platform>Win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{40C44372-7AAE-3399-A95B-889D0154E1BB}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
-    <Platform>Win32</Platform>
+    <Platform>x64</Platform>
     <ProjectName>opencv_test_core</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v142</PlatformToolset>
@@ -32,14 +32,14 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\bin\Debug\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_test_core.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_test_cored</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
-    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_test_core.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_test_cored</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\3rdparty\ippicv\ippicv_win\icv\include;C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\3rdparty\ippicv\ippicv_win\iw\include;C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug;C:\thelab\code\github\ib-opencv-demo\modules\ts\include;C:\thelab\code\github\ib-opencv-demo\modules\core\include;C:\thelab\code\github\ib-opencv-demo\modules\imgcodecs\include;C:\thelab\code\github\ib-opencv-demo\modules\videoio\include;C:\thelab\code\github\ib-opencv-demo\modules\imgproc\include;C:\thelab\code\github\ib-opencv-demo\modules\highgui\include;C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
@@ -47,7 +47,6 @@
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589</DisableSpecificWarnings>
-      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <ExceptionHandling>Async</ExceptionHandling>
       <FloatingPointModel>Precise</FloatingPointModel>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -76,9 +75,9 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\lib\Debug\opencv_ts460d.lib;..\..\lib\Debug\opencv_highgui460d.lib;..\..\3rdparty\lib\Debug\ippiwd.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\ia32\ippicvmt.lib;..\..\lib\Debug\opencv_videoio460d.lib;..\..\lib\Debug\opencv_imgcodecs460d.lib;..\..\lib\Debug\opencv_imgproc460d.lib;..\..\lib\Debug\opencv_core460d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\lib\Debug\opencv_ts460d.lib;..\..\lib\Debug\opencv_highgui460d.lib;..\..\3rdparty\lib\Debug\ippiwd.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;..\..\lib\Debug\opencv_videoio460d.lib;..\..\lib\Debug\opencv_imgcodecs460d.lib;..\..\lib\Debug\opencv_imgproc460d.lib;..\..\lib\Debug\opencv_core460d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImportLibrary>C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_test_cored.lib</ImportLibrary>
@@ -92,8 +91,8 @@
   <ItemGroup>
     <CustomBuild Include="C:\thelab\code\github\ib-opencv-demo\modules\core\CMakeLists.txt">
       <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/thelab/code/github/ib-opencv-demo/modules/core/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/thelab/code/github/ib-opencv-demo/modules/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/thelab/code/github/ib-opencv-demo -BC:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug --check-stamp-file C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
@@ -102,200 +101,200 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\thelab\code\github\ib-opencv-demo\cmake\templates\vs_version.rc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\thelab\code\github\ib-opencv-demo\cmake\templates\vs_version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\ocl\test_arithm.cpp">
       <ObjectFileName>$(IntDir)/test/ocl/test_arithm.cpp.obj</ObjectFileName>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\ocl\test_channels.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\ocl\test_dft.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\ocl\test_gemm.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\ocl\test_image2d.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\ocl\test_matrix_expr.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\ocl\test_matrix_operation.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\ocl\test_opencl.cpp">
       <ObjectFileName>$(IntDir)/test/ocl/test_opencl.cpp.obj</ObjectFileName>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_arithm.cpp">
       <ObjectFileName>$(IntDir)/test/test_arithm.cpp.obj</ObjectFileName>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_async.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_concatenation.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_conjugate_gradient.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_countnonzero.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_cuda.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_downhill_simplex.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_ds.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_dxt.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_eigen.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_hal_core.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_intrin.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_intrin_emulator.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_io.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_logtagconfigparser.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_logtagmanager.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_lpsolver.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_main.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_mat.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_math.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_misc.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_opencl.cpp">
       <ObjectFileName>$(IntDir)/test/test_opencl.cpp.obj</ObjectFileName>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_operations.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_ptr.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_quaternion.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_rand.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_rotatedrect.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_umat.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_utils.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClInclude Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\ref_reduce_arg.impl.hpp" />
     <ClInclude Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_intrin128.simd.hpp" />
@@ -305,17 +304,24 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_precomp.hpp" />
     <ClInclude Include="C:\thelab\code\github\ib-opencv-demo\modules\core\test\test_utils_tls.impl.hpp" />
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\test\test_intrin128.sse2.cpp">
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CV_CPU_DISPATCH_MODE=SSE2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CV_CPU_DISPATCH_MODE=SSE2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_SSE4_1.dir\$(Configuration)\test_intrin128.sse3.obj" />
+    <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\test\test_intrin128.sse3.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CV_CPU_DISPATCH_MODE=SSE3;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
     <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_SSE4_1.dir\$(Configuration)\test_intrin128.ssse3.obj" />
     <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_SSE4_1.dir\$(Configuration)\test_intrin128.sse4_1.obj" />
     <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_SSE4_2.dir\$(Configuration)\test_intrin128.sse4_2.obj" />
     <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_FP16.dir\$(Configuration)\test_intrin128.fp16.obj" />
     <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_AVX.dir\$(Configuration)\test_intrin128.avx.obj" />
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_AVX2.dir\$(Configuration)\test_intrin128.avx2.obj" />
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_AVX2.dir\$(Configuration)\test_intrin256.avx2.obj" />
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_AVX512_SKX.dir\$(Configuration)\test_intrin128.avx512_skx.obj" />
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_AVX512_SKX.dir\$(Configuration)\test_intrin256.avx512_skx.obj" />
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_AVX512_SKX.dir\$(Configuration)\test_intrin512.avx512_skx.obj" />
     <ClCompile Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_pch.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/thelab/code/github/ib-opencv-demo/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -354,6 +360,18 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_AVX.vcxproj">
       <Project>{D4478982-5CE7-3A5A-A876-B75D2B36059B}</Project>
       <Name>opencv_test_core_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_AVX2.vcxproj">
+      <Project>{9EBC6406-3315-3D38-B53A-65E44E800CF4}</Project>
+      <Name>opencv_test_core_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\core\opencv_test_core_AVX512_SKX.vcxproj">
+      <Project>{5D676C5C-DF9C-37F3-BB12-76BC26505092}</Project>
+      <Name>opencv_test_core_AVX512_SKX</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>

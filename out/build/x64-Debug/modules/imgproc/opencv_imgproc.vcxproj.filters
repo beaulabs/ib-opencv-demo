@@ -496,6 +496,48 @@
     <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\imgproc\opencv_imgproc_AVX.dir\$(Configuration)\accum.avx.obj">
       <Filter>Object Libraries</Filter>
     </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\imgwarp.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\resize.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\accum.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\bilateral_filter.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\box_filter.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\filter.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\color_hsv.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\color_rgb.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\color_yuv.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\median_blur.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\morph.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\smooth.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\sumpixels.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\imgproc\opencv_imgproc_AVX512_SKX.dir\$(Configuration)\sumpixels.avx512_skx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug\modules\imgproc\vs_version.rc">

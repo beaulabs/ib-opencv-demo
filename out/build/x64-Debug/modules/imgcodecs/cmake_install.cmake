@@ -34,19 +34,19 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc16/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/Debug/opencv_imgcodecs460d.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x64/vc16/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/lib/Debug/opencv_imgcodecs460d.lib")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibsx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc16/bin" TYPE SHARED_LIBRARY OPTIONAL FILES "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_imgcodecs460d.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x64/vc16/bin" TYPE SHARED_LIBRARY OPTIONAL FILES "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_imgcodecs460d.dll")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpdbx")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc16/bin" TYPE FILE OPTIONAL FILES "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_imgcodecs460d.pdb")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x64/vc16/bin" TYPE FILE OPTIONAL FILES "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/bin/Debug/opencv_imgcodecs460d.pdb")
   endif()
 endif()
 

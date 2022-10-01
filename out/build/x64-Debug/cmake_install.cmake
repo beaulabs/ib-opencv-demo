@@ -81,28 +81,28 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONEN
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/x86/vc16/lib/OpenCVModules.cmake")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/x64/vc16/lib/OpenCVModules.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
-         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/x86/vc16/lib/OpenCVModules.cmake"
-         "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CMakeFiles/Export/x86/vc16/lib/OpenCVModules.cmake")
+         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/x64/vc16/lib/OpenCVModules.cmake"
+         "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CMakeFiles/Export/x64/vc16/lib/OpenCVModules.cmake")
     if(EXPORT_FILE_CHANGED)
-      file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/x86/vc16/lib/OpenCVModules-*.cmake")
+      file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/x64/vc16/lib/OpenCVModules-*.cmake")
       if(OLD_CONFIG_FILES)
-        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/x86/vc16/lib/OpenCVModules.cmake\" will be replaced.  Removing files [${OLD_CONFIG_FILES}].")
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/x64/vc16/lib/OpenCVModules.cmake\" will be replaced.  Removing files [${OLD_CONFIG_FILES}].")
         file(REMOVE ${OLD_CONFIG_FILES})
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc16/lib" TYPE FILE FILES "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CMakeFiles/Export/x86/vc16/lib/OpenCVModules.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x64/vc16/lib" TYPE FILE FILES "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CMakeFiles/Export/x64/vc16/lib/OpenCVModules.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc16/lib" TYPE FILE FILES "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CMakeFiles/Export/x86/vc16/lib/OpenCVModules-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x64/vc16/lib" TYPE FILE FILES "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CMakeFiles/Export/x64/vc16/lib/OpenCVModules-debug.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x86/vc16/lib" TYPE FILE FILES
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x64/vc16/lib" TYPE FILE FILES
     "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/win-install/OpenCVConfig-version.cmake"
-    "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/win-install/x86/vc16/lib/OpenCVConfig.cmake"
+    "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/win-install/x64/vc16/lib/OpenCVConfig.cmake"
     )
 endif()
 
