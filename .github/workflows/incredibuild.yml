@@ -34,5 +34,5 @@ jobs:
             $env:Path += ";C:\Program Files\Cmake\bin;C:\Program Files (x86)\Incredibuild"
             call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
             echo "Executing Incredibuild..."
-            buildconsole /command="cmake --build ."
+            buildconsole /command="ninja"
 
