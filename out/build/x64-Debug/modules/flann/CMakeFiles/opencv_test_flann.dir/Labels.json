@@ -27,15 +27,6 @@
 				"opencv_flann",
 				"AccuracyTest"
 			]
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/flann/opencv_test_flann_pch.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_flann",
-				"AccuracyTest"
-			]
 		}
 	],
 	"target" : 

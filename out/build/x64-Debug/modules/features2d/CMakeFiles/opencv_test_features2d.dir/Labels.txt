@@ -111,7 +111,3 @@ C:/thelab/code/github/ib-opencv-demo/modules/features2d/test/test_precomp.hpp
  Main
  opencv_features2d
  AccuracyTest
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/features2d/opencv_test_features2d_pch.cpp
- Main
- opencv_features2d
- AccuracyTest

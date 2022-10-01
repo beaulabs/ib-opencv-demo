@@ -21,18 +21,18 @@ jobs:
       runs-on: [self-hosted, Windows, X64, cloud-ib-demo]
       defaults:
         run:
-           shell: powershell
+           shell: cmd
 
       # Steps/tasks to execute
       steps:
       - uses: actions/checkout@v2
 
-      - name: have Incredibuild run and distribute the compilation to the grid
+      - name: Have Incredibuild run and distribute the compilation to the grid
         run: |
             cd C:\thelab\code\github\ib-opencv-demo\out\build\x64-Debug
-            write-output "Updating Path"
-            $env:Path += ";C:\Program Files\Cmake\bin;C:\Program Files (x86)\Incredibuild"
-            write-output "Updated Path"
-            write-output "Here we go..."
-            write-output "Executing Incredibuild..."
-            BuildConsole OpenCV.sln /build /VsVersion="vc16" /OpenMonitor /cfg="Debug|x64"            
+            echo "Setting up environment..."
+            call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
+            echo "Updated Path"
+            echo "Here we go..."
+            echo "Executing Incredibuild..."
+            buildconsole /command="cmake --build . --config=Debug -j 200"            

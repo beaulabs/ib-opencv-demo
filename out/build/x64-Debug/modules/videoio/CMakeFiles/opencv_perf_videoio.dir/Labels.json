@@ -45,15 +45,6 @@
 				"opencv_videoio",
 				"PerfTest"
 			]
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/videoio/opencv_perf_videoio_pch.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_videoio",
-				"PerfTest"
-			]
 		}
 	],
 	"target" : 

@@ -108,15 +108,6 @@
 				"opencv_dnn",
 				"PerfTest"
 			]
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/opencv_perf_dnn_pch.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_dnn",
-				"PerfTest"
-			]
 		}
 	],
 	"target" : 

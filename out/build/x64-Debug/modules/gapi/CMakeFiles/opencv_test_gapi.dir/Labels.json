@@ -1008,15 +1008,6 @@
 				"opencv_gapi",
 				"AccuracyTest"
 			]
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi/opencv_test_gapi_pch.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_gapi",
-				"AccuracyTest"
-			]
 		}
 	],
 	"target" : 

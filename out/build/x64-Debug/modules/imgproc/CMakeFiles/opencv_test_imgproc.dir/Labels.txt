@@ -231,7 +231,3 @@ C:/thelab/code/github/ib-opencv-demo/modules/imgproc/test/test_precomp.hpp
  Main
  opencv_imgproc
  AccuracyTest
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_test_imgproc_pch.cpp
- Main
- opencv_imgproc
- AccuracyTest

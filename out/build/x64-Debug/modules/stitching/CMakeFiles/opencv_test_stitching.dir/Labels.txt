@@ -43,7 +43,3 @@ C:/thelab/code/github/ib-opencv-demo/modules/stitching/test/test_precomp.hpp
  Main
  opencv_stitching
  AccuracyTest
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/stitching/opencv_test_stitching_pch.cpp
- Main
- opencv_stitching
- AccuracyTest

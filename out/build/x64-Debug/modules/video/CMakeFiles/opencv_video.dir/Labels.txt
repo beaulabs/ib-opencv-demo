@@ -181,10 +181,6 @@ C:/thelab/code/github/ib-opencv-demo/modules/video/src/tracking/detail/tracking_
  Module
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/cvconfig.h
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/video/opencv_video_pch.cpp
- Main
- opencv_video
- Module
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/video/vs_version.rc
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/video/opencv_video_main.cpp
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CMakeFiles/2464beece3d0aea4502f2e8bd5a81c3c/opencl_kernels_video.cpp.rule
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/video/opencl_kernels_video.cpp.rule

@@ -1883,31 +1883,46 @@
 			]
 		},
 		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi/opencv_gapi_SSE4_1.dir/$(Configuration)/gfluidimgproc_func.sse4_1.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi/opencv_gapi_SSE4_1.dir/$(Configuration)/gfluidcore_func.sse4_1.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi/opencv_gapi_AVX2.dir/$(Configuration)/gfluidimgproc_func.avx2.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi/opencv_gapi_AVX2.dir/$(Configuration)/gfluidcore_func.avx2.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/cvconfig.h"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi/opencv_gapi_pch.cpp",
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi/backends/fluid/gfluidimgproc_func.sse4_1.cpp",
 			"labels" : 
 			[
 				"Main",
 				"opencv_gapi",
 				"Module"
 			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi/backends/fluid/gfluidcore_func.sse4_1.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_gapi",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi/backends/fluid/gfluidimgproc_func.avx2.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_gapi",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi/backends/fluid/gfluidcore_func.avx2.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_gapi",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/cvconfig.h"
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp"
 		},
 		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/gapi/vs_version.rc"

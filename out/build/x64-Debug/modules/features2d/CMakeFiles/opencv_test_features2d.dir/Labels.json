@@ -243,15 +243,6 @@
 				"opencv_features2d",
 				"AccuracyTest"
 			]
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/features2d/opencv_test_features2d_pch.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_features2d",
-				"AccuracyTest"
-			]
 		}
 	],
 	"target" : 

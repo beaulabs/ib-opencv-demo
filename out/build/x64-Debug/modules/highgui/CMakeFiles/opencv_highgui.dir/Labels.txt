@@ -37,9 +37,5 @@ C:/thelab/code/github/ib-opencv-demo/modules/highgui/src/precomp.hpp
  Module
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/cvconfig.h
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/highgui/opencv_highgui_pch.cpp
- Main
- opencv_highgui
- Module
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/highgui/vs_version.rc
 C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/highgui/opencv_highgui_main.cpp

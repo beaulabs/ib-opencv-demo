@@ -1298,94 +1298,7 @@
 			]
 		},
 		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_SSE4_1.dir/$(Configuration)/imgwarp.sse4_1.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_SSE4_1.dir/$(Configuration)/resize.sse4_1.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_SSE4_1.dir/$(Configuration)/accum.sse4_1.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_SSE4_1.dir/$(Configuration)/box_filter.sse4_1.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_SSE4_1.dir/$(Configuration)/filter.sse4_1.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_SSE4_1.dir/$(Configuration)/color_hsv.sse4_1.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_SSE4_1.dir/$(Configuration)/color_rgb.sse4_1.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_SSE4_1.dir/$(Configuration)/color_yuv.sse4_1.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_SSE4_1.dir/$(Configuration)/median_blur.sse4_1.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_SSE4_1.dir/$(Configuration)/morph.sse4_1.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_SSE4_1.dir/$(Configuration)/smooth.sse4_1.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_AVX.dir/$(Configuration)/corner.avx.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_AVX.dir/$(Configuration)/accum.avx.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/imgwarp.avx2.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/resize.avx2.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/accum.avx2.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/bilateral_filter.avx2.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/box_filter.avx2.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/filter.avx2.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/color_hsv.avx2.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/color_rgb.avx2.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/color_yuv.avx2.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/median_blur.avx2.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/morph.avx2.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/smooth.avx2.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/sumpixels.avx2.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_AVX512_SKX.dir/$(Configuration)/sumpixels.avx512_skx.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/cvconfig.h"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_pch.cpp",
+			"file" : "C:/thelab/code/github/ib-opencv-demo/modules/imgproc/src/imgwarp.sse4_1.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -1394,13 +1307,253 @@
 			]
 		},
 		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/modules/imgproc/src/resize.sse4_1.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/accum.sse4_1.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/box_filter.sse4_1.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/filter.sse4_1.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/color_hsv.sse4_1.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/color_rgb.sse4_1.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/color_yuv.sse4_1.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/median_blur.sse4_1.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/morph.sse4_1.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/smooth.sse4_1.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/modules/imgproc/src/corner.avx.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/accum.avx.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/modules/imgproc/src/imgwarp.avx2.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/modules/imgproc/src/resize.avx2.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/accum.avx2.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/bilateral_filter.avx2.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/box_filter.avx2.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/filter.avx2.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/color_hsv.avx2.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/color_rgb.avx2.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/color_yuv.avx2.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/median_blur.avx2.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/morph.avx2.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/smooth.avx2.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/sumpixels.avx2.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/sumpixels.avx512_skx.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgproc",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/cvconfig.h"
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp"
+		},
+		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/vs_version.rc"
 		},
 		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_imgproc_main.cpp"
 		},
 		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CMakeFiles/d8a2c027c6003438bf3a2335bb6b3dd8/opencl_kernels_imgproc.cpp.rule"
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencl_kernels_imgproc.cpp.rule"
 		}
 	],
 	"target" : 

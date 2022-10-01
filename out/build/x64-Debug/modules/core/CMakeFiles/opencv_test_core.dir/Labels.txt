@@ -187,17 +187,43 @@ C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/test/test_
  Main
  opencv_core
  AccuracyTest
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_test_core_SSE4_1.dir/$(Configuration)/test_intrin128.ssse3.obj
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_test_core_SSE4_1.dir/$(Configuration)/test_intrin128.sse4_1.obj
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_test_core_SSE4_2.dir/$(Configuration)/test_intrin128.sse4_2.obj
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_test_core_FP16.dir/$(Configuration)/test_intrin128.fp16.obj
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_test_core_AVX.dir/$(Configuration)/test_intrin128.avx.obj
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_test_core_AVX2.dir/$(Configuration)/test_intrin128.avx2.obj
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_test_core_AVX2.dir/$(Configuration)/test_intrin256.avx2.obj
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_test_core_AVX512_SKX.dir/$(Configuration)/test_intrin128.avx512_skx.obj
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_test_core_AVX512_SKX.dir/$(Configuration)/test_intrin256.avx512_skx.obj
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_test_core_AVX512_SKX.dir/$(Configuration)/test_intrin512.avx512_skx.obj
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/opencv_test_core_pch.cpp
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/test/test_intrin128.ssse3.cpp
+ Main
+ opencv_core
+ AccuracyTest
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/test/test_intrin128.sse4_1.cpp
+ Main
+ opencv_core
+ AccuracyTest
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/test/test_intrin128.sse4_2.cpp
+ Main
+ opencv_core
+ AccuracyTest
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/test/test_intrin128.fp16.cpp
+ Main
+ opencv_core
+ AccuracyTest
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/test/test_intrin128.avx.cpp
+ Main
+ opencv_core
+ AccuracyTest
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/test/test_intrin128.avx2.cpp
+ Main
+ opencv_core
+ AccuracyTest
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/test/test_intrin256.avx2.cpp
+ Main
+ opencv_core
+ AccuracyTest
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/test/test_intrin128.avx512_skx.cpp
+ Main
+ opencv_core
+ AccuracyTest
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/test/test_intrin256.avx512_skx.cpp
+ Main
+ opencv_core
+ AccuracyTest
+C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/core/test/test_intrin512.avx512_skx.cpp
  Main
  opencv_core
  AccuracyTest

@@ -35,7 +35,3 @@ C:/thelab/code/github/ib-opencv-demo/modules/calib3d/perf/perf_precomp.hpp
  Main
  opencv_calib3d
  PerfTest
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/calib3d/opencv_perf_calib3d_pch.cpp
- Main
- opencv_calib3d
- PerfTest

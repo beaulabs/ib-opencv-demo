@@ -513,15 +513,6 @@
 				"opencv_imgproc",
 				"AccuracyTest"
 			]
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/imgproc/opencv_test_imgproc_pch.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_imgproc",
-				"AccuracyTest"
-			]
 		}
 	],
 	"target" : 

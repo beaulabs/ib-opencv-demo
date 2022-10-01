@@ -434,25 +434,7 @@
 			]
 		},
 		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/features2d/opencv_features2d_SSE4_1.dir/$(Configuration)/sift.sse4_1.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/features2d/opencv_features2d_AVX2.dir/$(Configuration)/fast.avx2.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/features2d/opencv_features2d_AVX2.dir/$(Configuration)/sift.avx2.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/features2d/opencv_features2d_AVX512_SKX.dir/$(Configuration)/sift.avx512_skx.obj"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/cvconfig.h"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp"
-		},
-		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/features2d/opencv_features2d_pch.cpp",
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/features2d/sift.sse4_1.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -461,13 +443,46 @@
 			]
 		},
 		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/modules/features2d/src/fast.avx2.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_features2d",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/features2d/sift.avx2.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_features2d",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/features2d/sift.avx512_skx.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_features2d",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/cvconfig.h"
+		},
+		{
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp"
+		},
+		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/features2d/vs_version.rc"
 		},
 		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/features2d/opencv_features2d_main.cpp"
 		},
 		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CMakeFiles/be7bd75e0221015e3b81fef12762fc87/opencl_kernels_features2d.cpp.rule"
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/features2d/opencl_kernels_features2d.cpp.rule"
 		}
 	],
 	"target" : 

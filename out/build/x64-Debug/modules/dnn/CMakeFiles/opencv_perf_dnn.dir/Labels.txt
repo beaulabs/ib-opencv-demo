@@ -51,7 +51,3 @@ C:/thelab/code/github/ib-opencv-demo/modules/dnn/perf/perf_precomp.hpp
  Main
  opencv_dnn
  PerfTest
-C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/dnn/opencv_perf_dnn_pch.cpp
- Main
- opencv_dnn
- PerfTest

@@ -278,22 +278,13 @@
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/opencv2/opencv_modules.hpp"
 		},
 		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/photo/opencv_photo_pch.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_photo",
-				"Module"
-			]
-		},
-		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/photo/vs_version.rc"
 		},
 		{
 			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/photo/opencv_photo_main.cpp"
 		},
 		{
-			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/CMakeFiles/bef91e31c75768f0e35ef96d6463f197/opencl_kernels_photo.cpp.rule"
+			"file" : "C:/thelab/code/github/ib-opencv-demo/out/build/x64-Debug/modules/photo/opencl_kernels_photo.cpp.rule"
 		}
 	],
 	"target" : 
