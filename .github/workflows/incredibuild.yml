@@ -18,7 +18,7 @@ jobs:
     
     incredibuild:
       # Type of runner job will run on
-      runs-on: [self-hosted, Windows, X64, cloud-ib-demo]
+      runs-on: [self-hosted, Windows, X64, ib-cloud]
       defaults:
         run:
            shell: cmd
@@ -33,6 +33,6 @@ jobs:
             echo "Setting up environment..."
             call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
             echo "Updated Path"
-            echo "Here we go...!!!!!!!!!!!"
+            echo "Here we go..."
             echo "Executing Incredibuild..."
             buildconsole /command="cmake --build . --clean-first -j 200"            
