@@ -34,5 +34,5 @@ jobs:
             call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
             echo "Updated Path"
             echo "Here we go..."
-            echo "Executing Incredibuild...!"
+            echo "Executing Incredibuild...!!"
             buildconsole /command="cmake --build . --clean-first -j 200"            
